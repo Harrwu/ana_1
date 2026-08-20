@@ -1,0 +1,23 @@
+Right now, we are hardcoding this exact string: "GET / HTTP/1.1\r\nHost: example.com\r\nConnection: close\r\n\r\n". To build this dynamically, we need to break it down into its core components so C++ can construct it for us:
+
+    The Request Line: METHOD PATH HTTP-VERSION\r\n (e.g., GET /api/users HTTP/1.1\r\n).
+
+    The Mandatory Host Header: Host: example.com\r\n.
+
+    Optional Custom Headers: User-Agent, Accept types, etc.
+
+    The Blank Line: \r\n (This tells the server the headers are finished).
+
+    The Body: (Only used for POST/PUT requests).
+
+Your Mission: The RequestBuilder Class
+
+You need to create a class that stores these pieces (using modern C++ features like std::string and std::map) and stitches them together into a raw string that your Tcpsock_::send() method can understand.
+
+To do this, your class will need:
+
+    Member Variables: To hold the HTTP method (GET/POST), the host domain, the specific path, and a map (or dictionary) of your headers.
+
+    Setter Methods: Functions that allow you to define the path or add new headers to your map before making the request.
+
+    A Build Method: A final function that loops through your variables and concatenates them with the exact \r\n spacing required by the protocol, returning a single, perfectly formatted string.
