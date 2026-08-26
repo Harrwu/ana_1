@@ -49,12 +49,12 @@ bool HtmlParse_::extract(){
         
     const auto now = std::chrono::current_zone()->to_local(std::chrono::system_clock::now());
     std::string time = std::format("../_output/{0:%Y-%m-%d}/parse{0:%H-%M-%S}.txt", now);
-    std::string link_ = std::format("../_output/{0:%Y-%m-%d}/linksDebug{0:%H-%M-%S}.txt", now);
-    std::ofstream out_file(time), link_file(link_);
+    //std::string link_ = std::format("../_output/{0:%Y-%m-%d}/linksDebug{0:%H-%M-%S}.txt", now);
+    std::ofstream out_file(time);
     if (!out_file) {std::cout << "Error Opening File Out Main\n"; return false; }
-    if (!link_file) {std::cout << "Error Opening File Link\n"; return false;}
+    //if (!link_file) {std::cout << "Error Opening File Link\n"; return false;}
 
-    mainLnk(link_file);
+    //mainLnk(link_file);
 
     if (isFile) {
         while (!eof) {
@@ -95,8 +95,8 @@ bool HtmlParse_::extract(){
 
             size_t text_len = closing_pos - content_start;
             std::string_view raw_extracted = raw_body.substr(content_start, text_len);
-            if (tag_id == 7) 
-                link_file << std::string(raw_extracted) << "\n";
+            //if (tag_id == 7) 
+                //link_file << std::string(raw_extracted) << "\n";
             
 
             std::string english = rePull(raw_extracted);
@@ -104,9 +104,8 @@ bool HtmlParse_::extract(){
             out_file << std::string(english) << "\n";
             //std::cout << std::string(english) << "\n";
             glob_prev = closing_pos + arr[tag_id + 7].length();
-        }
-        
-        link_file.close();
+        } 
+        //link_file.close();
         out_file.close();
         return true;
     }

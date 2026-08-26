@@ -10,7 +10,7 @@
 #include "ana_1/response.h"
 #include "parser_base.h"
 
-class Parse_: public TextParser {
+class Parse_{
 private: 
     std::string_view raw_payload{};
     std::string raw_head{};
@@ -22,13 +22,14 @@ private:
 
     size_t contlen {};
 public:
-    Parse_(const std::string& pass_payload): TextParser(pass_payload), raw_payload(pass_payload) {};
-    bool extract() override;
+    Parse_(const std::string& pass_payload): raw_payload(pass_payload) {};
+    bool extract();
 
     void const debug();
     bool writeRawPay() const;
     bool writeBody() const;
     bool writeHead() const;
+    Response getResponse() const {return resObj;}
 
     void parseHead(std::string_view pass_line);
 };

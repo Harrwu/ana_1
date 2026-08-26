@@ -18,6 +18,7 @@ protected:
     std::string_view raw_body {};
     std::string _path{}, _file {};
     bool isFile = true, isOpenFile {false};
+    std::vector<std::string> link_res;
 public:
     TextParser(const std::string& pass_raw): raw_body(pass_raw) {
         auto const now = std::chrono::current_zone()->to_local(std::chrono::system_clock::now());
@@ -31,4 +32,5 @@ public:
     virtual ~TextParser() = default;
 
     bool virtual extract() = 0;
+    std::vector<std::string> getResLink() {return link_res;}
 };

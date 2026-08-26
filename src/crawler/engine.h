@@ -13,6 +13,7 @@ private:
     std::queue<std::string> url_queue {};
     std::unique_ptr<Tcpsock_> sock_{};
     bool isHtml = false;
+
     
 public:
     

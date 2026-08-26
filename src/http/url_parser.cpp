@@ -6,24 +6,27 @@ UrlParts parseUrl_(const std::string_view raw_) {
     size_t scheme_pos = raw_.find("://");
     if (scheme_pos == std::string_view::npos) return res_;
 
-    std::string_view scheme_pass = raw_.substr(0, scheme_pos);
-    res_.scheme = (std::string(scheme_pass));
+    res_.scheme = std::string(raw_.substr(0, scheme_pos));
 
-    size_t host_pos = raw_.find("/", scheme_pos + 3);
-    if (host_pos == std::string_view::npos) {
-        std::string_view host_pass = raw_.substr(scheme_pos + 3);
-        if (host_pass.find(".") == std::string_view::npos) return res_;
-        else {
-            res_.host = (std::string(host_pass));
-            return res_;
-        }
+    size_t host_start = scheme_pos + 3;
+    
+    size_t path_pos = raw_.find("/", host_start);
+    
+    std::string_view host_view;
+    
+    if (path_pos == std::string_view::npos) {
+        host_view = raw_.substr(host_start);
+        res_.path = "/";
+    } else {
+        host_view = raw_.substr(host_start, path_pos - host_start);
+        res_.path = std::string(raw_.substr(path_pos));
     }
 
-    std::string_view host_pass = raw_.substr(scheme_pos + 3, host_pos - (scheme_pos + 3));
-    std::string_view path_ = raw_.substr(host_pos);
-
-    res_.host = (std::string(host_pass));
-    res_.path = (std::string(path_));
+    res_.host = std::string(host_view);
+    
+    /*if (res_.host.find("www.") != 0) { 
+        res_.host = "www." + res_.host;
+    }*/
 
     return res_;
 }

@@ -11,8 +11,7 @@
 
 class XmlParse_: public TextParser {
 private:
-    std::string_view raw_body {};
-    std::vector<std::string_view> link_res {};
+    std::string_view raw_body {}; 
 
     const std::array<std::string, 4> arr = {
         "<loc>", "<sitemap>",
@@ -20,6 +19,6 @@ private:
     };
 
 public:
-    XmlParse_(std::string& pass_body): raw_body(pass_body), TextParser(pass_body) {}
+    XmlParse_(const std::string& pass_body): raw_body(pass_body), TextParser(pass_body) {} 
     bool extract() override;
 };
