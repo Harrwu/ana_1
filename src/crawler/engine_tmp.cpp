@@ -5,7 +5,6 @@
 #include "xml_parser.h"
 #include "rss_parser.h"
 #include "parser.h"
-#include "yahoo.cpp"
 #include <thread>
 #include <chrono>
 #include <memory>

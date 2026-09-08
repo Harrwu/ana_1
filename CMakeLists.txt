@@ -17,7 +17,11 @@ add_executable(main_client
     src/crawler/engine.cpp
     src/http/text_parser/xml_parser.cpp
     src/http/text_parser/rss_parser.cpp
-    src/crawler/profile/yahoo.cpp
+    src/crawler/profile.h
+)
+
+add_executable(aiserv 
+    src/ai_engine/ai_server.cpp
 )
 
 target_include_directories(main_client PRIVATE
@@ -26,9 +30,8 @@ target_include_directories(main_client PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/http/text_parser
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/src/crawler
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/crawler/profile
 )
-
+#[[
 add_executable(test_client
     src/test2_main.cpp 
     src/network/tcp_socket.cpp 
@@ -40,7 +43,7 @@ add_executable(test_client
     src/crawler/engine_tmp.cpp
     src/http/text_parser/xml_parser.cpp
     src/http/text_parser/rss_parser.cpp
-    src/crawler/profile/yahoo.cpp
+    src/crawler/profile.h
 )
 
 target_include_directories(test_client PRIVATE
@@ -49,10 +52,9 @@ target_include_directories(test_client PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/http/text_parser
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/src/crawler
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/crawler/profile
 )
+]]
 
 
-
-target_link_libraries(test_client PRIVATE OpenSSL::SSL OpenSSL::Crypto)
+#target_link_libraries(test_client PRIVATE OpenSSL::SSL OpenSSL::Crypto)
 target_link_libraries(main_client PRIVATE OpenSSL::SSL OpenSSL::Crypto)
