@@ -554,11 +554,9 @@ static std::string extractCashtags(const std::string& text) {
 
         result += ticker;
     }
-
-    if (!result.empty())
-        result += ",";
-
-    result += "MACRO";
+    
+    if (result.empty()) return "MACRO";
+    
 
     return result;
 }

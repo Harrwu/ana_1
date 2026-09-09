@@ -31,7 +31,8 @@ std::string escapeJSON(const std::string& input) {
 }
 
 // 2. Query Ollama on 127.0.0.1:11434
-std::string query_ollama(const std::string& text) {
+// Update signature to accept BOTH tickers and text
+std::string query_ollama(const std::string& tickers, const std::string& text) {
     int sock = socket(AF_INET, SOCK_STREAM, 0);
     if (sock < 0) return "ERROR";
 
@@ -46,14 +47,14 @@ std::string query_ollama(const std::string& text) {
     }
 
     std::string safe_text = escapeJSON(text);
-    // Limit prompt input size to keep inference fast
     if (safe_text.length() > 4000) {
         safe_text = safe_text.substr(0, 4000);
     }
 
+    // The upgraded multi-ticker prompt!
     std::string body = R"({
         "model": "llama3.1",
-        "prompt": "Analyze this financial news. Reply with EXACTLY ONE WORD: BULLISH, BEARISH, or NEUTRAL. Text: )" + safe_text + R"(",
+        "prompt": "Analyze the financial sentiment for these specific companies: )" + tickers + R"(. Reply ONLY with a comma-separated list in the format TICKER:SENTIMENT. Example: AAPL:BULLISH, MSFT:BEARISH. Text: )" + safe_text + R"(",
         "stream": false
     })";
 
@@ -73,14 +74,12 @@ std::string query_ollama(const std::string& text) {
     }
     close(sock);
 
-    // Extract "response":"<SENTIMENT>"
     size_t key_pos = response.find("\"response\":\"");
     if (key_pos != std::string::npos) {
         key_pos += 12;
         size_t end_pos = response.find("\"", key_pos);
         if (end_pos != std::string::npos) {
             std::string sentiment = response.substr(key_pos, end_pos - key_pos);
-            // Clean up any trailing newline or punctuation Ollama might add
             while (!sentiment.empty() && (sentiment.back() == '\n' || sentiment.back() == '\r' || sentiment.back() == '.' || sentiment.back() == ' ')) {
                 sentiment.pop_back();
             }
@@ -111,7 +110,7 @@ void process_sentiment(int client_sock) {
 
     std::cout << "[INCOMING] Ticker: " << ticker << " (" << article_text.length() << " chars). Querying AI...\n";
 
-    std::string sentiment = query_ollama(article_text);
+    std::string sentiment = query_ollama(article_text, ticker);
 
     // Timestamp for the CSV record
     auto const now = std::chrono::system_clock::now();
