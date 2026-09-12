@@ -1,0 +1,971 @@
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Mode: ALPACA PAPER [CRYPTO 24/7]
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] FATAL: Missing required environment variable(s): APCA_API_KEY_ID, APCA_API_SECRET_KEY. Export your Alpaca PAPER credentials before starting.
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Could not read final Alpaca equity: Alpaca credentials are not available
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Articles scraped : 0
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Signals generated: 0
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Final equity     : unavailable
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] history.txt      : 15,515 bytes
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 06:00:55 EDT [ORCHESTRATOR] Session complete (exit=1)
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] Mode: ALPACA PAPER [CRYPTO 24/7]
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] Ollama is already listening on 127.0.0.1:11434
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] Ollama model 'llama3.1' is installed
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] C++ binaries ready: AI=build/aiserv, CRAWLER=build/main_client
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] --crypto supplied: bypassing US market clock and running 24/7
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] NOTE: crypto orders carry no broker-side bracket; stops are software-managed via stop_limit
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] Phase AI mode: ACTIVE BROKER ROUTING
+2026-09-12 06:02:00 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/aiserv
+2026-09-12 06:02:01 EDT [ORCHESTRATOR] AI server is listening on 127.0.0.1:58888
+2026-09-12 06:02:01 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/main_client
+2026-09-12 06:02:01 EDT [ORCHESTRATOR] Crawler started (pid=1588707)
+2026-09-12 06:02:05 EDT [CRAWLER] [STATE] Loaded 146 URLs from history.txt
+2026-09-12 06:02:05 EDT [CRAWLER] Starting Trading Crawler Engine...
+2026-09-12 06:02:05 EDT [CRAWLER] [SYSTEM] Press Ctrl-C for a clean shutdown (history will be flushed).
+2026-09-12 06:02:05 EDT [CRAWLER] [SYSTEM] Trading Crawler Engine Started with 8 workers.
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/news/rss
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/rss/news-releases-list.rss
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/id/100003114/device/rss/rss.html
+2026-09-12 06:02:05 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/id/100003114/device/rss/rss.html | Extracted Links: 30 | Dispatched to AI: NO
+2026-09-12 06:02:05 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/rss/news-releases-list.rss | Extracted Links: 20 | Dispatched to AI: NO
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/cpi-inflation-breakdown-august-2026.html
+2026-09-12 06:02:05 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/news/rss | Extracted Links: 8 | Dispatched to AI: NO
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/12/iran-us-israel-war-india-brics.html
+2026-09-12 06:02:05 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:05 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/cpi-inflation-breakdown-august-2026.html
+2026-09-12 06:02:05 EDT [CRAWLER] [DEBUG] Article length: 5634
+2026-09-12 06:02:05 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:05 EDT [CRAWLER] Inflation remained stubbornly high in August — and economists said consumers are likely to continue to feel the financial pain in coming months as tensions flare in the Middle East, driving up gasoline and other energy costs.
+2026-09-12 06:02:05 EDT [CRAWLER] The consumer price index, a measure of inflation, rose 3.4% on an annual basis in August, unchanged from July, according to data issued Friday by the Bureau of Labor Statistics. 
+2026-09-12 06:02:05 EDT [CRAWLER] "You've got a lot of shocks that are pushing up inflation and making it uncomfortably high," said Mark Zandi, chief economist at Moody's. 
+2026-09-12 06:02:05 EDT [CRAWLER] The Iran war, tariffs and artificial intelligence are among the factors putting upward pressure on consumer prices, economists said. 
+2026-09-12 06:02:05 EDT [CRAWLER] "The shocks, we keep hoping they fade away into the background," Zandi said. "But they're not going away. They're still plaguing us with these big increases."
+2026-09-12 06:02:05 EDT [CRAWLER] The CPI report comes as yields on U.S. Treasury bonds have jumped to their highest levels in years, raising borrowing costs for consumers seeking certain types o
+2026-09-12 06:02:05 EDT [CRAWLER] [CASHTAGS] Loaded 244 company names from data/companies.csv
+2026-09-12 06:02:05 EDT [CRAWLER] [TICKER MATCH] AAPL,MSFT,TGT
+2026-09-12 06:02:05 EDT [CRAWLER] [DISPATCH] Sent AAPL,MSFT,TGT -> AI Server
+2026-09-12 06:02:05 EDT [CRAWLER] Extracting
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/cpi-inflation-breakdown-august-2026.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:05 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:05 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/12/iran-us-israel-war-india-brics.html
+2026-09-12 06:02:05 EDT [CRAWLER] [DEBUG] Article length: 2526
+2026-09-12 06:02:05 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:05 EDT [CRAWLER] In this article
+2026-09-12 06:02:05 EDT [CRAWLER] Iranian President Masoud Pezeshkian said his country will not surrender, adding that it has resisted aggression from the U.S. and Israel.
+2026-09-12 06:02:05 EDT [CRAWLER] "Iran has successfully stood against Israel and the U.S.," Pezeshkian said late Friday as he addressed a gathering of Indian religious leaders in New Delhi. "Since we are seeking truth and justice, we will not yield in front of bullying arrogance." 
+2026-09-12 06:02:05 EDT [CRAWLER] Pezeshkian's comments ahead of the BRICS Summit in India over the weekend came on the heels of U.S. President Donald Trump's assertion that Iran would have wiped out Israel and the Middle East, and started hitting U.S. cities, if Washington had not taken military action against Iran.
+2026-09-12 06:02:05 EDT [CRAWLER] "If I had it to do again, I would do exactly what I did," Trump said on Thursday. 
+2026-09-12 06:02:05 EDT [CRAWLER] Pezeshkian, who is on his first visit to India, also met with Indian Prime Minister Narendra Modi on Friday. During the bilateral meeting, Modi raised concerns about the safety of seafarers and underscored the need for peace and
+2026-09-12 06:02:05 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:05 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:05 EDT [CRAWLER] Extracting
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/12/iran-us-israel-war-india-brics.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html
+2026-09-12 06:02:05 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/12/brics-summit-xi-putin-modi-trump.html
+2026-09-12 06:02:06 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] Article length: 2035
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:06 EDT [CRAWLER] In this article
+2026-09-12 06:02:06 EDT [CRAWLER] Saudi Arabia said Friday that it shut down the kingdom's crucial East-West crude oil pipeline as a precautionary measure after multiple attacks by drones launched from Iraq.
+2026-09-12 06:02:06 EDT [CRAWLER] The drones targeted the pipeline in the Riyadh and Medina regions Thursday morning causing fires and some damage, the Saudi government said. Several people were injured in the attacks, it said. 
+2026-09-12 06:02:06 EDT [CRAWLER] The Saudis have relied on the East-West pipeline to shift crude oil exports away from Persian Gulf as the U.S. and Iran battle for control over the Strait of Hormuz. The pipeline, which has a capacity of 7 million barrels per day, runs across the kingdom to export terminals on the Red Sea. 
+2026-09-12 06:02:06 EDT [CRAWLER] Emergency teams were deployed to secure the pipeline and assess its safety after Thursday's attacks, the Saudi Energy Ministry said. "Any further developments will be announced in due course," the ministry said. 
+2026-09-12 06:02:06 EDT [CRAWLER] Riyadh has decided to refrain from retaliating for now to give the Iraqi government time to take measures to p
+2026-09-12 06:02:06 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:06 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:06 EDT [CRAWLER] Extracting
+2026-09-12 06:02:06 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:06 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html
+2026-09-12 06:02:06 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/12/brics-summit-xi-putin-modi-trump.html
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] Article length: 6021
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:06 EDT [CRAWLER] When Chinese President Xi Jinping, Russian President Vladimir Putin and Indian Prime Minister Narendra Modi were together in China last year, images of the three leaders smiling, holding hands and chatting animatedly went viral.
+2026-09-12 06:02:06 EDT [CRAWLER] This weekend, they meet again in New Delhi against an increasingly complicated geopolitical backdrop.
+2026-09-12 06:02:06 EDT [CRAWLER] India is hosting leaders of BRICS, a grouping of major emerging economies seeking greater influence in a global system long dominated by the U.S. and other Western powers. Xi, Putin and Iranian President Masoud Pezeshkian are among those expected to attend alongside Modi.
+2026-09-12 06:02:06 EDT [CRAWLER] The U.S. and Israel are at war with Iran, Washington continues to push Moscow toward a deal to end the war in Ukraine, and U.S. President Donald Trump's trade policies have disrupted relationships with allies and rivals alike.
+2026-09-12 06:02:06 EDT [CRAWLER] Against that backdrop, the summit will put the spotlight on whether those pressures are giving some BRICS members more reason to cooperate on trade, energy and payments,
+2026-09-12 06:02:06 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:06 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:06 EDT [CRAWLER] Extracting
+2026-09-12 06:02:06 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/12/brics-summit-xi-putin-modi-trump.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:06 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] Article length: 12274
+2026-09-12 06:02:06 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:06 EDT [CRAWLER] In this article
+2026-09-12 06:02:06 EDT [CRAWLER] SUBSCRIBE TO CNBC'S "POWER INSIDER NEWSLETTER
+2026-09-12 06:02:06 EDT [CRAWLER] What I'm hearing from energy insiders
+2026-09-12 06:02:06 EDT [CRAWLER] It was one of the most eye-opening and fascinating business trips in my 30-year career: the opportunity to travel to Venezuela to witness firsthand the signing of oil deals between the government in Caracas and Venezuelan and Western oil companies.
+2026-09-12 06:02:06 EDT [CRAWLER] CNBC was one of just a handful of news organizations allowed to travel to Caracas with the U.S. secretary of energy.
+2026-09-12 06:02:06 EDT [CRAWLER] The trip was barely 24 hours long and was tightly scheduled. Venezuela is not a country where the American media is just going to wander around. It is one of the poorest countries in the world, and that was obvious the moment we landed. The airport was still shut down due to the effects of a terrible earthquake that hit back in June. More on that in a minute. We were one of the only planes to land at Simón Bolívar International Airport and took a 20-minute bus ride downtown.
+2026-09-12 06:02:10 EDT [CRAWLER] You could see the remains of wealth the country and 
+2026-09-12 06:02:10 EDT [CRAWLER] [TICKER MATCH] BAC,BCS,CVX,GS,JPM,TGT,UBS
+2026-09-12 06:02:10 EDT [CRAWLER] [DISPATCH] Sent BAC,BCS,CVX,GS,JPM,TGT,UBS -> AI Server
+2026-09-12 06:02:10 EDT [CRAWLER] Extracting
+2026-09-12 06:02:10 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/the-inside-story-on-the-historic-us-venezuela-oil-deal-and-how-it-will-work.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:10 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/iran-russia-brics-sanctions-energy.html
+2026-09-12 06:02:10 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/iran-russia-brics-sanctions-energy.html
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] Article length: 3029
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:10 EDT [CRAWLER] In this article
+2026-09-12 06:02:10 EDT [CRAWLER] Iranian President Masoud Pezeshkian and Russian President Vladimir Putin on Friday criticized Western sanctions on their economies and urged countries of the Global South to deepen trade relations as they addressed the BRICS Business Forum.
+2026-09-12 06:02:10 EDT [CRAWLER] "BRICS must create an environment in which no country can disrupt the legitimate trade of another country through monopolizing a financial instrument or technology," Pezeshkian said in New Delhi. He urged the bloc, which has sought to amplify the influence of the Global South, to expand the use of national currencies to trade among member countries.
+2026-09-12 06:02:10 EDT [CRAWLER] Pressure on Iran has entered a "dangerous phase," shifting from sanctions to military aggression by the U.S. and Israel, Pezeshkian said, adding that the impact of the war against Tehran was being felt beyond its borders, affecting regional and global stability.
+2026-09-12 06:02:10 EDT [CRAWLER] The conflicts have also disrupted global energy markets and pushed fuel prices sharply higher. 
+2026-09-12 06:02:10 EDT [CRAWLER] U.S. diesel prices hit $6 per ga
+2026-09-12 06:02:10 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:10 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:10 EDT [CRAWLER] Extracting
+2026-09-12 06:02:10 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/iran-russia-brics-sanctions-energy.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:10 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html
+2026-09-12 06:02:10 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] Article length: 2152
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:10 EDT [CRAWLER] In this article
+2026-09-12 06:02:10 EDT [CRAWLER] Dell Technologies stock rose 12% on Friday after RBC Capital Markets initiated coverage of the computer maker and gave it an outperform rating and a price target of $640.
+2026-09-12 06:02:10 EDT [CRAWLER] Friday's rise comes as Dell shares have more than quadrupled so far in 2026, as the longtime PC maker has emerged as one of the top vendors for Nvidia-based servers and related equipment that cloud companies and enterprises are snapping up for artificial intelligence. 
+2026-09-12 06:02:10 EDT [CRAWLER] "With no signs of slowing, we believe DELL continues to be well positioned to benefit from a multi-year AI infrastructure spending cycle," RBC analyst David Paige wrote in the note on Thursday. 
+2026-09-12 06:02:10 EDT [CRAWLER] Dell has $95 billion in sales in its server order backlog that it hasn't yet started to fill, and it sold about $16.4 billion of AI servers in its second quarter, RBC said. 
+2026-09-12 06:02:10 EDT [CRAWLER] Dell reported second-quarter earnings earlier this month that surpassed estimates and the company upped its fiscal full-year forecast to $192 billion, which would be a nearly
+2026-09-12 06:02:10 EDT [CRAWLER] [TICKER MATCH] NVDA,TGT
+2026-09-12 06:02:10 EDT [CRAWLER] [DISPATCH] Sent NVDA,TGT -> AI Server
+2026-09-12 06:02:10 EDT [CRAWLER] Extracting
+2026-09-12 06:02:10 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/dell-stock-rbc-initiation.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:10 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/us-commemorates-25th-anniversary-9/11-photos.html
+2026-09-12 06:02:10 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/cramers-week-ahead-falling-oil-fed.html
+2026-09-12 06:02:10 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/us-commemorates-25th-anniversary-9/11-photos.html
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] Article length: 1421
+2026-09-12 06:02:10 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:12 EDT [CRAWLER] On Sept. 11, 2001, terrorists backed by al-Qaeda hijacked four passenger airliners. They flew two planes into the twin skyscrapers of the World Trade Center in New York, the first at 8:46 a.m. and the second at 9:03 a.m., and both towers collapsed later that morning. A third plane crashed into the Pentagon, in Arlington County, Virginia, while a fourth — believed to have been headed for the U.S. Capitol — crashed into a field in Shanksville, Pennsylvania, after passengers attempted to retake control of the plane.
+2026-09-12 06:02:12 EDT [CRAWLER] The coordinated attacks became the deadliest terrorist attack on U.S. soil, killing 2,977 people in New York, at the Pentagon and aboard the four hijacked planes, excluding the 19 hijackers. The attacks led directly to the U.S.-led invasion of Afghanistan and helped usher in a broader U.S. "war on terror" that also included the 2003 invasion of Iraq.
+2026-09-12 06:02:12 EDT [CRAWLER] On the attack's 25th anniversary, Americans are remembering the victims with moments of silence and ceremonies at New York's
+2026-09-12 06:02:12 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:12 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:12 EDT [CRAWLER] Extracting
+2026-09-12 06:02:12 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/us-commemorates-25th-anniversary-9/11-photos.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:12 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:12 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/cramers-week-ahead-falling-oil-fed.html
+2026-09-12 06:02:12 EDT [CRAWLER] [DEBUG] Article length: 3798
+2026-09-12 06:02:12 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:12 EDT [CRAWLER] In this article
+2026-09-12 06:02:12 EDT [CRAWLER] CNBC's Jim Cramer on Friday said falling oil prices helped revive the stock market, but warned that next week's Federal Reserve meeting could quickly change the outlook for investors.
+2026-09-12 06:02:12 EDT [CRAWLER] "Thank heavens oil went down today," the "Mad Money" host said. "It changed everything."
+2026-09-12 06:02:12 EDT [CRAWLER] Stocks rebounded Friday as oil prices retreated, helping the major averages recover some of their losses after four straight down sessions. The Dow Jones Industrial Average traded 509 points higher, or 0.98%, while the S&P 500 and Nasdaq Composite gained 0.86% and 0.96%, respectively. 
+2026-09-12 06:02:12 EDT [CRAWLER] Technology stocks helped lead the recovery, thanks to positive updates from Adobe and Oracle after the bell Thursday. Cramer said the reports breathed new life into beaten-down enterprise software and data center stocks, pointing to Dell, Vertiv, Cisco, Marvell, GE Vernova and Hewlett Packard Enterprise as potential beneficiaries. Cramer's Charitable Trust, the portfolio run by CNBC's Investing Club, owns shares of GE Ve
+2026-09-12 06:02:12 EDT [CRAWLER] [TICKER MATCH] ADBE,CRM,CSCO,INTU,META,NOW,ORCL
+2026-09-12 06:02:12 EDT [CRAWLER] [DISPATCH] Sent ADBE,CRM,CSCO,INTU,META,NOW,ORCL -> AI Server
+2026-09-12 06:02:12 EDT [CRAWLER] Extracting
+2026-09-12 06:02:12 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/cramers-week-ahead-falling-oil-fed.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:12 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/dan-chung-rebuilt-a-decimated-alger-management-after-9/11-hes-still-finding-the-markets-winners.html
+2026-09-12 06:02:12 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:12 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/dan-chung-rebuilt-a-decimated-alger-management-after-9/11-hes-still-finding-the-markets-winners.html
+2026-09-12 06:02:12 EDT [CRAWLER] [DEBUG] Article length: 9210
+2026-09-12 06:02:12 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:12 EDT [CRAWLER] In this article
+2026-09-12 06:02:12 EDT [CRAWLER] Daniel Chung, the CEO and chief investment officer at investment firm Fred Alger Management, survived the Sept. 11 attacks on the World Trade Center by chance. 
+2026-09-12 06:02:12 EDT [CRAWLER] That morning a quarter century ago, the then-tech analyst started his day at the Intercontinental Hotel in Midtown Manhattan, searching for answers on why a key stockholding hadn't been performing well. The company's chief executive was set to make a presentation that day. 
+2026-09-12 06:02:12 EDT [CRAWLER] "I was running late, so I went straight to the meeting," Chung said. "The meeting starts. CEO walks out. He's barely started, and somebody comes from, I guess, the hotel or the AVs — you know, the audiovisual staff – and hands them a note." 
+2026-09-12 06:02:12 EDT [CRAWLER] "He looked at it, and he said, 'I'm not sure we can continue," Chung added. "There's been a plane or something at the World Trade Center.'" 
+2026-09-12 06:02:12 EDT [CRAWLER] Alger's offices were on the 93rd floor of One World Trade Center, the North Tower, the first building hit, at 8:46 a.m.
+2026-09-12 06:02:12 EDT [CRAWLER] Those gathered in midtown didn't imme
+2026-09-12 06:02:12 EDT [CRAWLER] [TICKER MATCH] AAPL,CRWD,INTC,MSFT,MU,NVDA
+2026-09-12 06:02:12 EDT [CRAWLER] [DISPATCH] Sent AAPL,CRWD,INTC,MSFT,MU,NVDA -> AI Server
+2026-09-12 06:02:12 EDT [CRAWLER] Extracting
+2026-09-12 06:02:12 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/dan-chung-rebuilt-a-decimated-alger-management-after-9/11-hes-still-finding-the-markets-winners.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:12 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/election-officials-ban-employees-from-prediction-markets.html
+2026-09-12 06:02:12 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/election-officials-ban-employees-from-prediction-markets.html
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] Article length: 6656
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:14 EDT [CRAWLER] With less than two months until the midterms, election and county officials are prohibiting employees from participating on prediction market contracts.
+2026-09-12 06:02:14 EDT [CRAWLER] Officials said it's the tightest measure they can take to ensure employees, who have access to ballots, do not commit insider trading on election contracts. 
+2026-09-12 06:02:14 EDT [CRAWLER] "Obviously, we have no control over prediction markets themselves, or how people react to them," said Thomas Galvin, a supervisor for Maricopa County, Arizona. He helps oversee voter tabulation and Election Day voting. 
+2026-09-12 06:02:14 EDT [CRAWLER] "When we implement a policy for our employees not to trade or bet on non-public information, that goes a long way towards showing people that not only are we working hard to maintain transparent elections, but also shows that we are being very aware of new technology," he said. 
+2026-09-12 06:02:14 EDT [CRAWLER] Midterm odds on prediction markets and an election poll tell two stories, but not everyone can tell them apart. 
+2026-09-12 06:02:14 EDT [CRAWLER] Election odds on prediction markets are a live response to breaking news.
+2026-09-12 06:02:14 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:14 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:14 EDT [CRAWLER] Extracting
+2026-09-12 06:02:14 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/election-officials-ban-employees-from-prediction-markets.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:14 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/bonds-are-going-on-tilt-how-to-play-them-says-mike-khouw.html
+2026-09-12 06:02:14 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/bonds-are-going-on-tilt-how-to-play-them-says-mike-khouw.html
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] Article length: 4359
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:14 EDT [CRAWLER] In this article
+2026-09-12 06:02:14 EDT [CRAWLER] Warren Buffett once said interest rates are to asset prices what gravity is to matter. If the options market is correct, things could get heavy.
+2026-09-12 06:02:14 EDT [CRAWLER] Case in point: the TLT, the iShares 20+ Year Treasury Bond ETF, which seeks to track the performance of an index of U.S. Treasury bonds. A quick review of the fund's holdings shows that the shortest-dated maturities are just shy of 20 years away, February 2046, and the longest-dated maturities are almost 30 years away, August 2056. 
+2026-09-12 06:02:14 EDT [CRAWLER] Most investors consider U.S. Treasurys the safest investment in the world, and I've heard people say that because the obligation is repaid in U.S. dollars, which the government can and does create out of thin air, the U.S. cannot (or should not) ever possibly default.
+2026-09-12 06:02:14 EDT [CRAWLER] To the extent that people mean there is no real credit risk (a risk that the borrower cannot repay the debt), I agree. But credit risk is not the only risk that bond investors face. They also have rate risk. When interest rates ris
+2026-09-12 06:02:14 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:14 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:14 EDT [CRAWLER] Extracting
+2026-09-12 06:02:14 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/bonds-are-going-on-tilt-how-to-play-them-says-mike-khouw.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:14 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/social-security-cola-2027-estimate.html
+2026-09-12 06:02:14 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/social-security-cola-2027-estimate.html
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] Article length: 2356
+2026-09-12 06:02:14 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:14 EDT [CRAWLER] The Social Security cost-of-living adjustment for 2027 may be around 3.5% to 3.6%, according to new estimates based on government inflation data — which would push the annual adjustment to the highest in three years.
+2026-09-12 06:02:14 EDT [CRAWLER] In 2026, around 75 million Social Security and Supplemental Security Income beneficiaries saw a 2.8% boost to their benefits, according to the Social Security Administration.
+2026-09-12 06:02:14 EDT [CRAWLER] The Social Security COLA for 2027 may be 3.5%, factoring in the latest consumer price index data released on Friday, according to Mary Johnson, an independent Social Security and Medicare policy analyst. In August, Johnson had estimated the COLA may be 3.4%.
+2026-09-12 06:02:14 EDT [CRAWLER] Johnson said how the projected COLA might change will depend on volatile oil prices. Oil prices have had a significant impact on inflation since the Iran war began.
+2026-09-12 06:02:15 EDT [CRAWLER] The Senior Citizens League now projects a 3.5% Social Security COLA, down from the 3.6% increase it had estimated last month. That latest estimate would increase average monthly b
+2026-09-12 06:02:15 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:15 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:15 EDT [CRAWLER] Extracting
+2026-09-12 06:02:15 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/social-security-cola-2027-estimate.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:15 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/systimmune-inc-to-present-new-global-data-on-iza-bren-izalontamab-brengitecan-in-egfr-mutated-non-small-cell-lung-cancer-at-wclc-congress-2026-302875960.html
+2026-09-12 06:02:15 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:15 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/systimmune-inc-to-present-new-global-data-on-iza-bren-izalontamab-brengitecan-in-egfr-mutated-non-small-cell-lung-cancer-at-wclc-congress-2026-302875960.html
+2026-09-12 06:02:15 EDT [CRAWLER] [DEBUG] Article length: 5162
+2026-09-12 06:02:15 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:15 EDT [CRAWLER] - New global Phase 1 data from a randomized dose-expansion cohort of iza-bren in previously treated EGFR-mutated metastatic NSCLC demonstrate promising antitumor activity and a tolerable safety profile, supporting selection of 2.5 mg/kg D1D8 Q3W as the recommended Phase 3 dose 
+2026-09-12 06:02:15 EDT [CRAWLER] REDMOND, Wash., Sept. 12, 2026 /PRNewswire/ -- SystImmune, Inc. (SystImmune), a clinical-stage biotechnology company, today announced an abstract for iza-bren (izalontamab brengitecan), a potentially first-in-class EGFRxHER3 bispecific antibody drug conjugate (ADC), will be presented in an oral presentation at the International Association for the Study of Lung Cancer (IASLC) 2026 World Conference on Lung Cancer (WCLC) taking place September 12 – 15 in Seoul, South Korea. Iza-bren is being developed under a license and collaboration agreement by and between SystImmune and Bristol Myers Squibb.
+2026-09-12 06:02:15 EDT [CRAWLER] The global Phase 1 data being presented at WCLC 2026 evaluated iza-bren in a randomized expansion cohort across three 
+2026-09-12 06:02:15 EDT [CRAWLER] [TICKER MATCH] BMY
+2026-09-12 06:02:15 EDT [CRAWLER] [DISPATCH] Sent BMY -> AI Server
+2026-09-12 06:02:15 EDT [CRAWLER] Extracting
+2026-09-12 06:02:15 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/systimmune-inc-to-present-new-global-data-on-iza-bren-izalontamab-brengitecan-in-egfr-mutated-non-small-cell-lung-cancer-at-wclc-congress-2026-302875960.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:15 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/why-this-stock-deserves-its-premium-valuation-and-should-be-owned.html
+2026-09-12 06:02:15 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:15 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/why-this-stock-deserves-its-premium-valuation-and-should-be-owned.html
+2026-09-12 06:02:15 EDT [CRAWLER] [DEBUG] Article length: 4363
+2026-09-12 06:02:15 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:15 EDT [CRAWLER] Why this stock deserves its premium valuation — and should be ownedSkip NavigationMarketsBusinessInvestingTechPolitics & PolicyVideoWatchlistInvesting ClubPROLivestreamMenuEvery weekday, the CNBC Investing Club with Jim Cramer releases the Homestretch — an actionable afternoon update, just in time for the last hour of trading on Wall Street. Stocks are rallying Friday , but the S & P 500 is still on pace for a negative week. The market is rebounding from oversold levels, as indicated by the S & P Short Range Oscillator , which dipped into oversold territory Thursday for the first time since the end of March. Oil is down, but Treasury yields are higher after the August CPI report increased the odds of an interest rate increase. The market now sees an 86.5% chance of a 25-basis-point hike at next Wednesday's meeting, up from 72% on Thursday and 59% one week ago, according to CME FedWatch. Linde was initiated with an overweight rating and a $542 price target over at KeyBanc. The analy
+2026-09-12 06:02:15 EDT [CRAWLER] [TICKER MATCH] AAPL,AVGO,BA,BCS,CRM,MS,PANW,TGT
+2026-09-12 06:02:15 EDT [CRAWLER] [DISPATCH] Sent AAPL,AVGO,BA,BCS,CRM,MS,PANW,TGT -> AI Server
+2026-09-12 06:02:15 EDT [CRAWLER] Extracting
+2026-09-12 06:02:15 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/why-this-stock-deserves-its-premium-valuation-and-should-be-owned.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:15 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/nocpix-bringt-ace-2-auf-den-markt-die-nachste-generation-seines-flaggschiff-warmebildzielfernrohrs-302876353.html
+2026-09-12 06:02:15 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:15 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/nocpix-bringt-ace-2-auf-den-markt-die-nachste-generation-seines-flaggschiff-warmebildzielfernrohrs-302876353.html
+2026-09-12 06:02:16 EDT [CRAWLER] [DEBUG] Article length: 3541
+2026-09-12 06:02:16 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:16 EDT [CRAWLER] WARSAU, Polen, 12. September 2026 /PRNewswire/ -- Am 12. September hat Nocpix offiziell die ACE 2-Serie, vorgestellt, seine Flaggschiff-Produktreihe von Wärmebildzielfernrohren der nächsten Generation, zu der das ACE 2 S60R, das ACE 2 H50R und das ACE 2 H35R gehören. Aufbauend auf den Grundlagen des ursprünglichen ACE verbessert ACE 2 das Flaggschiff-Erlebnis in drei Kernbereichen: Zoom auf das Auge. Bildqualität steht an erster Stelle. Integrierter LRF vor uns.
+2026-09-12 06:02:16 EDT [CRAWLER] Vorschau auf Ocular Zoom: Vom optischen Zoom zum Hybrid-Zoom
+2026-09-12 06:02:16 EDT [CRAWLER] ACE 2 stellt Ocular Zoom 2.0 vor, das optische und digitale Vergrößerung in einem abgestimmten Hybrid-Zoom-System vereint. Wenn der Benutzer den Zoomring dreht, sorgen Vergrößerung, Benutzeroberfläche und Fadenkreuz gemeinsam dafür, dass nützliche Details erhalten bleiben und wichtige Informationen sichtbar bleiben. Mit einem Augenabstand von 60 mm und einer Austrittspupille von 10 mm sorgt das System für ein angenehmeres Seherlebnis bei längerer Nutzung
+2026-09-12 06:02:16 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:16 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:16 EDT [CRAWLER] Extracting
+2026-09-12 06:02:16 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/nocpix-bringt-ace-2-auf-den-markt-die-nachste-generation-seines-flaggschiff-warmebildzielfernrohrs-302876353.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:16 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/cdc-record-cyclosporiasis-outbreak-over.html
+2026-09-12 06:02:16 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:16 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/cdc-record-cyclosporiasis-outbreak-over.html
+2026-09-12 06:02:16 EDT [CRAWLER] [DEBUG] Article length: 1370
+2026-09-12 06:02:16 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:16 EDT [CRAWLER] The largest-ever outbreak of cyclosporiasis in the U.S. has ended, the Centers for Disease Control and Prevention said Friday. 
+2026-09-12 06:02:16 EDT [CRAWLER] The foodborne illness sickened 12,833 people in 21 states in recent months in the largest cluster, the CDC said. Health officials have linked that outbreak to shredded iceberg lettuce supplied by Taylor Farms in Mexico. 
+2026-09-12 06:02:16 EDT [CRAWLER] It fueled the worst cyclosporiasis season in U.S. history, with 19,595 overall cases of the illness caused by the parasite cyclospora. The U.S. recorded two deaths, both in Michigan, the epicenter of the biggest outbreak.
+2026-09-12 06:02:16 EDT [CRAWLER] The foodborne illness spread sparked scrutiny of U.S. food safety procedures and corporate consolidation in the country's food supply, along with staffing and funding at the U.S. Food and Drug Administration. 
+2026-09-12 06:02:16 EDT [CRAWLER] The outbreak also led to lower sales at restaurants that offer fresh lettuce — particularly Taco Bell, which served shredded iceberg lettuce from Taylor Farms — and dampened lettuce sales at grocery stores. 
+2026-09-12 06:02:16 EDT [CRAWLER] Cyclosp
+2026-09-12 06:02:16 EDT [CRAWLER] [TICKER MATCH] WMT
+2026-09-12 06:02:16 EDT [CRAWLER] [DISPATCH] Sent WMT -> AI Server
+2026-09-12 06:02:16 EDT [CRAWLER] Extracting
+2026-09-12 06:02:16 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/cdc-record-cyclosporiasis-outbreak-over.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:16 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/nocpix-lance-lace-2--la-nouvelle-generation-de-sa-lunette-de-visee-thermique-phare-302876343.html
+2026-09-12 06:02:16 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:16 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/nocpix-lance-lace-2--la-nouvelle-generation-de-sa-lunette-de-visee-thermique-phare-302876343.html
+2026-09-12 06:02:16 EDT [CRAWLER] [DEBUG] Article length: 3785
+2026-09-12 06:02:16 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:16 EDT [CRAWLER] VARSOVIE, Pologne, 12 septembre 2026 /PRNewswire/ -- Le 12 septembre, Nocpix a officiellement lancé la série ACE 2 , sa gamme phare de lunettes de visée thermiques de nouvelle génération, comprenant les modèles ACE 2 S60R, ACE 2 H50R et ACE 2 H35R. S'appuyant sur les fondements de la version originale d'ACE, ACE 2 fait évoluer l'expérience phare dans trois domaines clés : Zoom oculaire à venir. La qualité d'image avant tout. Détecteur de distance à infrarouge intégré à l'avant.
+2026-09-12 06:02:16 EDT [CRAWLER] Zoom oculaire : Du zoom optique au zoom hybride
+2026-09-12 06:02:18 EDT [CRAWLER] ACE 2 présente l'Ocular Zoom 2.0, qui combine un grossissement optique et numérique au sein d'un système de zoom hybride coordonné. Lorsque l'utilisateur fait tourner la bague de zoom, le grossissement, l'interface et le réticule fonctionnent de concert pour préserver les détails utiles et garantir la visibilité des informations essentielles. Avec un dégagement oculaire de 60 mm et une pupille de sortie de 10 mm, ce système offre un confor
+2026-09-12 06:02:18 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:18 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:18 EDT [CRAWLER] Extracting
+2026-09-12 06:02:18 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/nocpix-lance-lace-2--la-nouvelle-generation-de-sa-lunette-de-visee-thermique-phare-302876343.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:18 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/leopold-aschenbrenners-situational-awareness-is-active-in-options-market-sources-say.html
+2026-09-12 06:02:18 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:18 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/leopold-aschenbrenners-situational-awareness-is-active-in-options-market-sources-say.html
+2026-09-12 06:02:18 EDT [CRAWLER] [DEBUG] Article length: 1902
+2026-09-12 06:02:18 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:18 EDT [CRAWLER] Leopold Aschenbrenner's Situational Awareness is active in options market, sources saySkip NavigationMarketsBusinessInvestingTechPolitics & PolicyVideoWatchlistInvesting ClubPROLivestreamMenuKey PointsThe moves were made late last week and early this week, the sources said.His reentry to the public markets comes after the hedge fund's assets fell to about $10 billion following a peak above $45 billion to start July. In this articleAMDBECRWVSKHYSKHYSNDKFollow your favorite stocksCREATE FREE ACCOUNTwatch nowVIDEO4:5004:50Faber Report: Leopold Aschenbrenner's Situational Awareness active in options market, sources saySquawk on the StreetLeopold Aschenbrenner, the AI researcher whose hedge fund virtually collapsed over the summer,  is getting active again in the financial markets via options.His firm, Situational Awareness, has been buying options positions in stocks including Advanced Micro Devices, Bloom Energy and Coreweave, sources told CNBC's David Faber. The moves were made late last
+2026-09-12 06:02:18 EDT [CRAWLER] [TICKER MATCH] AMD,GOOGL
+2026-09-12 06:02:18 EDT [CRAWLER] [DISPATCH] Sent AMD,GOOGL -> AI Server
+2026-09-12 06:02:18 EDT [CRAWLER] Extracting
+2026-09-12 06:02:18 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/leopold-aschenbrenners-situational-awareness-is-active-in-options-market-sources-say.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:18 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/nocpix-lanza-el-ace-2-la-proxima-generacion-de-su-visor-termico-insignia-302876467.html
+2026-09-12 06:02:18 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:18 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/nocpix-lanza-el-ace-2-la-proxima-generacion-de-su-visor-termico-insignia-302876467.html
+2026-09-12 06:02:18 EDT [CRAWLER] [DEBUG] Article length: 3442
+2026-09-12 06:02:18 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:18 EDT [CRAWLER] VARSOVIA, Polonia, 12 de septiembre de 2026 /PRNewswire/ -- El 12 de septiembre, Nocpix lanzó oficialmente la serie ACE 2, su línea de visores térmicos insignia de nueva generación, que incluye los modelos ACE 2 S60R, ACE 2 H50R y ACE 2 H35R. Partiendo de la base del modelo ACE original, la serie ACE 2 eleva la experiencia de su gama alta en tres aspectos clave: zoom ocular superior, calidad de imagen superior y telémetro láser (LRF) integrado superior.
+2026-09-12 06:02:18 EDT [CRAWLER] Zoom ocular: del zoom óptico al zoom híbrido
+2026-09-12 06:02:18 EDT [CRAWLER] ACE 2 introduce Ocular Zoom 2.0, que combina el aumento óptico y el digital en un sistema de zoom híbrido coordinado. A medida que el usuario gira el anillo de zoom, el aumento, la interfaz y la retícula actúan conjuntamente para preservar los detalles útiles y mantener visible la información clave. Con una distancia ocular de 60 mm y una pupila de salida de 10 mm, el sistema ofrece una experiencia de visualización más cómoda durante un uso prolongado.
+2026-09-12 06:02:18 EDT [CRAWLER] El enfoque no se limita
+2026-09-12 06:02:18 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:18 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:18 EDT [CRAWLER] Extracting
+2026-09-12 06:02:18 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/nocpix-lanza-el-ace-2-la-proxima-generacion-de-su-visor-termico-insignia-302876467.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:18 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/uae-germany-investment-data-centers.html
+2026-09-12 06:02:18 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:18 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/nocpix-launches-ace-2-the-next-generation-of-its-flagship-thermal-riflescope-302876329.html
+2026-09-12 06:02:18 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/uae-germany-investment-data-centers.html
+2026-09-12 06:02:18 EDT [CRAWLER] [DEBUG] Article length: 2268
+2026-09-12 06:02:19 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 06:02:19 EDT [ORCHESTRATOR] Sending SIGTERM to crawler (pid=1588707)
+2026-09-12 06:02:19 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:19 EDT [CRAWLER] The United Arab Emirates plans to invest 40 billion euros ($46.4 billion) in Germany as the two countries deepen their economic ties, with data center infrastructure forming a key part of the investment. 
+2026-09-12 06:02:19 EDT [CRAWLER] The investment was announced during a state visit to Germany this week by UAE President Sheikh Mohamed bin Zayed Al Nahyan, who met with German Chancellor Friedrich Merz.
+2026-09-12 06:02:19 EDT [CRAWLER] It spans areas including artificial intelligence, digital infrastructure and energy. The two countries also announced plans to deepen defense cooperation.
+2026-09-12 06:02:19 EDT [CRAWLER] The package will include roughly 1 gigawatt of new data-center capacity, while 10 billion euros is reportedly earmarked for investment in Bavaria, a major hub for Germany's industrial and tech sectors.
+2026-09-12 06:02:19 EDT [CRAWLER] The two countries also signed a declaration of intent to form an investment council aimed at advancing investment and strengthening public- and private-sector ties. 
+2026-09-12 06:02:19 EDT [CRAWLER] The UAE, like all Gulf countries, is keen to diversify its overseas portfolio and develop an economy
+2026-09-12 06:02:19 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:19 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:19 EDT [CRAWLER] Extracting
+2026-09-12 06:02:19 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/uae-germany-investment-data-centers.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:19 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:19 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/nocpix-launches-ace-2-the-next-generation-of-its-flagship-thermal-riflescope-302876329.html
+2026-09-12 06:02:19 EDT [CRAWLER] [DEBUG] Article length: 3179
+2026-09-12 06:02:19 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:19 EDT [CRAWLER] WARSAW, Poland, Sept. 12, 2026 /PRNewswire/ -- On Sept. 12, Nocpix officially launched the ACE 2 Series, its next-generation flagship thermal riflescope lineup, including the ACE 2 S60R, ACE 2 H50R, and ACE 2 H35R. Building on the foundation of the original ACE, ACE 2 advances the flagship experience across three core areas: Ocular Zoom Ahead. Image Quality Ahead. Integrated LRF Ahead.
+2026-09-12 06:02:19 EDT [CRAWLER] Ocular Zoom Ahead: From Optical Zoom to Hybrid Zoom
+2026-09-12 06:02:19 EDT [CRAWLER] ACE 2 introduces Ocular Zoom 2.0, combining optical and digital magnification in a coordinated hybrid zoom system. As users rotate the zoom ring, magnification, interface and reticle work together to retain useful detail and keep key information visible. With 60mm eye relief and a 10mm exit pupil, the system delivers a more comfortable viewing experience during extended use.
+2026-09-12 06:02:19 EDT [CRAWLER] Focus isn't simply how much a thermal riflescope can magnify, but how much hunters can still see when it does.
+2026-09-12 06:02:19 EDT [CRAWLER] Image Quality Ahead: Nocpix-Developed Thermal Sensor with NETD≤12mK
+2026-09-12 06:02:19 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:19 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:19 EDT [CRAWLER] Extracting
+2026-09-12 06:02:19 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/nocpix-launches-ace-2-the-next-generation-of-its-flagship-thermal-riflescope-302876329.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:19 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html
+2026-09-12 06:02:19 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:19 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html
+2026-09-12 06:02:19 EDT [CRAWLER] [DEBUG] Article length: 2841
+2026-09-12 06:02:19 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:19 EDT [CRAWLER] In this article
+2026-09-12 06:02:19 EDT [CRAWLER] U.S. Treasury yields were remained around multiyear highs Friday, as bond markets assessed the latest consumer price report for August. 
+2026-09-12 06:02:19 EDT [CRAWLER] Odds that the Federal Reserve will raise interest rates by a quarter percentage point at its policy meeting next week shot up to about 86% from about 72% on Thursday, based on trading in 30-day fed funds futures at the Chicago Mercantile Exchange. 
+2026-09-12 06:02:19 EDT [CRAWLER] The 2-year Treasury note yield, the most sensitive to short-term Federal Reserve interest rate policy, rose 7.8 basis points, to 4.628% and touched its highest level since July 2024. The 10-year U.S. Treasury note yield — which influences mortgages, auto loans and credit card debt — gained 2.9 basis points to 4.97%. Earlier, the benchmark yield rose to 4.992%, its highest level since October 2023.
+2026-09-12 06:02:19 EDT [CRAWLER] The longer-dated 30-year Treasury bond yield, more sensitive to geopolitical risks, was last little changed at 5.356%.
+2026-09-12 06:02:19 EDT [CRAWLER] One basis point equals 0.01%, and yields and prices move in opposite
+2026-09-12 06:02:19 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:19 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:19 EDT [CRAWLER] Extracting
+2026-09-12 06:02:20 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:20 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/artistorys-four-iai-awards-signal-a-new-era-for-cultural-ip-from-licensing-assets-to-building-global-cultural-brands-302876422.html
+2026-09-12 06:02:20 EDT [CRAWLER] [SYSTEM] Interrupt received. Shutting down...
+2026-09-12 06:02:20 EDT [CRAWLER] [SYSTEM] Shutdown requested. Draining 16 queued URL(s)...
+2026-09-12 06:02:20 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/artistorys-four-iai-awards-signal-a-new-era-for-cultural-ip-from-licensing-assets-to-building-global-cultural-brands-302876422.html
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] Article length: 9842
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:20 EDT [CRAWLER] Following four honors at the 26th International Advertising Institute Awards (IAI Awards) and a debut in License Global's Top 60, ARTiSTORY is advancing a model that connects cultural heritage, brand strategy, creative storytelling and global licensing.
+2026-09-12 06:02:20 EDT [CRAWLER] SHANGHAI, Sept. 12, 2026 /PRNewswire/ -- Cultural IP is entering a new phase.
+2026-09-12 06:02:20 EDT [CRAWLER] For museums, libraries, heritage organizations and cultural institutions, licensing is no longer simply about placing recognizable artworks, characters or historical imagery on products. Increasingly, the challenge is how to transform cultural assets into compelling contemporary narratives, experiences and brands - without losing the meaning and credibility that made them culturally significant in the first place.
+2026-09-12 06:02:20 EDT [CRAWLER]               
+2026-09-12 06:02:20 EDT [CRAWLER]             
+2026-09-12 06:02:20 EDT [CRAWLER] This shift is at the heart of ARTiSTORY's growing international business.
+2026-09-12 06:02:20 EDT [CRAWLER] The cultural and art IP licensing and operations company ARTiSTORY has received four honors at the 26th International Advertising Institute Awards 
+2026-09-12 06:02:20 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:20 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:20 EDT [CRAWLER] Extracting
+2026-09-12 06:02:20 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/artistorys-four-iai-awards-signal-a-new-era-for-cultural-ip-from-licensing-assets-to-building-global-cultural-brands-302876422.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:20 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/ai-regulation-anthropic-researcher-extinction-warning.html
+2026-09-12 06:02:20 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/amid-a-changing-global-landscape-countries-seek-investment-opportunities-at-cifit-302876826.html
+2026-09-12 06:02:20 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/ai-regulation-anthropic-researcher-extinction-warning.html
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] Article length: 5006
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:20 EDT [CRAWLER] More than 20 members of Congress have called for new or stronger artificial intelligence regulation this week after a researcher warned that Anthropic and OpenAI are "gambling with our lives."
+2026-09-12 06:02:20 EDT [CRAWLER] Rep. Lori Trahan, D-Mass, told CNBC's "Squawk Box" on Friday that bipartisan support has reached "a tipping point."
+2026-09-12 06:02:20 EDT [CRAWLER] "My phone has rung off the hook this week with rank-and-file Democrats and Republicans who want to see action," Trahan said.
+2026-09-12 06:02:20 EDT [CRAWLER] Jacob Coxon announced he quit his job at Anthropic on Tuesday in a post that has garnered more than 150 million views on X. Coxon, who previously worked as a researcher at OpenAI, wrote that the people building AI "earnestly believe that it could kill us all by the end of the decade."
+2026-09-12 06:02:20 EDT [CRAWLER] Coxon's decision to quit set off a firestorm on social media, prompting lawmakers across both sides of the political aisle to weigh in. 
+2026-09-12 06:02:20 EDT [CRAWLER] "AI is a powerful engine of innovation, and we need it to flourish. But, Congress cannot ignore the realities of AI and the potential risks tha
+2026-09-12 06:02:20 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:20 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:20 EDT [CRAWLER] Extracting
+2026-09-12 06:02:20 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/ai-regulation-anthropic-researcher-extinction-warning.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:20 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/amid-a-changing-global-landscape-countries-seek-investment-opportunities-at-cifit-302876826.html
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] Article length: 1879
+2026-09-12 06:02:20 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:20 EDT [CRAWLER] Click to learn more: https://youtube.com/shorts/gZ3xQzfZhoo?si=hCiDYS9P0_P32ve7 
+2026-09-12 06:02:20 EDT [CRAWLER] XIAMEN, China, Sept. 12, 2026 /PRNewswire/ -- A report from Hong Kong Commercial Daily:
+2026-09-12 06:02:22 EDT [CRAWLER] The 26th China International Fair for Investment and Trade (CIFIT) was held in Xiamen, Fujian, China, from September 8 to 11. This year, it attracted more than 1,200 registered delegations from government agencies and business and industrial enterprises from 129 countries and regions and 30 international organizations. Forty-eight of the world's top 50 economies by GDP attended CIFIT. The total number of business participants exceeded 100,000.
+2026-09-12 06:02:22 EDT [CRAWLER]               
+2026-09-12 06:02:22 EDT [CRAWLER]             
+2026-09-12 06:02:22 EDT [CRAWLER] The 2026 Future Investment Conference at this year's CIFIT was themed "Global Investment in a Changing World." It hosted in-depth exchanges on frontier areas such as artificial intelligence and digital infrastructure, life sciences and healthcare, clean energy, and advanced manufacturing, jointly assessing changes in the global investment landscape, su
+2026-09-12 06:02:22 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:22 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:22 EDT [CRAWLER] Extracting
+2026-09-12 06:02:22 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/amid-a-changing-global-landscape-countries-seek-investment-opportunities-at-cifit-302876826.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:22 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/2026/09/11/nycs-baklava-guy-brings-in-20k/month-selling-turkish-pastries.html
+2026-09-12 06:02:22 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/pham-nhat-vuong-and-pham-thu-huong-transition-leadership-roles-at-vinfast-and-gsm-302876823.html
+2026-09-12 06:02:22 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:22 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/pham-nhat-vuong-and-pham-thu-huong-transition-leadership-roles-at-vinfast-and-gsm-302876823.html
+2026-09-12 06:02:22 EDT [CRAWLER] [DEBUG] Article length: 5859
+2026-09-12 06:02:22 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:22 EDT [CRAWLER] HANOI, Vietnam, Sept. 12, 2026 /PRNewswire/ -- VinFast and GSM today officially announced new leadership appointments, succeeding Mr. Pham Nhat Vuong and Ms. Pham Thu Huong in senior global leadership roles. Accordingly, Mr. Pham Nhat Quan Anh, currently Chairman of VinFast Global, will concurrently assume the position of CEO of VinFast Global, succeeding Mr. Pham Nhat Vuong, while also taking on the roles of Chairman and CEO of VinFast Vietnam. Mr. Nguyen Quoc Tuan will assume the position of Chairman of GSM Global, succeeding Ms. Pham Thu Huong, while Mr. Pham Nhat Minh Hoang will become CEO of GSM Global and concurrently CEO of GSM Vietnam.
+2026-09-12 06:02:22 EDT [CRAWLER]               The strengthening of the senior leadership teams at VinFast and GSM comes as Vingroup and companies across its ecosystem accelerate the training and development of in-house talent and transition leadership responsibilities to a younger generation of leaders, in line with the needs and growth trajectory of the system. In particular,
+2026-09-12 06:02:22 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:22 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:22 EDT [CRAWLER] Extracting
+2026-09-12 06:02:22 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/pham-nhat-vuong-and-pham-thu-huong-transition-leadership-roles-at-vinfast-and-gsm-302876823.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:22 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:22 EDT [CRAWLER] [DEBUG] URL: https://www.cnbc.com/2026/09/11/nycs-baklava-guy-brings-in-20k/month-selling-turkish-pastries.html
+2026-09-12 06:02:22 EDT [CRAWLER] [DEBUG] Article length: 9872
+2026-09-12 06:02:22 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:22 EDT [CRAWLER] Jacob Komarow is a 30-year-old entrepreneur, high school dropout and former drug addict. He's also known as the "Baklava Guy" around New York City, and he truly believes he's found his own American Dream in a Turkish pastry.
+2026-09-12 06:02:22 EDT [CRAWLER] The man behind Good Baklava — a roaming baklava business that sells the pastries on the street, out of the back of a van or temporary stands, as well as online — is currently riding a thrilling wave of sweet success, fueled by viral fame and guerrilla-style sales tactics. The five-year-old business has no permanent storefront — at least, not yet. So, on any given day, you can find Komarow peddling his many-layered, syrupy-sweet treats anywhere from city parks to music festivals. Throughout May and June, he also roamed the streets outside Madison Square Garden, helping throngs of exultant New York Knicks fans celebrate their team's championship run by offering free slices of the baklava he imports from a supplier in Gaziantep, Turkey.
+2026-09-12 06:02:22 EDT [CRAWLER] Komarow — that's his le
+2026-09-12 06:02:24 EDT [CRAWLER] [TICKER MATCH] META,NFLX,SHOP,XYZ
+2026-09-12 06:02:24 EDT [CRAWLER] [DISPATCH] Sent META,NFLX,SHOP,XYZ -> AI Server
+2026-09-12 06:02:24 EDT [CRAWLER] Extracting
+2026-09-12 06:02:24 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/2026/09/11/nycs-baklava-guy-brings-in-20k/month-selling-turkish-pastries.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:24 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/super-micro-computer-investigation-initiated-kahn-swick--foti-llc-investigates-the-officers-and-directors-of-super-micro-computer-inc---smci-302876750.html
+2026-09-12 06:02:24 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:24 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/super-micro-computer-investigation-initiated-kahn-swick--foti-llc-investigates-the-officers-and-directors-of-super-micro-computer-inc---smci-302876750.html
+2026-09-12 06:02:24 EDT [CRAWLER] [DEBUG] Article length: 3188
+2026-09-12 06:02:24 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:24 EDT [CRAWLER] NEW YORK and NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- Former Attorney General of Louisiana, Charles C. Foti, Jr., Esq., a partner at the law firm of Kahn Swick & Foti, LLC ("KSF"), announces that KSF has commenced an investigation into Super Micro Computer, Inc. ("Super Micro" or the "Company") (NasdaqGS: SMCI).
+2026-09-12 06:02:24 EDT [CRAWLER] On March 19, 2026, post-market, the U.S. Department of Justice announced the unsealing of an indictment against three individuals associated with the Company, Yih-Shyan Liaw (the Company's co-founder, director, and Senior Vice President of Business Development), Ruei-Tsang Chang ("a general manager in the [Super Micro's] Taiwan office)," and Ting-Wei Sun ("a third-party broker and fixer"), for engaging in a "scheme to divert massive quantities of servers housing U.S. artificial intelligence technology to customers in China" violating U.S. export control laws, in order to "drive sales and generate revenues in violation of U.S. law" and enabled the sale of "approximately $2.5 
+2026-09-12 06:02:24 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:24 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:24 EDT [CRAWLER] Extracting
+2026-09-12 06:02:24 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/super-micro-computer-investigation-initiated-kahn-swick--foti-llc-investigates-the-officers-and-directors-of-super-micro-computer-inc---smci-302876750.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:24 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/new-mud-springs-trail-system-opens-near-moab-expanding-world-class-mountain-biking-opportunities-302876800.html
+2026-09-12 06:02:24 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:24 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/new-mud-springs-trail-system-opens-near-moab-expanding-world-class-mountain-biking-opportunities-302876800.html
+2026-09-12 06:02:24 EDT [CRAWLER] [DEBUG] Article length: 4198
+2026-09-12 06:02:24 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:24 EDT [CRAWLER] New race-ready trail system adds to the Moab area's renowned mountain biking offerings with trailsfor youth racing, adaptive cyclists, families and riders of varying abilities
+2026-09-12 06:02:24 EDT [CRAWLER] MOAB, Utah, Sept. 11, 2026 /PRNewswire/ -- Mud Springs Trail System, a new mountain biking destination near Moab, has officially opened in San Juan County, bringing miles of purpose-built trails for youth racing, adaptive cycling, families and riders of varying abilities.
+2026-09-12 06:02:24 EDT [CRAWLER]               Local and regional partners celebrated the opening with a ribbon cutting Sept. 11, marking the culmination of a nearly decade-long effort to create a new race-capable public trail system. The opening coincided with the first Utah High School Cycling League race weekend at Mud Springs, bringing more than 1,100 youth mountain bikers to the area.
+2026-09-12 06:02:24 EDT [CRAWLER] Mud Springs features fast, flowy, machine-built trails with bermed turns. Phase 1 will total approximately 11 miles, including seven miles of beginner- and intermediate-level trails construc
+2026-09-12 06:02:24 EDT [CRAWLER] [TICKER MATCH] XYZ
+2026-09-12 06:02:24 EDT [CRAWLER] [DISPATCH] Sent XYZ -> AI Server
+2026-09-12 06:02:24 EDT [CRAWLER] Extracting
+2026-09-12 06:02:24 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/new-mud-springs-trail-system-opens-near-moab-expanding-world-class-mountain-biking-opportunities-302876800.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:24 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/achieve-publishes-new-online-guidance-for-freedom-debt-relief-and-achieve-customers-302876793.html
+2026-09-12 06:02:24 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/achieve-publishes-new-online-guidance-for-freedom-debt-relief-and-achieve-customers-302876793.html
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] Article length: 3300
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:26 EDT [CRAWLER] SAN MATEO, Calif., Sept. 11, 2026 /PRNewswire/ -- Today, Achieve announced the publication of a new online resource designed to provide proactive, transparent customer guidance. As part of a broader financial wellness ecosystem, this newly launched initiative helps consumers understand the relationship between Achieve and Freedom Debt Relief in a natural and helpful manner.
+2026-09-12 06:02:26 EDT [CRAWLER] As individuals explore ways to navigate their financial solutions online, they may encounter references to both the Achieve and Freedom Debt Relief brands. To ensure clarity, the new guidance explains that Freedom Debt Relief, a subsidiary of Achieve Company, continues to operate as an active, customer-facing debt relief program. By addressing both brands transparently, the resource supports distinct customer experiences without confusion.
+2026-09-12 06:02:26 EDT [CRAWLER] A key feature of the new customer resource is account access clarification. The guidance clearly explains exactly where both Freedom Debt Relief and Achieve customers should log i
+2026-09-12 06:02:26 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:26 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:26 EDT [CRAWLER] Extracting
+2026-09-12 06:02:26 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/achieve-publishes-new-online-guidance-for-freedom-debt-relief-and-achieve-customers-302876793.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:26 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/hims--hers-health-inc-securities-fraud-class-action-result-of-deceptive-privacy-and-billing-practices-and-over-14-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876737.html
+2026-09-12 06:02:26 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/hims--hers-health-inc-securities-fraud-class-action-result-of-deceptive-privacy-and-billing-practices-and-over-14-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876737.html
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] Article length: 3694
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:26 EDT [CRAWLER] NEW YORK and NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until November 2, 2026 to file lead plaintiff applications in a securities class action lawsuit against Hims & Hers Health, Inc. ("Hims" or the "Company") (NYSE: HIMS), if they purchased or otherwise acquired the Company's securities between August 4, 2025 and July 29, 2026, inclusive (the "Class Period").  This action is pending in the United States District Court for the Northern District of California.
+2026-09-12 06:02:26 EDT [CRAWLER] What You May Do
+2026-09-12 06:02:26 EDT [CRAWLER] If you purchased securities of Hims as above and would like to discuss your legal rights and how this case might affect you and your right to recover for your economic loss, you may, without obligation or cost to you, contact KSF Managing Partner Lewis Kahn toll-free at 1-833-538-3666 or via email ([email&#160;protected]), or visit https://www.ksfcouns
+2026-09-12 06:02:26 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:26 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:26 EDT [CRAWLER] Extracting
+2026-09-12 06:02:26 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/hims--hers-health-inc-securities-fraud-class-action-result-of-deceptive-privacy-and-billing-practices-and-over-14-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876737.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:26 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/hdfc-bank-limited-securities-fraud-class-action-result-of-deceptive-interest-payments-and-approximately-4-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876742.html
+2026-09-12 06:02:26 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/hdfc-bank-limited-securities-fraud-class-action-result-of-deceptive-interest-payments-and-approximately-4-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876742.html
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] Article length: 3784
+2026-09-12 06:02:26 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:28 EDT [CRAWLER] NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- - Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against HDFC Bank Limited ("HDFC" or the "Company") (NYSE: HDB), if they purchased or otherwise acquired the Company's securities between July 17, 2023 and May 26, 2026, inclusive (the "Class Period").  This action is pending in the United States District Court for the Southern District of New York.
+2026-09-12 06:02:28 EDT [CRAWLER] What You May Do
+2026-09-12 06:02:28 EDT [CRAWLER] If you purchased securities of HDFC as above and would like to discuss your legal rights and how this case might affect you and your right to recover for your economic loss, you may, without obligation or cost to you, contact KSF Managing Partner Lewis Kahn toll-free at 1-833-538-3666 or via email ([email&#160;protected]), or visit https://www.ksfcounsel.com/cases/nyse-hdb/ 
+2026-09-12 06:02:28 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:28 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:28 EDT [CRAWLER] Extracting
+2026-09-12 06:02:28 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/hdfc-bank-limited-securities-fraud-class-action-result-of-deceptive-interest-payments-and-approximately-4-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876742.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:28 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/news/nursing-home-savings-350-000-145528883.html
+2026-09-12 06:02:28 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/aevex-corp-notice-of-october-20-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876713.html
+2026-09-12 06:02:28 EDT [CRAWLER] Status line: HTTP/1.1 500 INKApi Error
+2026-09-12 06:02:28 EDT [CRAWLER] Notice no HTML tags found
+2026-09-12 06:02:28 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/news/nursing-home-savings-350-000-145528883.html | Extracted Links: 0 | Dispatched to AI: NO
+2026-09-12 06:02:28 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/news/worry-gift-tax-pay-30-122213443.html
+2026-09-12 06:02:28 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:28 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/aevex-corp-notice-of-october-20-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876713.html
+2026-09-12 06:02:28 EDT [CRAWLER] [DEBUG] Article length: 3849
+2026-09-12 06:02:28 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:28 EDT [CRAWLER] NEW ORLEANS and NEW YORK, Sept. 11, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in AEVEX Corp. ("Aevex" or the "Company") (NYSE: AVEX) of a class action securities lawsuit.
+2026-09-12 06:02:28 EDT [CRAWLER] CLASS DEFINITION: The lawsuit seeks to recover losses on behalf of investors who purchased or otherwise acquired Aevex's publicly traded Class A common stock between April 17, 2026 and June 4, 2026, inclusive (the "Class Period") and/or pursuant or traceable to the registration statement and prospectus (the "IPO Offering Documents") issued in connection with Aevex's April 17, 2026 initial public offering ("IPO"). This action is pending in the United States District Court for the Southern District of California. Follow the link below to get more information and be contacted by a member of our team:
+2026-09-12 06:02:28 EDT [CRAWLER] https://www.ksfcounsel.com/cases/nyse-avex/ 
+2026-09-12 06:02:28 EDT [CRAWLER] Aevex investors should contact KSF Managing Partner Lewis Kahn toll-free 
+2026-09-12 06:02:28 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:28 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:28 EDT [CRAWLER] Extracting
+2026-09-12 06:02:28 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/aevex-corp-notice-of-october-20-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876713.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:28 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/avis-budget-group-inc-notice-of-september-29-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876723.html
+2026-09-12 06:02:28 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:28 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/avis-budget-group-inc-notice-of-september-29-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876723.html
+2026-09-12 06:02:30 EDT [CRAWLER] [DEBUG] Article length: 4080
+2026-09-12 06:02:30 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:30 EDT [CRAWLER] NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- - Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Avis Budget Group, Inc. ("Avis" or the "Company") (NasdaqGS: CAR) of a class action securities lawsuit.
+2026-09-12 06:02:30 EDT [CRAWLER] CLASS DEFINITION: The lawsuit seeks to recover losses on behalf of investors who purchased or otherwise acquired Avis securities (including those who bought Avis common stock to cover a short position) between February 20, 2025 and April 21, 2026, inclusive (the "Class Period"). This action is pending in the United States District Court for the Middle District of Florida.
+2026-09-12 06:02:30 EDT [CRAWLER] Follow the link below to get more information and be contacted by a member of our team:
+2026-09-12 06:02:30 EDT [CRAWLER] https://www.ksfcounsel.com/cases/nasdaqgs-car/ 
+2026-09-12 06:02:30 EDT [CRAWLER] Avis investors should contact KSF Managing Partner Lewis Kahn toll-free at 1-833-538-3666 or via email ([email&#160;protected]), or visit https://www.ksfcounsel.com/cases/nasdaqgs-car/ to learn more.
+2026-09-12 06:02:30 EDT [CRAWLER] >>>CLICK 
+2026-09-12 06:02:30 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:30 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:30 EDT [CRAWLER] Extracting
+2026-09-12 06:02:30 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/avis-budget-group-inc-notice-of-september-29-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876723.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:30 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/crypto/articles/172-old-bank-sees-400-173349444.html
+2026-09-12 06:02:30 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/cogent-communications-holdings-securities-fraud-class-action-result-of-undisclosed-demand-and-backlog-issues-and-approximately-29-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876739.html
+2026-09-12 06:02:30 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:30 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/cogent-communications-holdings-securities-fraud-class-action-result-of-undisclosed-demand-and-backlog-issues-and-approximately-29-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876739.html
+2026-09-12 06:02:30 EDT [CRAWLER] [DEBUG] Article length: 4047
+2026-09-12 06:02:30 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:30 EDT [CRAWLER] NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- - Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until September 21, 2026 to file lead plaintiff applications in a securities class action lawsuit against Cogent Communications Holdings, Inc. ("Cogent" or the "Company") (NasdaqGS: CCOI), if they purchased the Company's shares between February 29, 2024 and May 1, 2026, inclusive (the "Class Period").  This action is pending in the United States District Court for the District of Columbia.
+2026-09-12 06:02:30 EDT [CRAWLER] What You May Do
+2026-09-12 06:02:30 EDT [CRAWLER] If you purchased shares of Cogent as above and would like to discuss your legal rights and how this case might affect you and your right to recover for your economic loss, you may, without obligation or cost to you, contact KSF Managing Partner Lewis Kahn toll-free at 1-833-538-3666 or via email ([email&#160;protected]), or visit https://www.ksfcounsel.com/cases/nasdaqgs-ccoi/ t
+2026-09-12 06:02:30 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:30 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:30 EDT [CRAWLER] Extracting
+2026-09-12 06:02:30 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/cogent-communications-holdings-securities-fraud-class-action-result-of-undisclosed-demand-and-backlog-issues-and-approximately-29-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302876739.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:30 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/forward-air-fwrd-record-revenue-060806134.html
+2026-09-12 06:02:30 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:30 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/crypto/articles/172-old-bank-sees-400-173349444.html
+2026-09-12 06:02:30 EDT [CRAWLER] [DEBUG] Article length: 5477
+2026-09-12 06:02:30 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:30 EDT [CRAWLER]     
+2026-09-12 06:02:30 EDT [CRAWLER]         
+2026-09-12 06:02:30 EDT [CRAWLER]         
+2026-09-12 06:02:30 EDT [CRAWLER]          
+2026-09-12 06:02:30 EDT [CRAWLER] 	
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:30 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		
+2026-09-12 06:02:31 EDT [CRAWLER] 		172-year-old bank sees 400% upside for 'federal bank' token  
+2026-09-12 06:02:31 EDT [CRAWLER]     
+2026-09-12 06:02:31 EDT [CRAWLER]     
+2026-09-12 06:02:31 EDT [CRAWLER]         
+2026-09-12 06:02:31 EDT [CRAWLER]                Oops, something went wrong                    Skip to navigation   Skip to main content   Skip to right column                                   172-year-old bank sees 400% upside for 'federal bank' token      
+2026-09-12 06:02:31 EDT [CRAWLER] [TICKER MATCH] ADBE,COIN,SKY,TGT
+2026-09-12 06:02:31 EDT [CRAWLER] [DISPATCH] Sent ADBE,COIN,SKY,TGT -> AI Server
+2026-09-12 06:02:31 EDT [CRAWLER] Extracting
+2026-09-12 06:02:31 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/crypto/articles/172-old-bank-sees-400-173349444.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:31 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-notice-of-september-28-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876715.html
+2026-09-12 06:02:31 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:31 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-notice-of-september-28-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876715.html
+2026-09-12 06:02:31 EDT [CRAWLER] [DEBUG] Article length: 4181
+2026-09-12 06:02:31 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:31 EDT [CRAWLER] NEW YORK and NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. ("Capricor" or the "Company") (NasdaqGS: CAPR) of a class action securities lawsuit.
+2026-09-12 06:02:31 EDT [CRAWLER] CLASS DEFINITION: The lawsuit seeks to recover losses on behalf of investors who purchased or otherwise acquired Capricor securities between December 17, 2025 and July 26, 2026, inclusive (the "Class Period"). This action is pending in the United States District Court for the Southern District of California.
+2026-09-12 06:02:31 EDT [CRAWLER] Follow the link below to get more information and be contacted by a member of our team:
+2026-09-12 06:02:31 EDT [CRAWLER] https://www.ksfcounsel.com/cases/nasdaqgs-capr/ 
+2026-09-12 06:02:31 EDT [CRAWLER] Capricor investors should contact KSF Managing Partner Lewis Kahn toll-free at 1-833-538-3666 or via email ([email&#160;protected]), or visit https://www.ksfcounsel.com/cases/nasdaqgs-capr/ to learn more.
+2026-09-12 06:02:31 EDT [CRAWLER] >>>CLICK HERE for more information
+2026-09-12 06:02:31 EDT [CRAWLER] CASE DETAILS:
+2026-09-12 06:02:31 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:31 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:31 EDT [CRAWLER] Extracting
+2026-09-12 06:02:31 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-notice-of-september-28-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876715.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:31 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/solid-power-sldp-widening-losses-060054096.html
+2026-09-12 06:02:31 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:31 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/news/worry-gift-tax-pay-30-122213443.html
+2026-09-12 06:02:31 EDT [CRAWLER] [DEBUG] Article length: 6850
+2026-09-12 06:02:31 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:31 EDT [CRAWLER] SmartAsset and Yahoo Finance LLC may earn commission or revenue through links in the content below.  
+2026-09-12 06:02:31 EDT [CRAWLER] Imagine your child is getting married and you want to help pay for their wedding. You've been saving for years and now have $30,000 set aside for their big day, which you plan to hand over in the form of a check.  
+2026-09-12 06:02:31 EDT [CRAWLER] However, before you pass along that much cash, it's important to understand the potential tax implications of making a $30,000 gift. A gift that size could require you to pay the federal gift tax, which can reach up to 40%. The good news is you may avoid paying gift taxes altogether, but there are reporting requirements and other limitations to keep in mind. Consult a financial advisor to minimize your gift tax obligations.  
+2026-09-12 06:02:32 EDT [AI SERVER] [AI SERVER] Listening on 127.0.0.1:58888
+2026-09-12 06:02:32 EDT [AI SERVER] [AI SERVER] Logging to trading_signals.csv
+2026-09-12 06:02:32 EDT [AI SERVER] [AI SERVER] Broker: PAPER paper-api.alpaca.markets
+2026-09-12 06:02:32 EDT [BROKER TRADE] [AI SERVER] Order log: orders.log
+2026-09-12 06:02:32 EDT [BROKER TRADE] [AI SERVER] Per-order cap: 5% of equity | portfolio cap: 25%
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 3 ticker(s) for article (5634 chars): AAPL,MSFT,TGT
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (2526 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (2035 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (6021 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 7 ticker(s) for article (12274 chars): BAC,BCS,CVX,GS,JPM,TGT,UBS
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3029 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 2 ticker(s) for article (2152 chars): NVDA,TGT
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (1421 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 7 ticker(s) for article (3798 chars): ADBE,CRM,CSCO,INTU,META,NOW,ORCL
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 6 ticker(s) for article (9210 chars): AAPL,CRWD,INTC,MSFT,MU,NVDA
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (6656 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (4359 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (2356 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (5162 chars): BMY
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 8 ticker(s) for article (4363 chars): AAPL,AVGO,BA,BCS,CRM,MS,PANW,TGT
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3541 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (1370 chars): WMT
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3785 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 2 ticker(s) for article (1902 chars): AMD,GOOGL
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3442 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (2268 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3179 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (2841 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (9842 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (5006 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (1879 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (5859 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 4 ticker(s) for article (9872 chars): META,NFLX,SHOP,XYZ
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3188 chars): META
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (4198 chars): XYZ
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3300 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3694 chars): META
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3784 chars): META
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3849 chars): META
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (4080 chars): META
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (4047 chars): META
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 4 ticker(s) for article (5477 chars): ADBE,COIN,SKY,TGT
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (4181 chars): META
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (6850 chars): MACRO
+2026-09-12 06:02:32 EDT [AI SERVER] [RESULT] 2026-09-12 10:02:31.291841242 | MACRO -> BULLISH
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (3441 chars): META
+2026-09-12 06:02:32 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (4482 chars): GOOGL
+2026-09-12 06:02:32 EDT [BROKER TRADE] [BROKER] getLatestPrice(MACRO) failed (http 404): {"message":"no bar found for MACRO"}
+2026-09-12 06:02:32 EDT [CRAWLER] The federal gift tax applies when you transfer money or property to someone else without receiving something of equal value in return. Gift tax rates range from 18% to 40% based on the size of the gift.  
+2026-09-12 06:02:32 EDT [CRAWLER] However, not all gifts trigger this federal tax.
+2026-09-12 06:02:32 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:32 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:32 EDT [CRAWLER] Extracting
+2026-09-12 06:02:32 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/news/worry-gift-tax-pay-30-122213443.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:32 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/wixcom-ltd-notice-of-september-22-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876754.html
+2026-09-12 06:02:32 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:32 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/wixcom-ltd-notice-of-september-22-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876754.html
+2026-09-12 06:02:32 EDT [CRAWLER] [DEBUG] Article length: 3441
+2026-09-12 06:02:32 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:32 EDT [CRAWLER] NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- - Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Wix.com Ltd. ("Wix" or the "Company") (NasdaqGS: WIX) of a class action securities lawsuit.
+2026-09-12 06:02:32 EDT [CRAWLER] CLASS DEFINITION: The lawsuit seeks to recover losses on behalf of investors who purchased or otherwise acquired Wix securities between February 19, 2025 and May 12, 2026, inclusive (the "Class Period"). This action is pending in the United States District Court for the Northern District of Illinois.
+2026-09-12 06:02:32 EDT [CRAWLER] Follow the link below to get more information and be contacted by a member of our team:
+2026-09-12 06:02:32 EDT [CRAWLER] https://www.ksfcounsel.com/cases/nasdaqgs-wix/ 
+2026-09-12 06:02:32 EDT [CRAWLER] Wix investors should contact KSF Managing Partner Lewis Kahn toll-free at 1-833-538-3666 or via email ([email&#160;protected]), or visit https://www.ksfcounsel.com/cases/nasdaqgs-wix/ to learn more.
+2026-09-12 06:02:32 EDT [CRAWLER] >>>CLICK HERE for more information
+2026-09-12 06:02:32 EDT [CRAWLER] CASE DETAILS: According to the Complaint, Wix and certain of
+2026-09-12 06:02:32 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:32 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:32 EDT [CRAWLER] Extracting
+2026-09-12 06:02:32 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/wixcom-ltd-notice-of-september-22-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876754.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:32 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/prediction-morningstar-morn-stock-worth-083500759.html
+2026-09-12 06:02:32 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:32 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/forward-air-fwrd-record-revenue-060806134.html
+2026-09-12 06:02:32 EDT [CRAWLER] [DEBUG] Article length: 4482
+2026-09-12 06:02:32 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:32 EDT [CRAWLER] On August 5, Forward Air (NASDAQ:FWRD) reported the highest quarterly operating revenue in company history, and then immediately buried that headline under a $244 million non-cash charge. The freight and logistics company posted $673 million in second quarter revenue, up 8.8% from $619 million a year earlier. But a goodwill impairment tied to its Omni Logistics segment pushed the company to a $201 million operating loss, turning what should have been a clean win into a far more complicated quarter.  
+2026-09-12 06:02:32 EDT [CRAWLER] Strip out the impairment and the underlying business looks considerably stronger than the headline loss suggests. Adjusted operating income, which excludes the goodwill charge, came in at $42.7 million, more than double the $19.5 million Forward Air reported in the second quarter of 2025. Consolidated EBITDA climbed to $93 million, a $14 million improvement year over year, and on a trailing twelve-month basis it reached $319 million.  
+2026-09-12 06:02:32 EDT [CRAWLER] The gains were not concentrated in one place. The Expe
+2026-09-12 06:02:32 EDT [CRAWLER] [TICKER MATCH] GOOGL
+2026-09-12 06:02:32 EDT [CRAWLER] [DISPATCH] Sent GOOGL -> AI Server
+2026-09-12 06:02:32 EDT [CRAWLER] Extracting
+2026-09-12 06:02:32 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/forward-air-fwrd-record-revenue-060806134.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:32 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/york-space-systems-inc-notice-of-october-30-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876747.html
+2026-09-12 06:02:33 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/solid-power-sldp-widening-losses-060054096.html
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] Article length: 4521
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:33 EDT [CRAWLER] On August 4, Solid Power (NASDAQ:SLDP) reported second quarter and first half 2026 results that showed a net loss of $23.8 million alongside $419.3 million in total liquidity. The solid-state battery developer is burning cash every quarter while sitting on one of the healthier balance sheets among pre-revenue battery makers. That gap between spending and cushion is the tension running through the entire release.  
+2026-09-12 06:02:33 EDT [CRAWLER] Solid Power spent the quarter deepening the relationships that are supposed to eventually turn its technology into a business. Under its Joint Evaluation Agreement with Samsung SDI and BMW, the company reported improved electrolyte performance, a technical milestone that feeds directly into whether automakers eventually license the material. Separately, Solid Power said it advanced talks with unnamed industry partners about a joint venture for commercial-scale electrolyte production in South Korea, a step toward manufacturing rather than lab work.  
+2026-09-12 06:02:33 EDT [CRAWLER] On the operational side, t
+2026-09-12 06:02:33 EDT [CRAWLER] [TICKER MATCH] GOOGL
+2026-09-12 06:02:33 EDT [CRAWLER] [DISPATCH] Sent GOOGL -> AI Server
+2026-09-12 06:02:33 EDT [CRAWLER] Extracting
+2026-09-12 06:02:33 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/solid-power-sldp-widening-losses-060054096.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:33 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/commodities/articles/st-barbara-divest-simberi-gold-082749718.html
+2026-09-12 06:02:33 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/york-space-systems-inc-notice-of-october-30-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876747.html
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] Article length: 3863
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:33 EDT [CRAWLER] NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in York Space Systems, Inc. ("York Space Systems" or the "Company") (NYSE: YSS) of a class action securities lawsuit.
+2026-09-12 06:02:33 EDT [CRAWLER] CLASS DEFINITION: The lawsuit seeks to recover losses on behalf of investors who purchased or otherwise acquired (a) York Space Systems common stock pursuant and/or traceable to the registration statement and prospectus (collectively, the "Registration Statement") issued in connection with the Company's January 2026 initial public offering ("IPO" or the "Offering"); and/or (b) securities between January 29, 2026 and May 11, 2026, inclusive (the "Class Period"). This action is pending in the United States District Court for the District of Colorado.
+2026-09-12 06:02:33 EDT [CRAWLER] Follow the link below to get more information and be contacted by a member of our team:
+2026-09-12 06:02:33 EDT [CRAWLER] https://www.ksfcounsel.com/cases/nyse-yss/
+2026-09-12 06:02:33 EDT [CRAWLER] York Space Systems invest
+2026-09-12 06:02:33 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:33 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:33 EDT [CRAWLER] Extracting
+2026-09-12 06:02:33 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/york-space-systems-inc-notice-of-october-30-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876747.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:33 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/equipmentsharecom-inc-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876740.html
+2026-09-12 06:02:33 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/equipmentsharecom-inc-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876740.html
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] Article length: 3901
+2026-09-12 06:02:33 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:35 EDT [CRAWLER] NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC ("KSF") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. ("EquipmentShare" or the "Company") (NasdaqGS: EQPT) of a class action securities lawsuit.
+2026-09-12 06:02:35 EDT [CRAWLER] CLASS DEFINITION: The lawsuit seeks to recover losses on behalf of investors who purchased or otherwise acquired EquipmentShare.com, Inc.: (a) Class A common stock pursuant and/or traceable to the registration statement and prospectus (collectively, the "Registration Statement") issued in connection with the Company's January, 2026, initial public offering ("IPO" or the "Offering"), and/or (b) EquipmentShare securities between January 23, 2026 and June 23, 2026, inclusive (the "Class Period"). This action is pending in the United States District Court for the Southern District of New York.
+2026-09-12 06:02:35 EDT [CRAWLER] Follow the link below to get more information and be contacted by a member of our team:
+2026-09-12 06:02:35 EDT [CRAWLER] https://www.ksfcounsel.com
+2026-09-12 06:02:35 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 06:02:35 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 06:02:35 EDT [CRAWLER] Extracting
+2026-09-12 06:02:35 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/equipmentsharecom-inc-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876740.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:35 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:35 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/prediction-morningstar-morn-stock-worth-083500759.html
+2026-09-12 06:02:35 EDT [CRAWLER] [DEBUG] Article length: 4613
+2026-09-12 06:02:35 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:35 EDT [CRAWLER] Morningstar (NASDAQ: MORN) is a stock that hasn't been on my radar very much, but perhaps it should be -- because it seems undervalued, and it's growing. It recently sported a market value of $7.5 billion, and I think it could be worth $13.2 billion within five years. Permit me to show you why, via a little math.  
+2026-09-12 06:02:35 EDT [CRAWLER] Like The Motley Fool, Morningstar offers data, information, and insights on gobs of companies and funds -- for individual investors as well as financial professionals. It also boasts about $375 billion in clients' assets under management, as of midyear.  
+2026-09-12 06:02:35 EDT [CRAWLER] Missed Nvidia in 2009? This Rare Signal Is Flashing Again. In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia. For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia. Continue »  
+2026-09-12 06:02:35 EDT [CRAWLER] There's plenty to like about Morningstar -- such as its ongoing growth. Its net income in 2020 was $223.6 million, and that has risen to $421.6 million
+2026-09-12 06:02:35 EDT [CRAWLER] [TICKER MATCH] NFLX,NVDA
+2026-09-12 06:02:35 EDT [CRAWLER] [DISPATCH] Sent NFLX,NVDA -> AI Server
+2026-09-12 06:02:35 EDT [CRAWLER] Extracting
+2026-09-12 06:02:35 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/prediction-morningstar-morn-stock-worth-083500759.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:35 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 06:02:35 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/commodities/articles/st-barbara-divest-simberi-gold-082749718.html
+2026-09-12 06:02:35 EDT [CRAWLER] [DEBUG] Article length: 2749
+2026-09-12 06:02:35 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 06:02:35 EDT [CRAWLER] St Barbara has entered into a binding agreement to divest its remaining stake in the New Simberi Gold Project to Lingbao Gold Group for A$410m in cash.  
+2026-09-12 06:02:35 EDT [CRAWLER] In addition to the cash consideration, St Barbara will receive a further A$43m cash repayment for its share of construction capital for New Simberi between April 2026 and the agreement signing.  
+2026-09-12 06:02:35 EDT [CRAWLER] Lingbao will also cover St Barbara's share of capital requirements for New Simberi from the signing of the agreement until completion.  
+2026-09-12 06:02:35 EDT [CRAWLER] If the deal does not complete due to certain conditions not being satisfied by Lingbao, this funding becomes a loan repayable by St Barbara.  
+2026-09-12 06:02:35 EDT [CRAWLER] Upon completion, St Barbara will retain a 2.75% net smelter return (NSR) royalty on future gold and silver production from New Simberi, as well as a 1.5% royalty on any future minerals output from the Tabar Islands Group exploration licences.  
+2026-09-12 06:02:35 EDT [CRAWLER] Both royalty payments are due to begin from 1 July 2027, with Lingbao providing a parent company guarantee.  
+2026-09-12 06:02:35 EDT [CRAWLER] The deal is sch
+2026-09-12 06:02:35 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 06:02:35 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 06:02:35 EDT [CRAWLER] Extracting
+2026-09-12 06:02:35 EDT [CRAWLER] [STATE] Saved 193 URLs to history.txt (save #1)
+2026-09-12 06:02:35 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/commodities/articles/st-barbara-divest-simberi-gold-082749718.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 06:02:35 EDT [CRAWLER] [CRAWLER MILESTONE] Queue fully drained. All 8 workers idle. Visited URLs saved to history.txt (193 URLs).
+2026-09-12 06:02:35 EDT [CRAWLER] [STATE] Saved 193 URLs to history.txt (save #2)
+2026-09-12 06:02:35 EDT [CRAWLER] [SYSTEM] Crawler stopped. 193 URLs persisted to history.txt
+2026-09-12 06:02:35 EDT [CRAWLER] [SYSTEM] Exited cleanly.
+2026-09-12 06:02:35 EDT [ORCHESTRATOR] crawler exited with code 0
+2026-09-12 06:02:35 EDT [ORCHESTRATOR] Sending SIGTERM to AI server (pid=1588704)
+2026-09-12 06:02:35 EDT [ORCHESTRATOR] AI server exited with code -15
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] Articles scraped : 46
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] AI batches       : 41
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] Signals generated: 1
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] history.txt      : 21,665 bytes
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 06:02:37 EDT [ORCHESTRATOR] Session complete (exit=0)

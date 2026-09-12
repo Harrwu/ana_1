@@ -18,11 +18,46 @@ add_executable(main_client
     src/http/text_parser/xml_parser.cpp
     src/http/text_parser/rss_parser.cpp
     src/crawler/profile.h
+    src/crawler/cashtag_extractor.cpp
+    src/crawler/state_manager.cpp
 )
 
-add_executable(aiserv 
+add_executable(aiserv
     src/ai_engine/ai_server.cpp
+    src/trading/broker_api.cpp
+    src/network/tcp_socket.cpp
+    src/network/tls_socket.cpp
+    src/http/builder.cpp
 )
+
+target_include_directories(aiserv PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/network
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/http
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/trading
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(aiserv PRIVATE OpenSSL::SSL OpenSSL::Crypto)
+
+# Broker client. Kept as a separate target so the crawler and the trade
+# executor can be run (and killed) independently -- a crash in order
+# handling should never take the data pipeline down with it.
+add_executable(brokercli
+    src/trading/broker_cli.cpp
+    src/trading/broker_api.cpp
+    src/network/tcp_socket.cpp
+    src/network/tls_socket.cpp
+    src/http/builder.cpp
+)
+
+target_include_directories(brokercli PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/network
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/http
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/trading
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+target_link_libraries(brokercli PRIVATE OpenSSL::SSL OpenSSL::Crypto)
 
 target_include_directories(main_client PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/network

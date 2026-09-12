@@ -1,0 +1,251 @@
+# company name,ticker
+# Loaded at runtime by cashtag_extractor.cpp -- edit this file to add/remove
+# companies without recompiling. Lines starting with # are ignored.
+#
+# CAUTION: a few entries below are common English words ("square", "target")
+# and will false-positive on ordinary usage (e.g. "town square", "on target").
+# Consider removing or tightening these if you see noisy matches for XYZ/TGT.
+apple,AAPL
+apple inc,AAPL
+microsoft,MSFT
+microsoft corporation,MSFT
+nvidia,NVDA
+nvidia corporation,NVDA
+amazon,AMZN
+amazon.com,AMZN
+amazon web services,AMZN
+alphabet,GOOGL
+google,GOOGL
+meta platforms,META
+facebook,META
+instagram,META
+whatsapp,META
+tesla,TSLA
+tesla motors,TSLA
+netflix,NFLX
+advanced micro devices,AMD
+amd,AMD
+intel,INTC
+intel corporation,INTC
+broadcom,AVGO
+broadcom inc,AVGO
+qualcomm,QCOM
+micron,MU
+micron technology,MU
+arm holdings,ARM
+marvell technology,MRVL
+applied materials,AMAT
+lam research,LRCX
+kla corporation,KLAC
+texas instruments,TXN
+analog devices,ADI
+asml holding,ASML
+asml,ASML
+taiwan semiconductor,TSM
+taiwan semiconductor manufacturing,TSM
+tsmc,TSM
+oracle,ORCL
+salesforce,CRM
+palantir,PLTR
+palantir technologies,PLTR
+cisco systems,CSCO
+cisco,CSCO
+adobe,ADBE
+servicenow,NOW
+accenture,ACN
+intuit,INTU
+snowflake,SNOW
+crowdstrike,CRWD
+crowdstrike holdings,CRWD
+palo alto networks,PANW
+fortinet,FTNT
+cloudflare,NET
+datadog,DDOG
+mongodb,MDB
+atlassian,TEAM
+workday,WDAY
+hubspot,HUBS
+zoom video,ZM
+docusign,DOCU
+twilio,TWLO
+okta,OKTA
+zscaler,ZS
+gitlab,GTLB
+applovin,APP
+jpmorgan,JPM
+jpmorgan chase,JPM
+bank of america,BAC
+wells fargo,WFC
+goldman sachs,GS
+morgan stanley,MS
+citigroup,C
+citi,C
+blackrock,BLK
+blackstone,BX
+charles schwab,SCHW
+schwab,SCHW
+american express,AXP
+amex,AXP
+coinbase,COIN
+robinhood,HOOD
+robinhood markets,HOOD
+sofi technologies,SOFI
+affirm,AFRM
+block inc,XYZ
+square,XYZ
+eli lilly,LLY
+lilly,LLY
+johnson & johnson,JNJ
+johnson and johnson,JNJ
+unitedhealth,UNH
+unitedhealth group,UNH
+merck,MRK
+merck & co,MRK
+pfizer,PFE
+abbvie,ABBV
+amgen,AMGN
+moderna,MRNA
+gilead sciences,GILD
+bristol myers squibb,BMY
+thermo fisher scientific,TMO
+thermo fisher,TMO
+danaher,DHR
+cvs health,CVS
+novo nordisk,NVO
+astrazeneca,AZN
+novartis,NVS
+sanofi,SNY
+glaxosmithkline,GSK
+walmart,WMT
+costco,COST
+costco wholesale,COST
+target,TGT
+home depot,HD
+lowe's,LOW
+lowes,LOW
+nike,NKE
+starbucks,SBUX
+mcdonald's,MCD
+mcdonalds,MCD
+coca-cola,KO
+coca cola,KO
+pepsico,PEP
+pepsi,PEP
+procter & gamble,PG
+procter and gamble,PG
+chipotle,CMG
+chipotle mexican grill,CMG
+domino's,DPZ
+dominos,DPZ
+lululemon,LULU
+tjx companies,TJX
+ross stores,ROST
+dollar general,DG
+dollar tree,DLTR
+best buy,BBY
+ford motor,F
+ford motor company,F
+general motors,GM
+toyota motor,TM
+toyota,TM
+ferrari,RACE
+rivian automotive,RIVN
+rivian,RIVN
+lucid motors,LCID
+lucid group,LCID
+carvana,CVNA
+autozone,AZO
+o'reilly automotive,ORLY
+boeing,BA
+lockheed martin,LMT
+raytheon,RTX
+raytheon technologies,RTX
+northrop grumman,NOC
+general dynamics,GD
+kratos defense,KTOS
+exxon mobil,XOM
+exxon,XOM
+chevron,CVX
+conocophillips,COP
+occidental petroleum,OXY
+marathon petroleum,MPC
+schlumberger,SLB
+eog resources,EOG
+nextera energy,NEE
+duke energy,DUK
+vistra,VST
+at&t,T
+at&t inc,T
+verizon,VZ
+t-mobile,TMUS
+tmobile,TMUS
+comcast,CMCSA
+disney,DIS
+walt disney,DIS
+warner bros discovery,WBD
+warner bros. discovery,WBD
+spotify,SPOT
+reddit,RDDT
+pinterest,PINS
+snapchat,SNAP
+shopify,SHOP
+ebay,EBAY
+etsy,ETSY
+mercadolibre,MELI
+mercado libre,MELI
+uber technologies,UBER
+uber,UBER
+airbnb,ABNB
+doordash,DASH
+booking holdings,BKNG
+booking.com,BKNG
+expedia,EXPE
+electronic arts,EA
+take-two interactive,TTWO
+take two,TTWO
+roblox,RBLX
+unity software,U
+gamestop,GME
+draftkings,DKNG
+flutter entertainment,FLUT
+amc entertainment,AMC
+caterpillar,CAT
+john deere,DE
+deere,DE
+honeywell,HON
+general electric,GE
+ge aerospace,GE
+3m company,MMM
+union pacific,UNP
+united parcel service,UPS
+fedex,FDX
+waste management,WM
+american tower,AMT
+crown castle,CCI
+prologis,PLD
+realty income,O
+simon property group,SPG
+alibaba,BABA
+baidu,BIDU
+jd.com,JD
+pdd holdings,PDD
+tencent,TCEHY
+li auto,LI
+xpeng,XPEV
+byd company,BYDDY
+sea limited,SE
+grab,GRAB
+nu holdings,NU
+sony,SONY
+nintendo,NTDOY
+nokia,NOK
+ericsson,ERIC
+hsbc,HSBC
+ubs,UBS
+barclays,BCS
+deutsche bank,DB
+rio tinto,RIO
+bhp,BHP
+vale,VALE
+shell,SHEL
+totalenergies,TTE
