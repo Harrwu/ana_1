@@ -381,7 +381,7 @@ void process_sentiment(int client_sock) {
               << article_text.length() << " chars): " << ticker_field << "\n";
 
     const std::string model_output = query_ollama(ticker_field, article_text);
-    const std::vector<TickerScore> scores = parseTickerScores(model_output, tickers);
+    std::vector<TickerScore> scores = parseTickerScores(model_output, tickers);
 
     const std::string timestamp = nowStamp();
 
@@ -418,9 +418,14 @@ void process_sentiment(int client_sock) {
     int bearish = 0;
     int neutral = 0;
 
-    for (const auto& s : scores) {
-        if (s.sentiment == "BEARISH") { ++bearish; continue; }
-        if (s.sentiment == "NEUTRAL") { ++neutral; continue; }
+    for (auto& s : scores) {
+        if (s.sentiment == "BEARISH") { bearish ++; continue; }
+        if (s.sentiment == "NEUTRAL") { neutral ++; continue; }
+        if (s.ticker == "MACRP") continue;
+
+        if (s.ticker == "BTC" || s.ticker == "ETH" || s.ticker == "SOL" || s.ticker == "DOGE") {
+            s.ticker += "/USD";
+        }
 
         // --- BULLISH ---
 
@@ -565,6 +570,24 @@ int main() {
             // decision.
             broker = std::make_unique<AlpacaBroker>(
                 key_id, secret, "paper-api.alpaca.markets", /*paper=*/true);
+        }else {
+            std::cout << "\n";
+            std::cout << "[AI SERVER] Notice APCA_API_KEY_ID | APCA_API_SECRET_KEY Not found in Enviroment\n";
+            std::cout << "[AI SERVER] Procced [y/n]: ";
+            std::string usrIn; std::getline(std::cin, usrIn);
+            {
+                std::string passIn;
+                for (char &c: usrIn){
+                    c = static_cast<char>(std::tolower(static_cast<unsigned char>(c)));
+                    passIn += c;
+                }
+                usrIn = passIn;
+            }
+
+            if (usrIn == "yes" || usrIn == "y"){
+                std::cout << "[AI SERVER] Exiting On User Command\n";
+                close(server_fd); return 0;
+            }else std::cout << "[AI SERVER] Continuing\n";
         }
     }
 
@@ -577,9 +600,6 @@ int main() {
         std::cout << "[AI SERVER] Per-order cap: 5% of equity | "
                      "portfolio cap: " << static_cast<int>(kMaxPortfolioFraction * 100)
                   << "%\n";
-    } else {
-        std::cout << "[AI SERVER] Broker: DISABLED (set APCA_API_KEY_ID / "
-                     "APCA_API_SECRET_KEY to enable trading)\n";
     }
     std::cout << "\n";
 

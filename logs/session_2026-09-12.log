@@ -969,3 +969,1966 @@
 2026-09-12 06:02:37 EDT [ORCHESTRATOR] history.txt      : 21,665 bytes
 2026-09-12 06:02:37 EDT [ORCHESTRATOR] =====================================================
 2026-09-12 06:02:37 EDT [ORCHESTRATOR] Session complete (exit=0)
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Mode: ALPACA PAPER
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] FATAL: Missing required environment variable(s): APCA_API_KEY_ID, APCA_API_SECRET_KEY. Export your Alpaca PAPER credentials before starting.
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Could not read final Alpaca equity: Alpaca credentials are not available
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Articles scraped : 0
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Signals generated: 0
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Final equity     : unavailable
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] history.txt      : 21,665 bytes
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 07:40:54 EDT [ORCHESTRATOR] Session complete (exit=1)
+2026-09-12 07:47:20 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 07:47:20 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 07:47:20 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 07:47:20 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 07:47:20 EDT [ORCHESTRATOR] Mode: ALPACA PAPER
+2026-09-12 07:47:21 EDT [ORCHESTRATOR] FATAL: Ollama is not listening on 127.0.0.1:11434 and the 'ollama' executable was not found in PATH.
+2026-09-12 07:47:21 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] Articles scraped : 0
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] Signals generated: 0
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] history.txt      : 21,665 bytes
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 07:47:22 EDT [ORCHESTRATOR] Session complete (exit=1)
+2026-09-12 08:01:00 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:01:00 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 08:01:00 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 08:01:00 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 08:01:00 EDT [ORCHESTRATOR] Mode: ALPACA PAPER
+2026-09-12 08:01:00 EDT [ORCHESTRATOR] Ollama is already listening on 127.0.0.1:11434
+2026-09-12 08:01:00 EDT [ORCHESTRATOR] FATAL: Ollama is running, but model 'llama3.1' is not installed. Installed models: llama3, llama3:latest
+2026-09-12 08:01:00 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] Articles scraped : 0
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] Signals generated: 0
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] history.txt      : 21,665 bytes
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:01:01 EDT [ORCHESTRATOR] Session complete (exit=1)
+2026-09-12 08:17:33 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:17:33 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 08:17:33 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 08:17:33 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 08:17:33 EDT [ORCHESTRATOR] Mode: ALPACA PAPER
+2026-09-12 08:17:33 EDT [ORCHESTRATOR] Ollama is already listening on 127.0.0.1:11434
+2026-09-12 08:17:33 EDT [ORCHESTRATOR] Ollama model 'llama3.1' is installed
+2026-09-12 08:17:33 EDT [ORCHESTRATOR] C++ binaries ready: AI=build/aiserv, CRAWLER=build/main_client
+2026-09-12 08:17:34 EDT [ORCHESTRATOR] Alpaca clock: is_open=False, next_open=9:30 AM EDT, next_close=4:00 PM EDT
+2026-09-12 08:17:44 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] Articles scraped : 0
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] Signals generated: 0
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] history.txt      : 21,665 bytes
+2026-09-12 08:17:45 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Mode: ALPACA PAPER [CRYPTO 24/7]
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Ollama is already listening on 127.0.0.1:11434
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Ollama model 'llama3.1' is installed
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] C++ binaries ready: AI=build/aiserv, CRAWLER=build/main_client
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] --crypto supplied: bypassing US market clock and running 24/7
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] NOTE: crypto orders carry no broker-side bracket; stops are software-managed via stop_limit
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Phase AI mode: ACTIVE BROKER ROUTING
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/aiserv
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] AI server is listening on 127.0.0.1:58888
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/main_client
+2026-09-12 08:17:54 EDT [ORCHESTRATOR] Crawler started (pid=31754)
+2026-09-12 08:17:56 EDT [CRAWLER] [STATE] Loaded 193 URLs from history.txt
+2026-09-12 08:17:56 EDT [CRAWLER] Starting Trading Crawler Engine...
+2026-09-12 08:17:56 EDT [CRAWLER] [SYSTEM] Press Ctrl-C for a clean shutdown (history will be flushed).
+2026-09-12 08:17:56 EDT [CRAWLER] [SYSTEM] Trading Crawler Engine Started with 8 workers.
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/news/rss
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/rss/news-releases-list.rss
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER] Visiting: https://www.cnbc.com/id/100003114/device/rss/rss.html
+2026-09-12 08:17:56 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/rss/news-releases-list.rss | Extracted Links: 20 | Dispatched to AI: NO
+2026-09-12 08:17:56 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.cnbc.com/id/100003114/device/rss/rss.html | Extracted Links: 30 | Dispatched to AI: NO
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/quantinuum-participera-a-la-5e-edition-de-la-conference--growth-frontiers--organisee-par-piper-sandler-302876849.html
+2026-09-12 08:17:56 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/news/rss | Extracted Links: 16 | Dispatched to AI: NO
+2026-09-12 08:17:56 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:17:56 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/quantinuum-participera-a-la-5e-edition-de-la-conference--growth-frontiers--organisee-par-piper-sandler-302876849.html
+2026-09-12 08:17:56 EDT [CRAWLER] [DEBUG] Article length: 2425
+2026-09-12 08:17:56 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:17:56 EDT [CRAWLER] BROOMFIELD, Colorado, 12 septembre 2026 /PRNewswire/ -- Quantinuum Inc. (Nasdaq : QNT) (ci-après dénommée « la Société »), une entreprise de premier plan dans le domaine de l'informatique quantique, a annoncé aujourd'hui que des membres de son équipe de direction participeront à la 5e édition de la conférence annuelle « Growth Frontiers » organisée par Piper Sandler, qui se tiendra du 14 au 16 septembre 2026 à Nashville, dans le Tennessee.
+2026-09-12 08:17:56 EDT [CRAWLER] Quantinuum participera à une discussion informelle et organisera des entretiens individuels avec des investisseurs pendant la conférence.
+2026-09-12 08:17:56 EDT [CRAWLER] À propos de Quantinuum
+2026-09-12 08:17:56 EDT [CRAWLER] Quantinuum est une société d'informatique quantique de premier plan qui propose une plateforme complète conçue pour permettre le déploiement de l'informatique quantique dans des environnements réels. L'entreprise a commercialisé plusieurs générations de systèmes quantiques à ions piégés, basés sur l'architecture QCCD bien établie, qu'elle a mis en œuvre avec
+2026-09-12 08:17:56 EDT [CRAWLER] [CASHTAGS] Loaded 249 company names from data/companies.csv
+2026-09-12 08:17:56 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:17:56 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:17:56 EDT [CRAWLER] Extracting
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/quantinuum-participera-a-la-5e-edition-de-la-conference--growth-frontiers--organisee-par-piper-sandler-302876849.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:17:56 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/oneodio-conclut-une-participation-positive-au-salon-ifa-2026-de-berlin-302872022.html
+2026-09-12 08:17:56 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:17:56 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/oneodio-conclut-une-participation-positive-au-salon-ifa-2026-de-berlin-302872022.html
+2026-09-12 08:17:56 EDT [CRAWLER] [DEBUG] Article length: 4889
+2026-09-12 08:17:56 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:17:56 EDT [CRAWLER] BERLIN,/PRNewswire/ -- OneOdio a conclu sa participation au salon IFA 2026  qui s'est déroulé du 4 au 8 septembre à Berlin. Dans le stand 217, hall 8.2, la marque d'audio professionnel a accueilli des visiteurs, des DJ, des créateurs et des professionnels du secteur pour des essais pratiques de ses produits, des performances de DJ en direct et des activités interactives.
+2026-09-12 08:17:56 EDT [CRAWLER] Les présentations de cette année ont mis en avant l'engagement de OneOdio en faveur de l'audio professionnel et d'expériences d'écoute polyvalentes, avec en vedette, le Studio Max 2 et l'A70 Gen 2.
+2026-09-12 08:17:56 EDT [CRAWLER]               
+2026-09-12 08:17:56 EDT [CRAWLER]             
+2026-09-12 08:17:56 EDT [CRAWLER] L'audio professionnel occupe le devant de la scène
+2026-09-12 08:17:56 EDT [CRAWLER] Conçu pour les DJ, les créateurs et les professionnels de l'audio, le Studio Max 2 a souligné la toute dernière approche de OneOdio en matière d'audio sans fil professionnel. Équipé de la technologie Rapid Wireless+ de troisième génération, il offre une latence ultra-faible de 9 ms et une autonomie de batterie pouvant atteindr
+2026-09-12 08:17:56 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 08:17:56 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 08:17:56 EDT [CRAWLER] Extracting
+2026-09-12 08:17:59 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/oneodio-conclut-une-participation-positive-au-salon-ifa-2026-de-berlin-302872022.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:17:59 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/oneodio-conclude-con-successo-la-sua-presentazione-allifa-2026-di-berlino-302873111.html
+2026-09-12 08:17:59 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/oneodio-conclude-con-successo-la-sua-presentazione-allifa-2026-di-berlino-302873111.html
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] Article length: 4447
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:17:59 EDT [CRAWLER] BERLINO, 12 settembre 2026 /PRNewswire/ -- OneOdio ha concluso la sua presentazione all'IFA 2026, svoltasi dal 4 all'8 settembre a Berlino. Presso lo Stand 217, Padiglione 8.2, il marchio di audio professionale ha accolto visitatori, DJ, creatori e professionisti del settore per offrire esperienze pratiche con i prodotti, esibizioni di DJ dal vivo e attività interattive.
+2026-09-12 08:17:59 EDT [CRAWLER] La presentazione di quest'anno ha messo in evidenza l'attenzione di OneOdio per l'audio professionale e le esperienze di ascolto versatili, con Studio Max 2 e A70 Gen 2 in primo piano.
+2026-09-12 08:17:59 EDT [CRAWLER]               
+2026-09-12 08:17:59 EDT [CRAWLER]             
+2026-09-12 08:17:59 EDT [CRAWLER] L'audio professionale al centro della scena
+2026-09-12 08:17:59 EDT [CRAWLER] Progettato per DJ, creatori di contenuti e professionisti dell'audio, Studio Max 2 ha presentato l'ultimo approccio di OneOdio all'audio wireless professionale. Grazie alla tecnologia Rapid Wireless+ di terza generazione, offre una latenza ultra-bassa di 9 ms e fino a 120 ore di autonomia, combinando la precisione necessaria per le performance professionali e la pr
+2026-09-12 08:17:59 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 08:17:59 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 08:17:59 EDT [CRAWLER] Extracting
+2026-09-12 08:17:59 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/oneodio-conclude-con-successo-la-sua-presentazione-allifa-2026-di-berlino-302873111.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:17:59 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/oneodio-concludes-a-successful-ifa-2026-showcase-in-berlin-302871839.html
+2026-09-12 08:17:59 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/oneodio-concludes-a-successful-ifa-2026-showcase-in-berlin-302871839.html
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] Article length: 3952
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:17:59 EDT [CRAWLER] BERLIN, Sept. 12, 2026 /PRNewswire/ -- OneOdio concluded its showcase at IFA 2026, held from September 4–8 in Berlin. At Hall 8.2, Booth 217, the professional audio brand welcomed visitors, DJs, creators, and industry professionals for hands-on product experiences, live DJ performances, and interactive activities.
+2026-09-12 08:17:59 EDT [CRAWLER] This year's showcase highlighted OneOdio's focus on professional audio and versatile listening experiences, with Studio Max 2 and A70 Gen 2 taking center stage.
+2026-09-12 08:17:59 EDT [CRAWLER]               
+2026-09-12 08:17:59 EDT [CRAWLER]             
+2026-09-12 08:17:59 EDT [CRAWLER] Professional Audio Takes Center Stage
+2026-09-12 08:17:59 EDT [CRAWLER] Designed for DJs, creators, and audio professionals, Studio Max 2 showcased OneOdio's latest approach to professional wireless audio. Powered by third-generation Rapid Wireless+ technology, it delivers 9ms ultra-low latency and up to 120 hours of battery life, combining the precision needed for professional performance and music production with greater wireless freedom.
+2026-09-12 08:17:59 EDT [CRAWLER] Alongside it, A70 Gen 2 introduced the latest evolution of OneOdio's million-unit
+2026-09-12 08:17:59 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 08:17:59 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 08:17:59 EDT [CRAWLER] Extracting
+2026-09-12 08:17:59 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/oneodio-concludes-a-successful-ifa-2026-showcase-in-berlin-302871839.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:17:59 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/news/morning-bid-hike-104500949.html
+2026-09-12 08:17:59 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/oneodio-schlieWt-seine-erfolgreiche-prasentation-auf-der-ifa-2026-in-berlin-ab-302873095.html
+2026-09-12 08:17:59 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/oneodio-schlieWt-seine-erfolgreiche-prasentation-auf-der-ifa-2026-in-berlin-ab-302873095.html
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] Article length: 4565
+2026-09-12 08:17:59 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:00 EDT [CRAWLER] BERLIN, 12. September 2026 /PRNewswire/ -- OneOdio hat seinen Auftritt auf der IFA 2026, die vom 4. bis 8. September in Berlin stattfand, abgeschlossen. In Halle 8.2, Stand 217, empfing die Marke für professionelle Audiotechnik Besucher, DJs, Kreative und Fachleute aus der Branche zu praktischen Produkterlebnissen, Live-DJ-Auftritten und interaktiven Aktivitäten.
+2026-09-12 08:18:00 EDT [CRAWLER] Die diesjährige Präsentation unterstrich den Fokus von OneOdio auf professionelles Audio und vielseitige Hörerlebnisse, wobei Studio Max 2 sowie A70 Gen 2 im Mittelpunkt standen.
+2026-09-12 08:18:00 EDT [CRAWLER]               
+2026-09-12 08:18:00 EDT [CRAWLER]             
+2026-09-12 08:18:00 EDT [CRAWLER] Professionelle Audiotechnik im Mittelpunkt
+2026-09-12 08:18:00 EDT [CRAWLER] Studio Max 2 wurde speziell für DJs, Kreative und Audio-Profis entwickelt und präsentierte OneOdio's neuesten Ansatz für professionelles drahtloses Audio. Dank der Rapid Wireless+"-Technologie der dritten Generation bietet es eine extrem niedrige Latenz von 9 ms sowie eine Akkulaufzeit von bis zu 120 Stunden und verbindet so die für professionelle Auftritte und Musikprodu
+2026-09-12 08:18:00 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 08:18:00 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 08:18:00 EDT [CRAWLER] Extracting
+2026-09-12 08:18:00 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/oneodio-schlieWt-seine-erfolgreiche-prasentation-auf-der-ifa-2026-in-berlin-ab-302873095.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:00 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-stock-vrsk-underperforming-102938166.html
+2026-09-12 08:18:00 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:00 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/news/morning-bid-hike-104500949.html
+2026-09-12 08:18:00 EDT [CRAWLER] [DEBUG] Article length: 8564
+2026-09-12 08:18:00 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:00 EDT [CRAWLER] By Anna Szymanski  
+2026-09-12 08:18:00 EDT [CRAWLER] Sept 11 (Reuters) - As summer fades, so have hopes for a quick resolution to the U.S.-Iran conflict, as tit-for-tat strikes, new threats in the Red Sea, and President Donald Trump's comments about the war lasting through November have all helped push crude prices back above $100 a barrel for the first time since July.  
+2026-09-12 08:18:00 EDT [CRAWLER] This has contributed to a new surge in global borrowing costs, with the U.S. benchmark 10-year yield now nearing 5%, as markets anxiously await today's U.S. CPI inflation report and next week's Federal Reserve meeting, where uncertainty about ‌the policy outcome is the highest in years.  
+2026-09-12 08:18:00 EDT [CRAWLER] School is definitely back in session.  
+2026-09-12 08:18:00 EDT [CRAWLER] When the summer began, Tehran and Washington had agreed on a memorandum of understanding, the Strait of Hormuz was set to reopen, and oil prices were falling rapidly.  
+2026-09-12 08:18:00 EDT [CRAWLER] Fast forward to the second week of September, and that ‌optimism is gone. The U.S. reported destroying five Iranian oil tankers on Tuesday, and Iran's Revo
+2026-09-12 08:18:00 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:00 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:00 EDT [CRAWLER] Extracting
+2026-09-12 08:18:00 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/news/morning-bid-hike-104500949.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:00 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/oneodio-concluye-con-exito-su-participacion-en-la-ifa-2026-en-berlin-302872435.html
+2026-09-12 08:18:00 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:00 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/oneodio-concluye-con-exito-su-participacion-en-la-ifa-2026-en-berlin-302872435.html
+2026-09-12 08:18:00 EDT [CRAWLER] [DEBUG] Article length: 4837
+2026-09-12 08:18:00 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:00 EDT [CRAWLER] BERLÍN, 12 de septiembre de 2026  /PRNewswire/ -- OneOdio concluyó su participación en la IFA 2026, celebrada del 4 al 8 de septiembre en Berlín. En el pabellón 8.2, stand 217, la marca de audio profesional dio la bienvenida a visitantes, DJs, creadores y profesionales del sector para que pudieran probar sus productos, disfrutar de actuaciones de DJs en directo y participar en actividades interactivas.
+2026-09-12 08:18:00 EDT [CRAWLER] La presentación de este año puso de relieve la apuesta de OneOdio por el audio profesional y las experiencias auditivas versátiles, con Studio Max 2 y A70 Gen 2 como protagonistas.
+2026-09-12 08:18:00 EDT [CRAWLER]               
+2026-09-12 08:18:00 EDT [CRAWLER]             
+2026-09-12 08:18:00 EDT [CRAWLER] El audio profesional cobra protagonismo
+2026-09-12 08:18:00 EDT [CRAWLER] Diseñado para DJs, creadores y profesionales del audio, Studio Max 2 presentó el enfoque más reciente de OneOdio para el audio inalámbrico profesional. Impulsado por la tecnología Rapid Wireless+ de tercera generación, ofrece una latencia ultrabaja de 9 ms y hasta 120 horas de duración de la batería, combinando la precisión n
+2026-09-12 08:18:00 EDT [CRAWLER] [TICKER MATCH] META
+2026-09-12 08:18:00 EDT [CRAWLER] [DISPATCH] Sent META -> AI Server
+2026-09-12 08:18:00 EDT [CRAWLER] Extracting
+2026-09-12 08:18:02 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/oneodio-concluye-con-exito-su-participacion-en-la-ifa-2026-en-berlin-302872435.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:02 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/p-futures-climb-oil-retreats-102337042.html
+2026-09-12 08:18:02 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/global-times-silk-road-maritime-shipping-routes-span-153-ports-boosting-global-trade-prosperity-amid-uncertainty-302876847.html
+2026-09-12 08:18:02 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:02 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/global-times-silk-road-maritime-shipping-routes-span-153-ports-boosting-global-trade-prosperity-amid-uncertainty-302876847.html
+2026-09-12 08:18:02 EDT [CRAWLER] [DEBUG] Article length: 7490
+2026-09-12 08:18:02 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:02 EDT [CRAWLER] BEIJING, Sept. 12, 2026 /PRNewswire/ -- Across the rippling Baltic waters, a cargo vessel loaded with Chinese goods glides steadily into Poland's Gdansk Port, docking at Europe's largest deep-water container terminal. For decades, the port has served as a critical hub for trade moving between Europe and Asia.
+2026-09-12 08:18:02 EDT [CRAWLER] This year, it gained a new role: becoming the first European port to receive an officially named Silk Road Maritime shipping route.
+2026-09-12 08:18:02 EDT [CRAWLER] The new route was unveiled at the 8th Silk Road Maritime International Cooperation Forum, held in Xiamen, East China's Fujian Province, from September 8 to 9.
+2026-09-12 08:18:02 EDT [CRAWLER] A Polish logistics executive told the Global Times that the new route is more than another line on the map. It represents a tighter connection between sea and rail, between China and the EU, and between two markets whose trade ties are growing more complex and intertwined. 
+2026-09-12 08:18:02 EDT [CRAWLER] "Gdansk is the largest deep-water container terminal in the Baltic Sea and the final stop of China's maritime container tru
+2026-09-12 08:18:02 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:02 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:02 EDT [CRAWLER] Extracting
+2026-09-12 08:18:02 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/global-times-silk-road-maritime-shipping-routes-span-153-ports-boosting-global-trade-prosperity-amid-uncertainty-302876847.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:02 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/lost-hundreds-thousands-stocks-spacex-101500008.html
+2026-09-12 08:18:02 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:02 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-stock-vrsk-underperforming-102938166.html
+2026-09-12 08:18:02 EDT [CRAWLER] [DEBUG] Article length: 5699
+2026-09-12 08:18:02 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:02 EDT [CRAWLER]     
+2026-09-12 08:18:02 EDT [CRAWLER]         
+2026-09-12 08:18:02 EDT [CRAWLER]         
+2026-09-12 08:18:02 EDT [CRAWLER]          
+2026-09-12 08:18:02 EDT [CRAWLER] 	
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		
+2026-09-12 08:18:02 EDT [CRAWLER] 		Verisk Analytics Stock: Is VRSK Underperforming the Industrials Sector?  
+2026-09-12 08:18:02 EDT [CRAWLER]     
+2026-09-12 08:18:02 EDT [CRAWLER]     
+2026-09-12 08:18:02 EDT [CRAWLER]         
+2026-09-12 08:18:02 EDT [CRAWLER]                Oops, something went wrong                    Skip to navigation   Skip to main content   Skip to right column                                   Verisk Analytics Stock: Is VRSK Underperforming the I
+2026-09-12 08:18:02 EDT [CRAWLER] [TICKER MATCH] CRWD,GOOGL,INTC,NVDA,TGT
+2026-09-12 08:18:02 EDT [CRAWLER] [DISPATCH] Sent CRWD,GOOGL,INTC,NVDA,TGT -> AI Server
+2026-09-12 08:18:02 EDT [CRAWLER] Extracting
+2026-09-12 08:18:02 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/verisk-analytics-stock-vrsk-underperforming-102938166.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:02 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/international-association-for-the-study-of-lung-cancer-launches-complimentary-iaslc-full-membership-for-eligible-countries-to-expand-worldwide-participation-in-thoracic-oncology-302876825.html
+2026-09-12 08:18:02 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/international-association-for-the-study-of-lung-cancer-launches-complimentary-iaslc-full-membership-for-eligible-countries-to-expand-worldwide-participation-in-thoracic-oncology-302876825.html
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] Article length: 3314
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:03 EDT [CRAWLER] Full Membership Initiative Removes Financial Barriers for Clinicians, Researchers and Health Professionals in Eligible Low- and Lower-Middle-Income Countries
+2026-09-12 08:18:03 EDT [CRAWLER] DENVER, Sept. 12, 2026 /PRNewswire/ -- The International Association for the Study of Lung Cancer (IASLC) today announced the launch of its new Complimentary IASLC Full Membership for Eligible Countries, a groundbreaking initiative that provides IASLC Membership to eligible healthcare professionals residing in World Bank-designated low-income and lower-middle-income economies.
+2026-09-12 08:18:03 EDT [CRAWLER] Approved by the IASLC Board of Directors this Spring, the approach reflects the organization's commitment to ensuring that financial barriers do not prevent clinicians, researchers, nurses, allied health professionals, patient advocates and other healthcare professionals from participating fully in the global thoracic oncology community.
+2026-09-12 08:18:03 EDT [CRAWLER] "Lung cancer is a global disease that demands global collaboration," said Karen Kelly, Chief Executive Officer of the Inte
+2026-09-12 08:18:03 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:03 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:03 EDT [CRAWLER] Extracting
+2026-09-12 08:18:03 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/international-association-for-the-study-of-lung-cancer-launches-complimentary-iaslc-full-membership-for-eligible-countries-to-expand-worldwide-participation-in-thoracic-oncology-302876825.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:03 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/news/investors-pull-money-equity-funds-101047547.html
+2026-09-12 08:18:03 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/meant-health-expands-telehealth-access-to-fda-approved-glp-1-prescriptions-including-ozempic-302876301.html
+2026-09-12 08:18:03 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/p-futures-climb-oil-retreats-102337042.html
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] Article length: 10380
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:03 EDT [CRAWLER] September S&P 500 E-Mini futures (ESU26) are up +0.57% this morning, finding some relief as oil prices and bond yields retreated, with attention now turning to key U.S. inflation data for fresh clues on the Federal Reserve's policy path.  
+2026-09-12 08:18:03 EDT [CRAWLER] Oil prices fell on Friday after the International Energy Agency warned of a worsening outlook for demand this year. Brent crude slipped toward $104 a barrel, while WTI crude dropped below $100 a barrel. Still, both benchmarks were on track for sharp weekly gains as the Middle East conflict showed few signs of easing. In the latest developments, The Wall Street Journal reported that Iran-backed Houthi militants captured the port city of Mokha on Yemen's west coast on Thursday, strengthening their position near the strategic Bab al-Mandeb Strait.  
+2026-09-12 08:18:03 EDT [CRAWLER] Why It's Time to Load Up on Intel Stock  
+2026-09-12 08:18:03 EDT [CRAWLER] Nvidia CEO Jensen Huang Just Called CrowdStrike Its Top Security Partner. How to Play CRWD Stock Here.  
+2026-09-12 08:18:03 EDT [CRAWLER] Google Plans to Build Mammoth Solar Farm on an Abandoned Coa
+2026-09-12 08:18:03 EDT [CRAWLER] [TICKER MATCH] ADBE,CRWD,GOOGL,INTC,LRCX,MRVL,MS,NVDA,NVO,ORCL,TCEHY,TGT
+2026-09-12 08:18:03 EDT [CRAWLER] [DISPATCH] Sent ADBE,CRWD,GOOGL,INTC,LRCX,MRVL,MS,NVDA,NVO,ORCL,TCEHY,TGT -> AI Server
+2026-09-12 08:18:03 EDT [CRAWLER] Extracting
+2026-09-12 08:18:03 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/p-futures-climb-oil-retreats-102337042.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:03 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/robinhood-markets-targets-global-growth-120158612.html
+2026-09-12 08:18:03 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/meant-health-expands-telehealth-access-to-fda-approved-glp-1-prescriptions-including-ozempic-302876301.html
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] Article length: 2602
+2026-09-12 08:18:03 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:05 EDT [CRAWLER] MANASSAS, Va., Sept. 12, 2026 /PRNewswire/ -- Meant Health, a digital health platform that connects patients with licensed clinicians for evaluation, prescription and ongoing care coaching, announced today that it is expanding telehealth access to FDA-approved GLP-1 medications. The move is meant to shorten the distance between someone wondering whether a treatment might be right for them and an actual conversation with a U.S.-licensed clinician who could review their history and make that call.
+2026-09-12 08:18:05 EDT [CRAWLER] How the Evaluation and Prescription Process Works
+2026-09-12 08:18:05 EDT [CRAWLER] As more people look for a straightforward way to access Ozempic, Meant Health is expanding its telehealth platform to connect patients with licensed clinicians for evaluation and prescription. It starts with an intake questionnaire that walks through health history, current medications and what the patient is hoping to address. A licensed clinician then reviews that information and decides, case by case, whether a prescription makes sense.
+2026-09-12 08:18:05 EDT [CRAWLER] Ozemp
+2026-09-12 08:18:05 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:05 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:05 EDT [CRAWLER] Extracting
+2026-09-12 08:18:05 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/meant-health-expands-telehealth-access-to-fda-approved-glp-1-prescriptions-including-ozempic-302876301.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:05 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/aignostics-launches-pathosearch-a-visual-search-engine-for-pathology-cases-302876588.html
+2026-09-12 08:18:05 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/hp-inc-stock-underperforming-p-105423967.html
+2026-09-12 08:18:05 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:05 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:05 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/aignostics-launches-pathosearch-a-visual-search-engine-for-pathology-cases-302876588.html
+2026-09-12 08:18:05 EDT [CRAWLER] [DEBUG] Article length: 4008
+2026-09-12 08:18:05 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:05 EDT [CRAWLER] Now available via early access: image-based search retrieves real, diagnosed reference cases from world-class centers, spanning 300+ diagnostic entities.
+2026-09-12 08:18:05 EDT [CRAWLER] BERLIN and NEW YORK, Sept. 12, 2026 /PRNewswire/ -- Today, Aignostics announced the early access release of PathoSearch, a visual search engine for pathology cases. From a single screenshot of a region of interest on an H&E slide, PathoSearch instantly retrieves morphologically similar, diagnosed reference cases. Pathologists can then build and evaluate a differential in minutes — especially useful on the rare and complex cases that are hardest to resolve.
+2026-09-12 08:18:05 EDT [CRAWLER] These cases account for up to 20% of a pathologist's caseload, and the current references available for them are largely what they have always been: textbooks, databases, or external consultations. Each of these options adds time and cost for pathologists, with consultation fees at major cancer centers running from several hundred to thousands of dollars per case.
+2026-09-12 08:18:05 EDT [CRAWLER] "A second opinio
+2026-09-12 08:18:05 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:05 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:05 EDT [CRAWLER] Extracting
+2026-09-12 08:18:05 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/lost-hundreds-thousands-stocks-spacex-101500008.html
+2026-09-12 08:18:05 EDT [CRAWLER] [DEBUG] Article length: 13531
+2026-09-12 08:18:05 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:05 EDT [CRAWLER] Moneywise and Yahoo Finance LLC may earn commission or revenue through links in the content below.  
+2026-09-12 08:18:05 EDT [CRAWLER] Akshay Sapra lost more than $350,000 Canadian dollars — roughly $250,000 — in about a week of day trading SpaceX. But he's planning to keep trading. "The highs are too good," he said (1).  
+2026-09-12 08:18:05 EDT [CRAWLER] The way he sees it, his errors are emotional, impulsive trades and his fix is to post every trade he makes on a stream or YouTube channel, so an audience can stop him.  
+2026-09-12 08:18:05 EDT [CRAWLER] Jeff Bezos backs a platform that lets anyone invest in rental homes for as little as $100 — 6 ways to build wealth like a landlord without actually being one  
+2026-09-12 08:18:05 EDT [CRAWLER] A record 45% of central banks plan to grow gold reserves — and many investors are following suit. Get your free gold IRA guide from Priority Gold  
+2026-09-12 08:18:05 EDT [CRAWLER] A single line on your car insurance policy could be inflating your premium by up to 30% — here's what to change  
+2026-09-12 08:18:05 EDT [CRAWLER] Sapra was sure the stock would jump on July 7, its first day in the Nasdaq-100 (2). Index funds would have 
+2026-09-12 08:18:05 EDT [CRAWLER] [TICKER MATCH] AMD,BLK,BTC,NVDA,RDDT,UBER
+2026-09-12 08:18:05 EDT [CRAWLER] [DISPATCH] Sent AMD,BLK,BTC,NVDA,RDDT,UBER -> AI Server
+2026-09-12 08:18:05 EDT [CRAWLER] Extracting
+2026-09-12 08:18:05 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/aignostics-launches-pathosearch-a-visual-search-engine-for-pathology-cases-302876588.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:06 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/lost-hundreds-thousands-stocks-spacex-101500008.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:06 EDT [CRAWLER] [CRAWLER] Visiting: https://www.prnewswire.com/news-releases/aignostics-launches-pathosearch-a-visual-search-engine-for-pathology-cases-302876571.html
+2026-09-12 08:18:06 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/news/investors-pull-money-equity-funds-101047547.html
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] Article length: 4740
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:06 EDT [CRAWLER]     
+2026-09-12 08:18:06 EDT [CRAWLER]         
+2026-09-12 08:18:06 EDT [CRAWLER]         
+2026-09-12 08:18:06 EDT [CRAWLER]          
+2026-09-12 08:18:06 EDT [CRAWLER] 	
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		
+2026-09-12 08:18:06 EDT [CRAWLER] 		Investors pull money from equity funds as rising oil prices fuel inflation fears  
+2026-09-12 08:18:06 EDT [CRAWLER]     
+2026-09-12 08:18:06 EDT [CRAWLER]     
+2026-09-12 08:18:06 EDT [CRAWLER]         
+2026-09-12 08:18:06 EDT [CRAWLER]                Oops, something went wrong                    Skip to navigation   Skip to main content   Skip to right column                                   Investors pull money from equity funds as ri
+2026-09-12 08:18:06 EDT [CRAWLER] [TICKER MATCH] AMD,ASML
+2026-09-12 08:18:06 EDT [CRAWLER] [DISPATCH] Sent AMD,ASML -> AI Server
+2026-09-12 08:18:06 EDT [CRAWLER] Extracting
+2026-09-12 08:18:06 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/news/investors-pull-money-equity-funds-101047547.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:06 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] URL: https://www.prnewswire.com/news-releases/aignostics-launches-pathosearch-a-visual-search-engine-for-pathology-cases-302876571.html
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] Article length: 4026
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:06 EDT [CRAWLER] Now available via early access: image-based search retrieves real, diagnosed reference cases from world-class centers, spanning 300+ diagnostic entities.
+2026-09-12 08:18:06 EDT [CRAWLER] BERLIN and NEW YORK, Sept. 12, 2026 /PRNewswire/ -- Today, Aignostics announced the early access release of PathoSearch, a visual search engine for pathology cases. From a single screenshot of a region of interest on an H&E slide, PathoSearch instantly retrieves morphologically similar, diagnosed reference cases. Pathologists can then build and evaluate a differential in minutes — especially useful on the rare and complex cases that are hardest to resolve.
+2026-09-12 08:18:06 EDT [CRAWLER] These cases account for up to 20% of a pathologist's caseload, and the current references available for them are largely what they have always been: textbooks, databases, or external consultations. Each of these options adds time and cost for pathologists, with consultation fees at major cancer centers running from several hundred to thousands of dollars per case.
+2026-09-12 08:18:06 EDT [CRAWLER] "A second opinio
+2026-09-12 08:18:06 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:06 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:06 EDT [CRAWLER] Extracting
+2026-09-12 08:18:06 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.prnewswire.com/news-releases/aignostics-launches-pathosearch-a-visual-search-engine-for-pathology-cases-302876571.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:06 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/caleres-cal-stock-lags-behind-115147339.html
+2026-09-12 08:18:06 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/robinhood-markets-targets-global-growth-120158612.html
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] Article length: 7921
+2026-09-12 08:18:06 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:06 EDT [CRAWLER] Interested in Robinhood Markets, Inc.? Here are five stocks we like better.  
+2026-09-12 08:18:06 EDT [CRAWLER] Robinhood is pursuing a broad ownership-focused strategy spanning active trading, integrated brokerage, banking, credit-card, wallet and retirement products, with AI used to personalize customer experiences.  
+2026-09-12 08:18:06 EDT [CRAWLER] Tokenization is central to its global expansion: Robinhood Chain offers roughly 200 tokenized U.S. stocks in more than 120 countries, while the company targets half of revenue from international and institutional customers over the long term.  
+2026-09-12 08:18:09 EDT [CRAWLER] Robinhood is expanding into wealth management and AI-powered trading, including managed accounts, retirement services, Trump Accounts, and agentic trading that supports equities, options and cryptocurrency, with prediction markets and futures planned.  
+2026-09-12 08:18:09 EDT [CRAWLER] Blueprint for a Boom: SEC Clears the Crypto Runway  
+2026-09-12 08:18:09 EDT [CRAWLER] Robinhood Markets (NASDAQ:HOOD) is pursuing a strategy centered on expanding access to financial asset ownership, with priorities spanning active trading, broad
+2026-09-12 08:18:09 EDT [CRAWLER] [TICKER MATCH] AMZN,GS,HOOD,QCOM
+2026-09-12 08:18:09 EDT [CRAWLER] [DISPATCH] Sent AMZN,GS,HOOD,QCOM -> AI Server
+2026-09-12 08:18:09 EDT [CRAWLER] Extracting
+2026-09-12 08:18:09 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/robinhood-markets-targets-global-growth-120158612.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:09 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/macy-lifts-outlook-q2-profit-104426966.html
+2026-09-12 08:18:09 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/news/us-equity-funds-record-nine-111436371.html
+2026-09-12 08:18:09 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/hp-inc-stock-underperforming-p-105423967.html
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] Article length: 5802
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:09 EDT [CRAWLER]     
+2026-09-12 08:18:09 EDT [CRAWLER]         
+2026-09-12 08:18:09 EDT [CRAWLER]         
+2026-09-12 08:18:09 EDT [CRAWLER]          
+2026-09-12 08:18:09 EDT [CRAWLER] 	
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		
+2026-09-12 08:18:09 EDT [CRAWLER] 		Is HP Inc. Stock Underperforming the S&P 500?  
+2026-09-12 08:18:09 EDT [CRAWLER]     
+2026-09-12 08:18:09 EDT [CRAWLER]     
+2026-09-12 08:18:09 EDT [CRAWLER]         
+2026-09-12 08:18:09 EDT [CRAWLER]                Oops, something went wrong                    Skip to navigation   Skip to main content   Skip to right column                                   Is HP Inc. Stock Underperforming the S&P 500?          Aritra Gangopadhyay   Fr
+2026-09-12 08:18:09 EDT [CRAWLER] [TICKER MATCH] CRWD,GOOGL,INTC,NVDA,SPX,TGT
+2026-09-12 08:18:09 EDT [CRAWLER] [DISPATCH] Sent CRWD,GOOGL,INTC,NVDA,SPX,TGT -> AI Server
+2026-09-12 08:18:09 EDT [CRAWLER] Extracting
+2026-09-12 08:18:09 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/hp-inc-stock-underperforming-p-105423967.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:09 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/wave-delistings-london-stock-market-104054719.html
+2026-09-12 08:18:09 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/caleres-cal-stock-lags-behind-115147339.html
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] Article length: 4244
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:09 EDT [CRAWLER] On September 9, Caleres (NYSE:CAL) held its second-quarter earnings call, and the numbers told two very different stories under one roof. Net sales rose 5.6% to $695.5 million, and adjusted diluted earnings per share jumped to $0.47 from $0.35 a year earlier. The company also raised the low end of its full-year guidance. Yet Famous Footwear, the chain that made Caleres a household name, kept losing ground while the newer brand portfolio did the heavy lifting.  
+2026-09-12 08:18:09 EDT [CRAWLER] The brand portfolio, which houses names like Sam Edelman, Allen Edmonds, Naturalizer, Vionic and Stuart Weitzman, brought in $340.6 million in sales, up 23.6% on the strength of the Weitzman integration and 8.2% organic growth. Margins expanded even faster than sales, with the segment's adjusted gross margin climbing 880 basis points to 49.1% as markdowns eased and tariff mitigation work paid off. Sam Edelman sales grew in the mid-teens, with double-digit growth at key department store accounts and higher average unit retails, w
+2026-09-12 08:18:09 EDT [CRAWLER] [TICKER MATCH] GOOGL,TGT
+2026-09-12 08:18:09 EDT [CRAWLER] [DISPATCH] Sent GOOGL,TGT -> AI Server
+2026-09-12 08:18:09 EDT [CRAWLER] Extracting
+2026-09-12 08:18:09 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/caleres-cal-stock-lags-behind-115147339.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:09 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/macy-lifts-outlook-q2-profit-104426966.html
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] Article length: 3138
+2026-09-12 08:18:09 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:10 EDT [CRAWLER] During the 13 weeks ended 1 August 2026, the company's net sales increased 1.1% year-on-year to $4.9bn, with comparable sales also rising across all Macy's brands.  
+2026-09-12 08:18:10 EDT [CRAWLER] Bloomingdale's, Macy's luxury department store chain, saw the largest gain with an 11.3% increase in comparable sales.  
+2026-09-12 08:18:10 EDT [CRAWLER] In the second-quarter, net income nearly doubled to $169m, representing 3.3% of total revenue compared with $87m, or 1.7%, a year earlier.  
+2026-09-12 08:18:10 EDT [CRAWLER] Adjusted diluted earnings per share rose to $0.63, up from $0.35 in the same period last year. The company attributed this improvement partly to benefits from tariff refunds, which contributed $0.23 per share in the quarter.  
+2026-09-12 08:18:10 EDT [CRAWLER] Macy's confirmed it has now received all expected tariff refunds under the International Emergency Economic Powers Act (IEEPA), including $98m within the quarter and a further $18m after quarter-end.  
+2026-09-12 08:18:10 EDT [CRAWLER] The company said it plans to reinvest the majority of the $116m total refund, with approximately $20m expected to flow through to full-year ear
+2026-09-12 08:18:10 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:10 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:10 EDT [CRAWLER] Extracting
+2026-09-12 08:18:10 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/macy-lifts-outlook-q2-profit-104426966.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:10 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-rise-103943781.html
+2026-09-12 08:18:10 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:10 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/news/us-equity-funds-record-nine-111436371.html
+2026-09-12 08:18:10 EDT [CRAWLER] [DEBUG] Article length: 4507
+2026-09-12 08:18:10 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:10 EDT [CRAWLER]     
+2026-09-12 08:18:10 EDT [CRAWLER]         
+2026-09-12 08:18:10 EDT [CRAWLER]         
+2026-09-12 08:18:10 EDT [CRAWLER]          
+2026-09-12 08:18:10 EDT [CRAWLER] 	
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		
+2026-09-12 08:18:10 EDT [CRAWLER] 		US equity funds record nine-month high outflows as oil stokes inflation fears  
+2026-09-12 08:18:10 EDT [CRAWLER]     
+2026-09-12 08:18:10 EDT [CRAWLER]     
+2026-09-12 08:18:10 EDT [CRAWLER]         
+2026-09-12 08:18:10 EDT [CRAWLER]                Oops, something went wrong                    Skip to navigation   Skip to main content   Skip to right column                                   US equity funds record nine-month high outflows
+2026-09-12 08:18:10 EDT [CRAWLER] [TICKER MATCH] NVDA
+2026-09-12 08:18:10 EDT [CRAWLER] [DISPATCH] Sent NVDA -> AI Server
+2026-09-12 08:18:10 EDT [CRAWLER] Extracting
+2026-09-12 08:18:10 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/news/us-equity-funds-record-nine-111436371.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:10 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/12-8-yielding-dividend-stock-103501964.html
+2026-09-12 08:18:10 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:10 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/wave-delistings-london-stock-market-104054719.html
+2026-09-12 08:18:10 EDT [CRAWLER] [DEBUG] Article length: 7213
+2026-09-12 08:18:10 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:10 EDT [CRAWLER] London's stock market has endured a difficult few years, marked by a wave of delistings and IPO snubs. The number of companies listed on the London Stock Exchange (LSE) has fallen from 2,429 in 2015 to 1,534 in May 2026—a decade low —according to LSE data compiled by Statista. More than 30 have left, or are planning to leave this year, including the asset manager Schroders and easyJet, which have both agreed to U.S. takeovers.    
+2026-09-12 08:18:10 EDT [CRAWLER] U.K. markets suffer from a smaller domestic investor base and shallower pools of capital than the U.S. Meanwhile years of relative underperformance have depressed valuations of London-listed companies, making them increasingly attractive for foreign buyers and private equity takeovers.    
+2026-09-12 08:18:10 EDT [CRAWLER] Some business leaders are pointing the finger at the exchange itself. Octopus Energy founder Greg Jackson has said the exchange needs more "hustle" to win IPOs back.   
+2026-09-12 08:18:10 EDT [CRAWLER] It's a narrative Julia Hoggett, chief executive of the London Stock Exchange, is determined to pus
+2026-09-12 08:18:10 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:10 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:10 EDT [CRAWLER] Extracting
+2026-09-12 08:18:14 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/wave-delistings-london-stock-market-104054719.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:14 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/options/articles/250-000-3-high-income-103455530.html
+2026-09-12 08:18:14 EDT [CRAWLER] [CRAWLER] Visiting: https://finance.yahoo.com/markets/stocks/articles/mgp-ingredients-launches-first-namesake-103241181.html
+2026-09-12 08:18:14 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-rise-103943781.html
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] Article length: 15606
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:14 EDT [CRAWLER] Stocks surged Friday, finishing the week lower, after a closely watched inflation reading reading matched expectations and oil prices fell.  
+2026-09-12 08:18:14 EDT [CRAWLER] The blue-chip Dow Jones Industrial Average, tech-focused Nasdaq Composite, and benchmark S&P 500 finished up a respective 1%, 1%, and 0.9%, with the Dow adding more than 500 points, as the indexes broke four-session losing streaks. The S&P's Communication Services, Consumer Discretionary, and Information Technology Sectors led the advances, with Hewlett Packard Enterprise (HPE) and Dell Technologies (DELL) logging double-digit jumps.  
+2026-09-12 08:18:14 EDT [CRAWLER] The Dow, S&P 500, and Nasdaq finished down a respective 1.6%, 0.8%, and 0.7% for the four-session trading week.  
+2026-09-12 08:18:14 EDT [CRAWLER] Before the opening bell Friday, the CPI reading for August, the final major economic indicator before the Fed's two-day policy meeting next week, indicated that August consumer prices rose 3.4% year-over-year, matching economists' expectations and the July figure. "Core" CPI—which strip out volatile f
+2026-09-12 08:18:14 EDT [CRAWLER] [TICKER MATCH] ADBE,APP,BTC,C,GME,GOOGL,INTC,JPM,MS,NVDA,ORCL,TGT,TMUS,UNH
+2026-09-12 08:18:14 EDT [CRAWLER] [DISPATCH] Sent ADBE,APP,BTC,C,GME,GOOGL,INTC,JPM,MS,NVDA,ORCL,TGT,TMUS,UNH -> AI Server
+2026-09-12 08:18:14 EDT [CRAWLER] Extracting
+2026-09-12 08:18:14 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-rise-103943781.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:14 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/12-8-yielding-dividend-stock-103501964.html
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] Article length: 4819
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:14 EDT [CRAWLER] Annaly Capital Management's (NYSE:NLY) dividend currently yields an eye-popping 12.8%. While a yield that high often seems like a trap, I think Annaly is a bargain right now.  
+2026-09-12 08:18:14 EDT [CRAWLER] Here's why I think income-focused investors should take a closer look at the mortgage REIT.  
+2026-09-12 08:18:14 EDT [CRAWLER] Missed Nvidia in 2009? This Rare Signal Is Flashing Again. In 2009, a "Double Down" signal flashed for a little-known chipmaker called Nvidia. For the first time in years, that same "Total Conviction" signal is flashing for a company 1/100th the size of Nvidia. Continue »  
+2026-09-12 08:18:14 EDT [CRAWLER] Image source: Getty Images.  
+2026-09-12 08:18:14 EDT [CRAWLER] I wanted to start with the bear case because Annaly has at times been a dividend-yield trap. The REIT has cut its dividend several times throughout its history, including in early 2023 when it slashed its quarterly payment from $0.88 per share to $0.65 per share due to its declining earnings. I pulled the plug on my longtime investment in the mortgage REIT shortly after that cut because I got tired of seeing my income s
+2026-09-12 08:18:14 EDT [CRAWLER] [TICKER MATCH] NFLX,NVDA
+2026-09-12 08:18:14 EDT [CRAWLER] [DISPATCH] Sent NFLX,NVDA -> AI Server
+2026-09-12 08:18:14 EDT [CRAWLER] Extracting
+2026-09-12 08:18:14 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/12-8-yielding-dividend-stock-103501964.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:14 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/options/articles/250-000-3-high-income-103455530.html
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] Article length: 6436
+2026-09-12 08:18:14 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:14 EDT [CRAWLER] A $250,000 portfolio split equally among SPYI, QQQI, and IWMI could currently generate about $33,717 annually, or $2,810 per month, based on their latest distribution rates.  
+2026-09-12 08:18:14 EDT [CRAWLER] These ETFs should represent the higher-risk portion of a retirement income portfolio, since all three maintain substantial equity exposure and remain vulnerable to market drawdowns and distribution cuts.  
+2026-09-12 08:18:21 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 08:18:21 EDT [ORCHESTRATOR] Sending SIGTERM to crawler (pid=31754)
+2026-09-12 08:18:21 EDT [CRAWLER] Recent Section 19a-1 notices estimated 97% of SPYI's August distribution and 100% of QQQI's and IWMI's as return of capital, potentially deferring taxes by reducing adjusted cost basis. Final treatment is determined on Form 1099-DIV.  
+2026-09-12 08:18:21 EDT [CRAWLER] Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now. The report is free. Enter your email and see if any of your stocks made the cut.  
+2026-09-12 08:18:21 EDT [CRAWLER] One surprisingly important consideration when building a retirement income portfolio is distribution cadence. Traditional stocks commonly pay dividends quarterly. Most bond ETFs distribute mon
+2026-09-12 08:18:21 EDT [CRAWLER] [TICKER MATCH] TGT
+2026-09-12 08:18:21 EDT [CRAWLER] [DISPATCH] Sent TGT -> AI Server
+2026-09-12 08:18:21 EDT [CRAWLER] Extracting
+2026-09-12 08:18:21 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/options/articles/250-000-3-high-income-103455530.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:21 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:18:21 EDT [CRAWLER] [DEBUG] URL: https://finance.yahoo.com/markets/stocks/articles/mgp-ingredients-launches-first-namesake-103241181.html
+2026-09-12 08:18:21 EDT [CRAWLER] [DEBUG] Article length: 5299
+2026-09-12 08:18:21 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:18:21 EDT [CRAWLER]     
+2026-09-12 08:18:21 EDT [CRAWLER]         
+2026-09-12 08:18:21 EDT [CRAWLER]         
+2026-09-12 08:18:21 EDT [CRAWLER]          
+2026-09-12 08:18:21 EDT [CRAWLER] 	
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [ORCHESTRATOR] crawler exited with code 0
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [ORCHESTRATOR] Sending SIGTERM to AI server (pid=31751)
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [ORCHESTRATOR] AI server exited with code -15
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		
+2026-09-12 08:18:21 EDT [CRAWLER] 		MGP Ingredients launches first namesake brand  
+2026-09-12 08:18:21 EDT [CRAWLER]     
+2026-09-12 08:18:21 EDT [CRAWLER]     
+2026-09-12 08:18:21 EDT [CRAWLER]         
+2026-09-12 08:18:21 EDT [CRAWLER]                Oops, something went wrong                    Skip to navigation   Skip to main content   Skip to right column                                   MGP Ingredients launches first namesake brand        MGP Ingredients launches f
+2026-09-12 08:18:21 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:18:21 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:18:21 EDT [CRAWLER] Extracting
+2026-09-12 08:18:21 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #1)
+2026-09-12 08:18:21 EDT [CRAWLER] [CRAWLER DONE] Processed: https://finance.yahoo.com/markets/stocks/articles/mgp-ingredients-launches-first-namesake-103241181.html | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:18:21 EDT [CRAWLER] [CRAWLER MILESTONE] Queue fully drained. All 8 workers idle. Visited URLs saved to history.txt (219 URLs).
+2026-09-12 08:18:21 EDT [CRAWLER] [SYSTEM] Interrupt received. Shutting down...
+2026-09-12 08:18:21 EDT [CRAWLER] [SYSTEM] Shutdown requested. Draining 0 queued URL(s)...
+2026-09-12 08:18:21 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #2)
+2026-09-12 08:18:21 EDT [CRAWLER] [SYSTEM] Crawler stopped. 219 URLs persisted to history.txt
+2026-09-12 08:18:21 EDT [CRAWLER] [SYSTEM] Exited cleanly.
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] Articles scraped : 26
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] Signals generated: 0
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] history.txt      : 24,668 bytes
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:18:22 EDT [ORCHESTRATOR] Session complete (exit=0)
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] Mode: ALPACA PAPER [CRYPTO 24/7]
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] Ollama is already listening on 127.0.0.1:11434
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] Ollama model 'llama3.1' is installed
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] C++ binaries ready: AI=build/aiserv, CRAWLER=build/main_client
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] --crypto supplied: bypassing US market clock and running 24/7
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] NOTE: crypto orders carry no broker-side bracket; stops are software-managed via stop_limit
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] Phase AI mode: ACTIVE BROKER ROUTING
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/aiserv
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] AI server is listening on 127.0.0.1:58888
+2026-09-12 08:34:03 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/main_client
+2026-09-12 08:34:04 EDT [ORCHESTRATOR] Crawler started (pid=34081)
+2026-09-12 08:34:23 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 08:34:23 EDT [ORCHESTRATOR] Sending SIGTERM to crawler (pid=34081)
+2026-09-12 08:34:23 EDT [CRAWLER] [STATE] Loaded 219 URLs from history.txt
+2026-09-12 08:34:23 EDT [CRAWLER] Starting Trading Crawler Engine...
+2026-09-12 08:34:23 EDT [CRAWLER] [SYSTEM] Press Ctrl-C for a clean shutdown (history will be flushed).
+2026-09-12 08:34:23 EDT [CRAWLER] [SYSTEM] Trading Crawler Engine Started with 8 workers.
+2026-09-12 08:34:23 EDT [CRAWLER] [CRAWLER] Visiting: https://www.coindesk.com/
+2026-09-12 08:34:23 EDT [CRAWLER] [CRAWLER] Visiting: https://cointelegraph.com/
+2026-09-12 08:34:23 EDT [CRAWLER] [CRAWLER] Visiting: https://decrypt.co/
+2026-09-12 08:34:23 EDT [CRAWLER] Status line: HTTP/1.1 429 Too Many Requests
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] URL: https://www.coindesk.com/
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] Article length: 226
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:34:23 EDT [CRAWLER] We're verifying your browser
+2026-09-12 08:34:23 EDT [CRAWLER] Vercel Security Checkpoint
+2026-09-12 08:34:23 EDT [CRAWLER] 800
+2026-09-12 08:34:23 EDT [CRAWLER] syd1::1789216444-YLLSY2DySjTwD2nIWmceVBYoR1VpNgnI
+2026-09-12 08:34:23 EDT [CRAWLER] Enable JavaScript to continue
+2026-09-12 08:34:23 EDT [CRAWLER] Vercel Security Checkpoint
+2026-09-12 08:34:23 EDT [CRAWLER] syd1::1789216444-YLLSY2DySjTwD2nIWmceVBYoR1VpNgnI
+2026-09-12 08:34:23 EDT [CRAWLER] [CASHTAGS] Loaded 249 company names from data/companies.csv
+2026-09-12 08:34:23 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:34:23 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:34:23 EDT [CRAWLER] Extracting
+2026-09-12 08:34:23 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.coindesk.com/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:34:23 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] URL: https://decrypt.co/
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] Article length: 6072
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:34:23 EDT [CRAWLER] Decrypt: AI, Bitcoin, Culture, Gaming, and Crypto News - DecryptCoin PricesBTC$77,304.000.46%ETH$2,533.053.13%BNB$735.683.41%XRP$1.373.48%USDC$0.9998580.00%SOL$102.283.12%TRX$0.3409191.52%FIGR_HELOC$1.016-1.77%ZEC$1,149.964.44%HYPE$80.131.69%DOGE$0.0849652.08%RAIN$0.0151243-3.06%XMR$528.513.28%USDS$0.999810.01%WBT$80.360.92%LINK$11.561.75%LEO$9.11-0.34%ADA$0.2088813.46%XLM$0.1818464.55%BCH$230.863.06%USDE$0.9997620.03%USD1$0.9997010.01%LTC$53.972.99%UNI$6.468.92%CC$0.0984362.34%GRAM$1.372.53%USDG$0.999946-0.01%AVAX$7.441.57%HBAR$0.0746851.10%SHIB$0.000005346.20%NEAR$2.36-2.07%SUI$0.727791.83%CRO$0.058043.60%PYUSD$0.9998710.01%BUIDL$1.000.00%M$1.18-0.54%XAUT$4,347.620.26%USYC$1.140.03%RLUSD$0.99997-0.00%OKB$114.272.35%TAO$236.172.30%USDY$1.150.01%AAVE$127.404.43%MNT$0.574143-0.26%PAXG$4,352.640.26%ASTER$0.6855060.10%WLFI$0.05761110.28%DOT$1.046-3.18%ONDO$0.3522561.91%MORPHO$2.29-0.60%HTX$0.000001711.39%ICP$2.750.94%USDD$0.997911-0.12%SKY$0.0635937.56%BTW$0.5497359.44%PUMP$0.00355309-0.4
+2026-09-12 08:34:23 EDT [CRAWLER] [TICKER MATCH] BTC,XRP
+2026-09-12 08:34:23 EDT [CRAWLER] [DISPATCH] Sent BTC,XRP -> AI Server
+2026-09-12 08:34:23 EDT [CRAWLER] Extracting
+2026-09-12 08:34:23 EDT [CRAWLER] [CRAWLER DONE] Processed: https://decrypt.co/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:34:23 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] URL: https://cointelegraph.com/
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] Article length: 5059
+2026-09-12 08:34:23 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:34:23 EDT [CRAWLER] Cointelegraph Bitcoin & Ethereum Blockchain News
+2026-09-12 08:34:23 EDT [CRAWLER] 1022
+2026-09-12 08:34:23 EDT [CRAWLER] 3fa9
+2026-09-12 08:34:23 EDT [CRAWLER] DOGE$0.08503 1.14%TRX$0.3410 1.38%LINK$11.56 0.22%ZEC$1,152.09 0.99%ADA$0.2089 1.29%XRP$1.37 1.83%ETH$2,533.77 2.38%BTC$77,326.94 0.34%XMR$529.11 3.16%BNB$736.32 2.87%XLM$0.1820 2.85%SOL$102.38 2.18%HYPE$80.29 0.44%Cointelegraph Bitcoin & Ethereum Blockchain News Live  News & MarketsHere’s what happened in crypto today15hBitcoin Suisse to shift up to half of Swiss jobs abroad16hHyperliquid’s biggest risk is regulation, says Ran Neuner17hAnchorage Digital adds institutional access to Frgmnt’s fUSD stablecoin20h
+2026-09-12 08:34:23 EDT [CRAWLER] 5009
+2026-09-12 08:34:23 EDT [CRAWLER] Bitcoin ETF outflows accelerate as investors pull $449M in three days1dView moreTop crypto news todayBitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields20 hours agoWilliam SubergTrading stocks against BONER is the latest trend for DeFi degens23 hours agoChristina CombenBlockstream rejects ransom as Liquid hackers hold nearly 600 BTCSep 11, 2026Ezra ReguerraMetaplanet cuts S
+2026-09-12 08:34:23 EDT [CRAWLER] [TICKER MATCH] BTC,ETH,SOL,XRP
+2026-09-12 08:34:23 EDT [CRAWLER] [DISPATCH] Sent BTC,ETH,SOL,XRP -> AI Server
+2026-09-12 08:34:23 EDT [CRAWLER] Extracting
+2026-09-12 08:34:23 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #1)
+2026-09-12 08:34:23 EDT [CRAWLER] [CRAWLER DONE] Processed: https://cointelegraph.com/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:34:23 EDT [CRAWLER] [CRAWLER MILESTONE] Queue fully drained. All 8 workers idle. Visited URLs saved to history.txt (219 URLs).
+2026-09-12 08:34:23 EDT [CRAWLER] [SYSTEM] Interrupt received. Shutting down...
+2026-09-12 08:34:23 EDT [CRAWLER] [SYSTEM] Shutdown requested. Draining 0 queued URL(s)...
+2026-09-12 08:34:23 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #2)
+2026-09-12 08:34:23 EDT [CRAWLER] [SYSTEM] Crawler stopped. 219 URLs persisted to history.txt
+2026-09-12 08:34:23 EDT [CRAWLER] [SYSTEM] Exited cleanly.
+2026-09-12 08:34:23 EDT [ORCHESTRATOR] crawler exited with code 0
+2026-09-12 08:34:23 EDT [ORCHESTRATOR] Sending SIGTERM to AI server (pid=34074)
+2026-09-12 08:34:23 EDT [ORCHESTRATOR] AI server exited with code -15
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] Articles scraped : 3
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] Signals generated: 1
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] history.txt      : 24,668 bytes
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:34:24 EDT [ORCHESTRATOR] Session complete (exit=0)
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Mode: ALPACA PAPER [CRYPTO 24/7]
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Ollama is already listening on 127.0.0.1:11434
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Ollama model 'llama3.1' is installed
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] C++ binaries ready: AI=build/aiserv, CRAWLER=build/main_client
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] --crypto supplied: bypassing US market clock and running 24/7
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] NOTE: crypto orders carry no broker-side bracket; stops are software-managed via stop_limit
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Phase AI mode: ACTIVE BROKER ROUTING
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/aiserv
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] AI server is listening on 127.0.0.1:58888
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/main_client
+2026-09-12 08:34:38 EDT [ORCHESTRATOR] Crawler started (pid=34158)
+2026-09-12 08:34:46 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 08:34:46 EDT [ORCHESTRATOR] Sending SIGTERM to crawler (pid=34158)
+2026-09-12 08:34:46 EDT [CRAWLER] [STATE] Loaded 219 URLs from history.txt
+2026-09-12 08:34:46 EDT [CRAWLER] Starting Trading Crawler Engine...
+2026-09-12 08:34:46 EDT [CRAWLER] [SYSTEM] Press Ctrl-C for a clean shutdown (history will be flushed).
+2026-09-12 08:34:46 EDT [CRAWLER] [SYSTEM] Trading Crawler Engine Started with 8 workers.
+2026-09-12 08:34:46 EDT [CRAWLER] [CRAWLER] Visiting: https://www.coindesk.com/
+2026-09-12 08:34:46 EDT [CRAWLER] [CRAWLER] Visiting: https://cointelegraph.com/
+2026-09-12 08:34:46 EDT [CRAWLER] [CRAWLER] Visiting: https://decrypt.co/
+2026-09-12 08:34:46 EDT [CRAWLER] Status line: HTTP/1.1 429 Too Many Requests
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] URL: https://www.coindesk.com/
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] Article length: 226
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:34:46 EDT [CRAWLER] We're verifying your browser
+2026-09-12 08:34:46 EDT [CRAWLER] Vercel Security Checkpoint
+2026-09-12 08:34:46 EDT [CRAWLER] 800
+2026-09-12 08:34:46 EDT [CRAWLER] syd1::1789216478-KGa0fIzuXqJfimwrHKCQuTMe6gx38vMD
+2026-09-12 08:34:46 EDT [CRAWLER] Enable JavaScript to continue
+2026-09-12 08:34:46 EDT [CRAWLER] Vercel Security Checkpoint
+2026-09-12 08:34:46 EDT [CRAWLER] syd1::1789216478-KGa0fIzuXqJfimwrHKCQuTMe6gx38vMD
+2026-09-12 08:34:46 EDT [CRAWLER] [CASHTAGS] Loaded 249 company names from data/companies.csv
+2026-09-12 08:34:46 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:34:46 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:34:46 EDT [CRAWLER] Extracting
+2026-09-12 08:34:46 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.coindesk.com/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:34:46 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] URL: https://cointelegraph.com/
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] Article length: 4987
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:34:46 EDT [CRAWLER] Cointelegraph Bitcoin & Ethereum Blockchain NewsDOGE$0.08503 1.14%TRX$0.3410 1.38%LINK$11.56 0.22%ZEC$1,152.09 0.99%ADA$0.2089 1.29%XRP$1.37 1.83%ETH$2,533.77 2.38%BTC$77,326.94 0.34%XMR$529.11 3.16%BNB$736.32 2.87%XLM$0.1820 2.85%SOL$102.38 2.18%HYPE$80.29 0.44%Cointelegraph Bitcoin & Ethereum Blockchain News Live  News & MarketsHere’s what happened in crypto today15hBitcoin Suisse to shift up to half of Swiss jobs abroad16hHyperliquid’s biggest risk is regulation, says Ran Neuner17hAnchorage Digital adds institutional access to Frgmnt’s fUSD stablecoin20hBitcoin ETF outflows accelerate as investors pull $449M in three days1dView moreTop crypto news todayBitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields20 hours agoWilliam SubergTrading stocks against BONER is the latest trend for DeFi degens23 hours agoChristina CombenBlockstream rejects ransom as Liquid hackers hold nearly 600 BTCSep 11, 2026Ezra ReguerraMetaplanet cuts Series 10 stock pool by 4
+2026-09-12 08:34:46 EDT [CRAWLER] [TICKER MATCH] BTC,ETH,SOL,XRP
+2026-09-12 08:34:46 EDT [CRAWLER] [DISPATCH] Sent BTC,ETH,SOL,XRP -> AI Server
+2026-09-12 08:34:46 EDT [CRAWLER] Extracting
+2026-09-12 08:34:46 EDT [CRAWLER] [CRAWLER DONE] Processed: https://cointelegraph.com/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:34:46 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] URL: https://decrypt.co/
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] Article length: 6055
+2026-09-12 08:34:46 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:34:46 EDT [CRAWLER] Decrypt: AI, Bitcoin, Culture, Gaming, and Crypto News - DecryptCoin PricesBTC$77,304.000.46%ETH$2,533.053.13%BNB$735.683.41%XRP$1.373.48%USDC$0.9998580.00%SOL$102.283.12%TRX$0.3409191.52%FIGR_HELOC$1.016-1.77%ZEC$1,149.964.44%HYPE$80.131.69%DOGE$0.0849652.08%RAIN$0.0151243-3.06%XMR$528.513.28%USDS$0.999810.01%WBT$80.360.92%LINK$11.561.75%LEO$9.11-0.34%ADA$0.2088813.46%XLM$0.1818464.55%BCH$230.863.06%USDE$0.9997620.03%USD1$0.9997010.01%LTC$53.972.99%UNI$6.468.92%CC$0.0984362.34%GRAM$1.372.53%USDG$0.999946-0.01%AVAX$7.441.57%HBAR$0.0746851.10%SHIB$0.000005346.20%NEAR$2.36-2.07%SUI$0.727791.83%CRO$0.058043.60%PYUSD$0.9998710.01%BUIDL$1.000.00%M$1.18-0.54%XAUT$4,347.620.26%USYC$1.140.03%RLUSD$0.99997-0.00%OKB$114.272.35%TAO$236.172.30%USDY$1.150.01%AAVE$127.404.43%MNT$0.574143-0.26%PAXG$4,352.640.26%ASTER$0.6855060.10%WLFI$0.05761110.28%DOT$1.046-3.18%ONDO$0.3522561.91%MORPHO$2.29-0.60%HTX$0.000001711.39%ICP$2.750.94%USDD$0.997911-0.12%SKY$0.0635937.56%BTW$0.5497359.44%PUMP$0.00355309-0.4
+2026-09-12 08:34:46 EDT [CRAWLER] [TICKER MATCH] BTC,XRP
+2026-09-12 08:34:46 EDT [CRAWLER] [DISPATCH] Sent BTC,XRP -> AI Server
+2026-09-12 08:34:46 EDT [CRAWLER] Extracting
+2026-09-12 08:34:46 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #1)
+2026-09-12 08:34:46 EDT [CRAWLER] [CRAWLER DONE] Processed: https://decrypt.co/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:34:46 EDT [CRAWLER] [CRAWLER MILESTONE] Queue fully drained. All 8 workers idle. Visited URLs saved to history.txt (219 URLs).
+2026-09-12 08:34:46 EDT [CRAWLER] [SYSTEM] Interrupt received. Shutting down...
+2026-09-12 08:34:46 EDT [CRAWLER] [SYSTEM] Shutdown requested. Draining 0 queued URL(s)...
+2026-09-12 08:34:46 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #2)
+2026-09-12 08:34:46 EDT [CRAWLER] [SYSTEM] Crawler stopped. 219 URLs persisted to history.txt
+2026-09-12 08:34:46 EDT [CRAWLER] [SYSTEM] Exited cleanly.
+2026-09-12 08:34:46 EDT [ORCHESTRATOR] crawler exited with code 0
+2026-09-12 08:34:46 EDT [ORCHESTRATOR] Sending SIGTERM to AI server (pid=34155)
+2026-09-12 08:34:46 EDT [ORCHESTRATOR] AI server exited with code -15
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] Articles scraped : 3
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] Signals generated: 0
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] history.txt      : 24,668 bytes
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:34:47 EDT [ORCHESTRATOR] Session complete (exit=0)
+2026-09-12 08:39:42 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:39:42 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 08:39:42 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 08:39:42 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 08:39:42 EDT [ORCHESTRATOR] Mode: ALPACA PAPER [CRYPTO 24/7]
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] Ollama is already listening on 127.0.0.1:11434
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] Ollama model 'llama3.1' is installed
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] C++ binaries ready: AI=build/aiserv, CRAWLER=build/main_client
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] --crypto supplied: bypassing US market clock and running 24/7
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] NOTE: crypto orders carry no broker-side bracket; stops are software-managed via stop_limit
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] Phase AI mode: ACTIVE BROKER ROUTING
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/aiserv
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] AI server is listening on 127.0.0.1:58888
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/main_client
+2026-09-12 08:39:43 EDT [ORCHESTRATOR] Crawler started (pid=34780)
+2026-09-12 08:39:47 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 08:39:47 EDT [ORCHESTRATOR] Sending SIGTERM to crawler (pid=34780)
+2026-09-12 08:39:47 EDT [CRAWLER] [STATE] Loaded 219 URLs from history.txt
+2026-09-12 08:39:47 EDT [CRAWLER] Starting Trading Crawler Engine...
+2026-09-12 08:39:47 EDT [CRAWLER] [SYSTEM] Press Ctrl-C for a clean shutdown (history will be flushed).
+2026-09-12 08:39:47 EDT [CRAWLER] [SYSTEM] Trading Crawler Engine Started with 8 workers.
+2026-09-12 08:39:47 EDT [CRAWLER] [CRAWLER] Visiting: https://www.coindesk.com/
+2026-09-12 08:39:47 EDT [CRAWLER] [CRAWLER] Visiting: https://cointelegraph.com/
+2026-09-12 08:39:47 EDT [CRAWLER] [CRAWLER] Visiting: https://decrypt.co/
+2026-09-12 08:39:47 EDT [CRAWLER] Status line: HTTP/1.1 429 Too Many Requests
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] URL: https://www.coindesk.com/
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] Article length: 226
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:39:47 EDT [CRAWLER] We're verifying your browser
+2026-09-12 08:39:47 EDT [CRAWLER] Vercel Security Checkpoint
+2026-09-12 08:39:47 EDT [CRAWLER] 800
+2026-09-12 08:39:47 EDT [CRAWLER] syd1::1789216783-SGlLSnIxBd880EGkYlqqpYYeY4uVyfNe
+2026-09-12 08:39:47 EDT [CRAWLER] Enable JavaScript to continue
+2026-09-12 08:39:47 EDT [CRAWLER] Vercel Security Checkpoint
+2026-09-12 08:39:47 EDT [CRAWLER] syd1::1789216783-SGlLSnIxBd880EGkYlqqpYYeY4uVyfNe
+2026-09-12 08:39:47 EDT [CRAWLER] [CASHTAGS] Loaded 249 company names from data/companies.csv
+2026-09-12 08:39:47 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:39:47 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:39:47 EDT [CRAWLER] Extracting
+2026-09-12 08:39:47 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.coindesk.com/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:39:47 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] URL: https://decrypt.co/
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] Article length: 6106
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:39:47 EDT [CRAWLER] Decrypt: AI, Bitcoin, Culture, Gaming, and Crypto News - DecryptCoin PricesBTC$77,312.000.46%ETH$2,533.172.55%BNB$736.062.91%XRP$1.372.22%USDC$0.9998550.00%SOL$102.362.30%TRX$0.3408811.39%FIGR_HELOC$1.016-1.77%ZEC$1,151.171.09%HYPE$80.27-0.23%DOGE$0.0850111.25%RAIN$0.01511721-3.08%XMR$529.423.37%USDS$0.999771-0.00%WBT$80.360.80%LINK$11.560.49%LEO$9.11-0.37%ADA$0.2089021.56%XLM$0.1820983.60%BCH$230.942.55%USDE$0.9997590.03%USD1$0.9997010.01%LTC$53.962.34%UNI$6.467.05%CC$0.0984471.31%GRAM$1.371.76%USDG$0.999944-0.01%AVAX$7.450.41%HBAR$0.0747260.28%SHIB$0.000005355.15%NEAR$2.37-5.30%SUI$0.7286170.31%CRO$0.0581082.85%PYUSD$0.9998050.00%BUIDL$1.000.00%M$1.18-0.80%XAUT$4,347.560.31%USYC$1.140.03%RLUSD$0.9999620.00%OKB$114.291.44%TAO$236.550.92%USDY$1.150.07%AAVE$127.483.23%MNT$0.574127-0.66%PAXG$4,352.550.39%ASTER$0.686558-0.90%WLFI$0.0574979.27%DOT$1.046-4.40%ONDO$0.3523480.25%MORPHO$2.29-1.98%HTX$0.000001711.38%ICP$2.75-0.75%USDD$0.997777-0.14%BTW$0.5518379.97%SKY$0.0635496.51%PUMP$0.00358
+2026-09-12 08:39:47 EDT [CRAWLER] [TICKER MATCH] BTC,XRP
+2026-09-12 08:39:47 EDT [CRAWLER] [DISPATCH] Sent BTC,XRP -> AI Server
+2026-09-12 08:39:47 EDT [CRAWLER] Extracting
+2026-09-12 08:39:47 EDT [CRAWLER] [CRAWLER DONE] Processed: https://decrypt.co/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:39:47 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] URL: https://cointelegraph.com/
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] Article length: 5094
+2026-09-12 08:39:47 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:39:47 EDT [CRAWLER] Cointelegraph Bitcoin & Ethereum Blockchain News
+2026-09-12 08:39:47 EDT [CRAWLER] 1feb
+2026-09-12 08:39:47 EDT [CRAWLER] DOGE$0.08506 0.05%TRX$0.3410 1.22%LINK$11.57 0.30%ZEC$1,160.04 0.15%ADA$0.2091 0.48%XRP$1.37 0.68%ETH$2,535.34 1.45%BTC$77,338.69 0.33%XMR$529.57 3.17%BNB$736.66
+2026-09-12 08:39:47 EDT [CRAWLER] fce
+2026-09-12 08:39:47 EDT [CRAWLER]  2.08%XLM$0.1820 1.89%SOL$102.32 1.12%HYPE$80.37 1.47%Cointelegraph Bitcoin & Ethereum Blockchain News
+2026-09-12 08:39:47 EDT [CRAWLER] f72
+2026-09-12 08:39:47 EDT [CRAWLER]  Live  News & MarketsHere’s what happened in crypto today15hBitcoin Suisse to shift up to half of Swiss jobs abroad16hHyperliquid’s biggest risk is regulation, says Ran Neuner17hAnchorage Digital adds institutional access to Frgmnt’s fUSD stablecoin20h
+2026-09-12 08:39:47 EDT [CRAWLER] 3093
+2026-09-12 08:39:47 EDT [CRAWLER] Bitcoin ETF outflows accelerate as investors pull $449M in three days1dView moreTop crypto news todayBitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields20 hours agoWilliam SubergTrading stocks against BONER is the latest trend for DeFi degens23 hours agoChristina Comben
+2026-09-12 08:39:47 EDT [CRAWLER] fe8
+2026-09-12 08:39:47 EDT [CRAWLER] Blockstream rejects ransom as Liquid hackers hold nearly 600 BTCSep 11, 2026Ezra Reguerra
+2026-09-12 08:39:47 EDT [CRAWLER] 6d
+2026-09-12 08:39:47 EDT [CRAWLER] [TICKER MATCH] BTC,ETH,SOL,XRP
+2026-09-12 08:39:47 EDT [CRAWLER] [DISPATCH] Sent BTC,ETH,SOL,XRP -> AI Server
+2026-09-12 08:39:47 EDT [CRAWLER] Extracting
+2026-09-12 08:39:47 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #1)
+2026-09-12 08:39:47 EDT [CRAWLER] [CRAWLER DONE] Processed: https://cointelegraph.com/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:39:47 EDT [CRAWLER] [CRAWLER MILESTONE] Queue fully drained. All 8 workers idle. Visited URLs saved to history.txt (219 URLs).
+2026-09-12 08:39:47 EDT [CRAWLER] [SYSTEM] Interrupt received. Shutting down...
+2026-09-12 08:39:47 EDT [CRAWLER] [SYSTEM] Shutdown requested. Draining 0 queued URL(s)...
+2026-09-12 08:39:47 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #2)
+2026-09-12 08:39:47 EDT [CRAWLER] [SYSTEM] Crawler stopped. 219 URLs persisted to history.txt
+2026-09-12 08:39:47 EDT [CRAWLER] [SYSTEM] Exited cleanly.
+2026-09-12 08:39:47 EDT [ORCHESTRATOR] crawler exited with code 0
+2026-09-12 08:39:47 EDT [ORCHESTRATOR] Sending SIGTERM to AI server (pid=34772)
+2026-09-12 08:39:47 EDT [ORCHESTRATOR] AI server exited with code -15
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] Articles scraped : 3
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] AI batches       : 0
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] Signals generated: 0
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] history.txt      : 24,668 bytes
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:39:48 EDT [ORCHESTRATOR] Session complete (exit=0)
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] ANA overnight runner starting
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Repository root: /home/harr-harr/Projects/ana_1
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Log file: /home/harr-harr/Projects/ana_1/logs/session_2026-09-12.log
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Mode: ALPACA PAPER [CRYPTO 24/7]
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Ollama is already listening on 127.0.0.1:11434
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Ollama model 'llama3.1' is installed
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] C++ binaries ready: AI=build/aiserv, CRAWLER=build/main_client
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] --crypto supplied: bypassing US market clock and running 24/7
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] NOTE: crypto orders carry no broker-side bracket; stops are software-managed via stop_limit
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Phase AI mode: ACTIVE BROKER ROUTING
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/aiserv
+2026-09-12 08:46:01 EDT [AI SERVER] [AI SERVER] Listening on 127.0.0.1:58888
+2026-09-12 08:46:01 EDT [AI SERVER] [AI SERVER] Logging to trading_signals.csv
+2026-09-12 08:46:01 EDT [AI SERVER] [AI SERVER] Broker: PAPER paper-api.alpaca.markets
+2026-09-12 08:46:01 EDT [BROKER TRADE] [AI SERVER] Order log: orders.log
+2026-09-12 08:46:01 EDT [BROKER TRADE] [AI SERVER] Per-order cap: 5% of equity | portfolio cap: 25%
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] AI server is listening on 127.0.0.1:58888
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Starting: /home/harr-harr/Projects/ana_1/build/main_client
+2026-09-12 08:46:01 EDT [ORCHESTRATOR] Crawler started (pid=36066)
+2026-09-12 08:46:01 EDT [CRAWLER] [STATE] Loaded 219 URLs from history.txt
+2026-09-12 08:46:01 EDT [CRAWLER] Starting Trading Crawler Engine...
+2026-09-12 08:46:01 EDT [CRAWLER] [SYSTEM] Press Ctrl-C for a clean shutdown (history will be flushed).
+2026-09-12 08:46:01 EDT [CRAWLER] [SYSTEM] Trading Crawler Engine Started with 8 workers.
+2026-09-12 08:46:01 EDT [CRAWLER] [CRAWLER] Visiting: https://www.coindesk.com/
+2026-09-12 08:46:01 EDT [CRAWLER] [CRAWLER] Visiting: https://cointelegraph.com/
+2026-09-12 08:46:01 EDT [CRAWLER] [CRAWLER] Visiting: https://decrypt.co/
+2026-09-12 08:46:02 EDT [CRAWLER] Status line: HTTP/1.1 429 Too Many Requests
+2026-09-12 08:46:02 EDT [CRAWLER] [DEBUG] URL: https://www.coindesk.com/
+2026-09-12 08:46:02 EDT [CRAWLER] [DEBUG] Article length: 226
+2026-09-12 08:46:02 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:46:02 EDT [CRAWLER] We're verifying your browser
+2026-09-12 08:46:02 EDT [CRAWLER] Vercel Security Checkpoint
+2026-09-12 08:46:02 EDT [CRAWLER] 800
+2026-09-12 08:46:02 EDT [CRAWLER] syd1::1789217162-KY4lVNFaTrrEqVoYvjyNVFmdclISA7nU
+2026-09-12 08:46:02 EDT [CRAWLER] Enable JavaScript to continue
+2026-09-12 08:46:02 EDT [CRAWLER] Vercel Security Checkpoint
+2026-09-12 08:46:02 EDT [CRAWLER] syd1::1789217162-KY4lVNFaTrrEqVoYvjyNVFmdclISA7nU
+2026-09-12 08:46:02 EDT [CRAWLER] [CASHTAGS] Loaded 249 company names from data/companies.csv
+2026-09-12 08:46:02 EDT [CRAWLER] [TICKER MATCH] MACRO
+2026-09-12 08:46:02 EDT [CRAWLER] [DISPATCH] Sent MACRO -> AI Server
+2026-09-12 08:46:02 EDT [CRAWLER] Extracting
+2026-09-12 08:46:02 EDT [CRAWLER] [CRAWLER DONE] Processed: https://www.coindesk.com/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:46:02 EDT [AI SERVER] [AI BATCH START] 1 ticker(s) for article (226 chars): MACRO
+2026-09-12 08:46:03 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:46:03 EDT [CRAWLER] [DEBUG] URL: https://decrypt.co/
+2026-09-12 08:46:03 EDT [CRAWLER] [DEBUG] Article length: 6093
+2026-09-12 08:46:03 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:46:03 EDT [CRAWLER] Decrypt: AI, Bitcoin, Culture, Gaming, and Crypto News - DecryptCoin PricesBTC$77,324.00-0.22%ETH$2,535.381.84%BNB$736.942.23%XRP$1.371.09%USDC$0.9998590.01%SOL$102.321.49%TRX$0.3410041.33%FIGR_HELOC$1.016-1.80%ZEC$1,159.290.96%HYPE$80.39-1.01%DOGE$0.0850480.64%RAIN$0.01512838-3.94%XMR$529.343.30%USDS$0.9998680.02%WBT$80.380.10%LINK$11.580.46%LEO$9.11-0.37%ADA$0.209090.90%XLM$0.1819492.35%BCH$231.161.54%USDE$0.9997480.03%USD1$0.9997030.02%LTC$54.021.69%UNI$6.455.58%CC$0.0984550.25%GRAM$1.380.88%USDG$0.999975-0.01%AVAX$7.46-1.29%HBAR$0.074771-0.44%SHIB$0.000005354.35%NEAR$2.38-6.41%SUI$0.729436-0.74%CRO$0.058222.45%PYUSD$0.9998430.01%BUIDL$1.000.00%M$1.18-1.45%XAUT$4,347.41-0.25%USYC$1.140.03%RLUSD$1.000.02%OKB$114.440.62%TAO$236.98-0.26%USDY$1.15-0.01%AAVE$127.522.44%MNT$0.574224-1.43%PAXG$4,352.71-0.20%ASTER$0.687125-1.63%WLFI$0.0571999.22%DOT$1.047-4.62%ONDO$0.352526-0.68%MORPHO$2.29-2.71%ICP$2.75-1.79%HTX$0.000001711.42%USDD$0.997653-0.24%PUMP$0.00361822-2.79%BTW$0.5508258.96%SKY$0.
+2026-09-12 08:46:03 EDT [CRAWLER] [TICKER MATCH] BTC,XRP
+2026-09-12 08:46:03 EDT [CRAWLER] [DISPATCH] Sent BTC,XRP -> AI Server
+2026-09-12 08:46:03 EDT [CRAWLER] Extracting
+2026-09-12 08:46:03 EDT [AI SERVER] [AI BATCH START] 2 ticker(s) for article (6093 chars): BTC,XRP
+2026-09-12 08:46:03 EDT [CRAWLER] [CRAWLER DONE] Processed: https://decrypt.co/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:46:05 EDT [CRAWLER] Status line: HTTP/1.1 200 OK
+2026-09-12 08:46:05 EDT [CRAWLER] [DEBUG] URL: https://cointelegraph.com/
+2026-09-12 08:46:05 EDT [CRAWLER] [DEBUG] Article length: 5078
+2026-09-12 08:46:05 EDT [CRAWLER] [DEBUG] First 1000 chars:
+2026-09-12 08:46:05 EDT [CRAWLER] Cointelegraph Bitcoin & Ethereum Blockchain News
+2026-09-12 08:46:05 EDT [CRAWLER] 1022
+2026-09-12 08:46:05 EDT [CRAWLER] 302d
+2026-09-12 08:46:05 EDT [CRAWLER] DOGE$0.08505 0.48%TRX$0.3410 1.37%LINK$11.56 0.15%ZEC$1,158.36 0.08%ADA$0.2089 0.56%XRP$1.37 0.67%ETH$2,534.62 1.49%BTC$77,324.85 0.45%XMR$529.04 3.09%BNB$736.54 1.99%XLM$0.1817 1.91%SOL$102.24 1.09%HYPE$80.32 1.48%Cointelegraph Bitcoin & Ethereum Blockchain News
+2026-09-12 08:46:05 EDT [CRAWLER] f72
+2026-09-12 08:46:05 EDT [CRAWLER]  Live  News & MarketsHere’s what happened in crypto today15hBitcoin Suisse to shift up to half of Swiss jobs abroad16hHyperliquid’s biggest risk is regulation, says Ran Neuner18hAnchorage Digital adds institutional access to Frgmnt’s fUSD stablecoin20h
+2026-09-12 08:46:05 EDT [CRAWLER] 20ca
+2026-09-12 08:46:05 EDT [CRAWLER] Bitcoin ETF outflows accelerate as investors pull $449M in three days1dView moreTop crypto news todayBitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields20 hours agoWilliam 
+2026-09-12 08:46:05 EDT [CRAWLER] fc9
+2026-09-12 08:46:05 EDT [CRAWLER] SubergTrading stocks against BONER is the latest trend for DeFi degens23 hours agoChristina Comben
+2026-09-12 08:46:05 EDT [CRAWLER] fe8
+2026-09-12 08:46:05 EDT [CRAWLER] Blockstream rejects ransom as Liquid hackers hold nearly 600 BTCSep 11, 2026Ezra Regu
+2026-09-12 08:46:05 EDT [CRAWLER] [TICKER MATCH] BTC,ETH,SOL,XRP
+2026-09-12 08:46:05 EDT [CRAWLER] [DISPATCH] Sent BTC,ETH,SOL,XRP -> AI Server
+2026-09-12 08:46:05 EDT [CRAWLER] Extracting
+2026-09-12 08:46:05 EDT [AI SERVER] [AI BATCH START] 4 ticker(s) for article (5078 chars): BTC,ETH,SOL,XRP
+2026-09-12 08:46:05 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #1)
+2026-09-12 08:46:05 EDT [CRAWLER] [CRAWLER DONE] Processed: https://cointelegraph.com/ | Extracted Links: 0 | Dispatched to AI: YES
+2026-09-12 08:46:05 EDT [CRAWLER] [CRAWLER MILESTONE] Queue fully drained. All 8 workers idle. Visited URLs saved to history.txt (219 URLs).
+2026-09-12 08:46:14 EDT [AI SERVER] [RESULT] 2026-09-12 12:46:14.769111894 | MACRO -> NEUTRAL
+2026-09-12 08:46:14 EDT [AI SERVER] [AI BATCH COMPLETE] Finished analyzing 1/1 tickers for article (Elapsed: 12647 ms).
+2026-09-12 08:46:14 EDT [AI SERVER] [AI STATUS] Summary: 0 BULLISH (Traded), 0 BEARISH, 1 NEUTRAL.
+2026-09-12 08:47:14 EDT [AI SERVER] [RESULT] 2026-09-12 12:47:14.643315530 | BTC -> BEARISH
+2026-09-12 08:47:14 EDT [AI SERVER] [RESULT] 2026-09-12 12:47:14.643315530 | ETH -> NEUTRAL
+2026-09-12 08:47:14 EDT [AI SERVER] [RESULT] 2026-09-12 12:47:14.643315530 | SOL -> BEARISH
+2026-09-12 08:47:14 EDT [AI SERVER] [RESULT] 2026-09-12 12:47:14.643315530 | XRP -> BEARISH
+2026-09-12 08:47:14 EDT [AI SERVER] [AI BATCH COMPLETE] Finished analyzing 4/4 tickers for article (Elapsed: 69165 ms).
+2026-09-12 08:47:14 EDT [AI SERVER] [AI STATUS] Summary: 0 BULLISH (Traded), 3 BEARISH, 1 NEUTRAL.
+2026-09-12 08:49:33 EDT [AI SERVER] [RESULT] 2026-09-12 12:49:33.703262809 | BTC -> BEARISH
+2026-09-12 08:49:33 EDT [AI SERVER] [RESULT] 2026-09-12 12:49:33.703262809 | XRP -> NEUTRAL
+2026-09-12 08:49:33 EDT [AI SERVER] [AI BATCH COMPLETE] Finished analyzing 2/2 tickers for article (Elapsed: 210073 ms).
+2026-09-12 08:49:33 EDT [AI SERVER] [AI STATUS] Summary: 0 BULLISH (Traded), 1 BEARISH, 1 NEUTRAL.
+2026-09-12 08:51:35 EDT [ORCHESTRATOR] Beginning graceful session shutdown
+2026-09-12 08:51:35 EDT [ORCHESTRATOR] Sending SIGTERM to crawler (pid=36066)
+2026-09-12 08:51:35 EDT [CRAWLER] [SYSTEM] Interrupt received. Shutting down...
+2026-09-12 08:51:35 EDT [CRAWLER] [SYSTEM] Shutdown requested. Draining 0 queued URL(s)...
+2026-09-12 08:51:35 EDT [CRAWLER] [STATE] Saved 219 URLs to history.txt (save #2)
+2026-09-12 08:51:35 EDT [CRAWLER] [SYSTEM] Crawler stopped. 219 URLs persisted to history.txt
+2026-09-12 08:51:35 EDT [CRAWLER] [SYSTEM] Exited cleanly.
+2026-09-12 08:51:35 EDT [ORCHESTRATOR] crawler exited with code 0
+2026-09-12 08:51:35 EDT [ORCHESTRATOR] Sending SIGTERM to AI server (pid=36059)
+2026-09-12 08:51:35 EDT [ORCHESTRATOR] AI server exited with code -15
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] ================= SESSION SUMMARY =================
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] Articles scraped : 3
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] AI batches       : 3
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] Signals generated: 7
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] Trades placed    : 0
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] Trading mode     : ALPACA PAPER
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] Final equity     : $100,000.00
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] history.txt      : 24,668 bytes
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] =====================================================
+2026-09-12 08:51:36 EDT [ORCHESTRATOR] Session complete (exit=0)

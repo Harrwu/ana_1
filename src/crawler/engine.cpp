@@ -13,38 +13,89 @@
 #include <algorithm>
 #include <string>
 
+#define ANA_CRYPTO_MODE 1
+
 crawlEngine::crawlEngine(unsigned int worker_count, const std::string& state_path)
     : worker_count_(worker_count), state_(state_path) {
 
-    // Restore history before any worker starts, so a restart doesn't re-crawl
-    // (and re-dispatch to the AI) URLs that were already handled.
     {
         std::lock_guard<std::mutex> lock(queue_mutex_);
         state_.load(visited_url);
     }
 
-    profile_registry["finance.yahoo.com"] = std::make_unique<YahooProfile>();
-    profile_registry["www.cnbc.com"] = std::make_unique<CnbcProfile>();
-    profile_registry["www.prnewswire.com"] = std::make_unique<PRNewswireProfile>();
-    profile_registry["www.benzinga.com"] = std::make_unique<BenzingaProfile>();
-    profile_registry["www.wsj.com"] = std::make_unique<WsjProfile>();
-    profile_registry["www.marketwatch.com"] = std::make_unique<MarketWatchProfile>();
-    profile_registry["www.investing.com"] = std::make_unique<InvestingComProfile>();
-    profile_registry["seekingalpha.com"] = std::make_unique<SeekingAlphaProfile>();
-    profile_registry["www.marketbeat.com"] = std::make_unique<MarketBeatProfile>();
+#if ANA_CRYPTO_MODE
 
-    // --- Phase 2 profiles (10-20) ---
-    profile_registry["www.bloomberg.com"] = std::make_unique<BloombergProfile>();
-    profile_registry["www.reuters.com"] = std::make_unique<ReutersProfile>();
-    profile_registry["www.sec.gov"] = std::make_unique<SecEdgarProfile>();
-    profile_registry["www.coindesk.com"] = std::make_unique<CoinDeskProfile>();
-    profile_registry["cointelegraph.com"] = std::make_unique<CoinTelegraphProfile>();
-    profile_registry["decrypt.co"] = std::make_unique<DecryptProfile>();
-    profile_registry["www.barrons.com"] = std::make_unique<BarronsProfile>();
-    profile_registry["www.nasdaq.com"] = std::make_unique<NasdaqProfile>();
-    profile_registry["www.businesswire.com"] = std::make_unique<BusinessWireProfile>();
-    profile_registry["www.globenewswire.com"] = std::make_unique<GlobeNewswireProfile>();
-    profile_registry["www.ft.com"] = std::make_unique<FinancialTimesProfile>();
+    // ============================================================
+    // CRYPTO PROFILE SET
+    // ============================================================
+
+    profile_registry["www.coindesk.com"] =
+        std::make_unique<CoinDeskProfile>();
+
+    profile_registry["cointelegraph.com"] =
+        std::make_unique<CoinTelegraphProfile>();
+
+    profile_registry["decrypt.co"] =
+        std::make_unique<DecryptProfile>();
+
+#else
+
+    // ============================================================
+    // EQUITY PROFILE SET
+    // ============================================================
+
+    profile_registry["finance.yahoo.com"] =
+        std::make_unique<YahooProfile>();
+
+    profile_registry["www.cnbc.com"] =
+        std::make_unique<CnbcProfile>();
+
+    profile_registry["www.prnewswire.com"] =
+        std::make_unique<PRNewswireProfile>();
+
+    profile_registry["www.benzinga.com"] =
+        std::make_unique<BenzingaProfile>();
+
+    profile_registry["www.wsj.com"] =
+        std::make_unique<WsjProfile>();
+
+    profile_registry["www.marketwatch.com"] =
+        std::make_unique<MarketWatchProfile>();
+
+    profile_registry["www.investing.com"] =
+        std::make_unique<InvestingComProfile>();
+
+    profile_registry["seekingalpha.com"] =
+        std::make_unique<SeekingAlphaProfile>();
+
+    profile_registry["www.marketbeat.com"] =
+        std::make_unique<MarketBeatProfile>();
+
+    profile_registry["www.bloomberg.com"] =
+        std::make_unique<BloombergProfile>();
+
+    profile_registry["www.reuters.com"] =
+        std::make_unique<ReutersProfile>();
+
+    profile_registry["www.sec.gov"] =
+        std::make_unique<SecEdgarProfile>();
+
+    profile_registry["www.barrons.com"] =
+        std::make_unique<BarronsProfile>();
+
+    profile_registry["www.nasdaq.com"] =
+        std::make_unique<NasdaqProfile>();
+
+    profile_registry["www.businesswire.com"] =
+        std::make_unique<BusinessWireProfile>();
+
+    profile_registry["www.globenewswire.com"] =
+        std::make_unique<GlobeNewswireProfile>();
+
+    profile_registry["www.ft.com"] =
+        std::make_unique<FinancialTimesProfile>();
+
+#endif
 }
 
 void crawlEngine::addUrl(const std::string& url) {

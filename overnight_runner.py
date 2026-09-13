@@ -38,6 +38,7 @@ import csv
 import datetime as dt
 import json
 import os
+import pty
 import signal
 import socket
 import subprocess
@@ -279,19 +280,50 @@ def start_process(
     env: Optional[dict[str, str]],
     prefix: str,
 ) -> subprocess.Popen:
-    emit(f"[ORCHESTRATOR] Starting: {' '.join(map(str, argv))}")
+    """Start a child with terminal-like stdout/stderr buffering.
 
-    proc = subprocess.Popen(
-        [str(x) for x in argv],
-        cwd=str(ROOT),
-        env=env,
-        stdin=subprocess.DEVNULL,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-        text=True,
-        bufsize=1,
-        start_new_session=True,
+    The crawler and AI server are C++ programs. When stdout is connected to
+    subprocess.PIPE, libc/libstdc++ may buffer output differently than when
+    running directly in a terminal. A PTY makes the child believe it is
+    writing to a terminal, so normal line-oriented output appears immediately
+    instead of arriving in a burst when the process shuts down.
+    """
+    command = [str(x) for x in argv]
+    emit(f"[ORCHESTRATOR] Starting: {' '.join(command)}")
+
+    master_fd, slave_fd = pty.openpty()
+    try:
+        proc = subprocess.Popen(
+            command,
+            cwd=str(ROOT),
+            env=env,
+            stdin=subprocess.DEVNULL,
+            stdout=slave_fd,
+            stderr=slave_fd,
+            start_new_session=True,
+            close_fds=True,
+        )
+    except Exception:
+        os.close(master_fd)
+        os.close(slave_fd)
+        raise
+    finally:
+        # The parent only needs the PTY master. The child owns the slave.
+        try:
+            os.close(slave_fd)
+        except OSError:
+            pass
+
+    # stream_process_output() expects proc.stdout to expose readline().
+    # os.fdopen gives us a normal text stream over the PTY master.
+    proc.stdout = os.fdopen(
+        master_fd,
+        "r",
+        encoding="utf-8",
+        errors="replace",
+        buffering=1,
     )
+
     attach_telemetry(proc, prefix)
     return proc
 

@@ -5,6 +5,7 @@
 #include <atomic>
 #include <thread>
 #include <chrono>
+#define ANA_CRYPTO_MODE 1
 
 namespace {
 
@@ -25,15 +26,27 @@ int main() {
 
     std::cout << "Starting Trading Crawler Engine...\n";
 
-    // 1. Seed the queue with high-value RSS feeds
-    // Yahoo Finance RSS
-    crawl->addUrl("https://finance.yahoo.com/news/rss");
+    #if ANA_CRYPTO_MODE
 
-    // PR Newswire (Earnings/Mergers)
-    crawl->addUrl("https://www.prnewswire.com/rss/news-releases-list.rss");
+        // ============================================================
+        // CRYPTO SOURCES
+        // ============================================================
 
-    // CNBC Top News RSS
-    crawl->addUrl("https://www.cnbc.com/id/100003114/device/rss/rss.html");
+        crawl->addUrl("https://www.coindesk.com/");
+        crawl->addUrl("https://cointelegraph.com/");
+        crawl->addUrl("https://decrypt.co/");
+
+    #else
+
+        // ============================================================
+        // EQUITY SOURCES
+        // ============================================================
+
+        crawl->addUrl("https://finance.yahoo.com/news/rss");
+        crawl->addUrl("https://www.prnewswire.com/rss/news-releases-list.rss");
+        crawl->addUrl("https://www.cnbc.com/id/100003114/device/rss/rss.html");
+
+    #endif
 
     // Ctrl-C now triggers a clean shutdown: stop() wakes the workers, joins
     // them, and force-saves history.txt. Without this the process died
